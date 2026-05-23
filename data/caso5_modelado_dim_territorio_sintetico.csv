@@ -1,0 +1,335 @@
+distrito_id,distrito,provincia_id,provincia,departamento_id,departamento,macroregion,tipo_area,quintil_pobreza
+D00001,AMA Dist 1-1,P0001,AMA Prov 1,DEP01,Amazonas,Amazonia,rural,3
+D00002,AMA Dist 2-1,P0001,AMA Prov 1,DEP01,Amazonas,Amazonia,mixto,2
+D00003,AMA Dist 3-1,P0001,AMA Prov 1,DEP01,Amazonas,Amazonia,rural,3
+D00004,AMA Dist 4-1,P0001,AMA Prov 1,DEP01,Amazonas,Amazonia,urbano,3
+D00005,AMA Dist 5-1,P0001,AMA Prov 1,DEP01,Amazonas,Amazonia,rural,2
+D00006,AMA Dist 6-1,P0001,AMA Prov 1,DEP01,Amazonas,Amazonia,mixto,4
+D00007,AMA Dist 1-2,P0002,AMA Prov 2,DEP01,Amazonas,Amazonia,urbano,1
+D00008,AMA Dist 2-2,P0002,AMA Prov 2,DEP01,Amazonas,Amazonia,rural,3
+D00009,AMA Dist 3-2,P0002,AMA Prov 2,DEP01,Amazonas,Amazonia,urbano,3
+D00010,AMA Dist 4-2,P0002,AMA Prov 2,DEP01,Amazonas,Amazonia,rural,3
+D00011,AMA Dist 5-2,P0002,AMA Prov 2,DEP01,Amazonas,Amazonia,mixto,4
+D00012,AMA Dist 1-3,P0003,AMA Prov 3,DEP01,Amazonas,Amazonia,rural,2
+D00013,AMA Dist 2-3,P0003,AMA Prov 3,DEP01,Amazonas,Amazonia,rural,1
+D00014,AMA Dist 3-3,P0003,AMA Prov 3,DEP01,Amazonas,Amazonia,mixto,3
+D00015,AMA Dist 1-4,P0004,AMA Prov 4,DEP01,Amazonas,Amazonia,mixto,3
+D00016,AMA Dist 2-4,P0004,AMA Prov 4,DEP01,Amazonas,Amazonia,rural,2
+D00017,AMA Dist 3-4,P0004,AMA Prov 4,DEP01,Amazonas,Amazonia,rural,1
+D00018,ANC Dist 1-1,P0005,ANC Prov 1,DEP02,Ancash,Costa centro,rural,3
+D00019,ANC Dist 2-1,P0005,ANC Prov 1,DEP02,Ancash,Costa centro,urbano,1
+D00020,ANC Dist 3-1,P0005,ANC Prov 1,DEP02,Ancash,Costa centro,rural,1
+D00021,ANC Dist 1-2,P0006,ANC Prov 2,DEP02,Ancash,Costa centro,urbano,1
+D00022,ANC Dist 2-2,P0006,ANC Prov 2,DEP02,Ancash,Costa centro,urbano,2
+D00023,ANC Dist 3-2,P0006,ANC Prov 2,DEP02,Ancash,Costa centro,mixto,2
+D00024,ANC Dist 4-2,P0006,ANC Prov 2,DEP02,Ancash,Costa centro,urbano,4
+D00025,ANC Dist 5-2,P0006,ANC Prov 2,DEP02,Ancash,Costa centro,mixto,4
+D00026,ANC Dist 1-3,P0007,ANC Prov 3,DEP02,Ancash,Costa centro,mixto,4
+D00027,ANC Dist 2-3,P0007,ANC Prov 3,DEP02,Ancash,Costa centro,urbano,2
+D00028,ANC Dist 3-3,P0007,ANC Prov 3,DEP02,Ancash,Costa centro,urbano,1
+D00029,ANC Dist 4-3,P0007,ANC Prov 3,DEP02,Ancash,Costa centro,rural,5
+D00030,ANC Dist 5-3,P0007,ANC Prov 3,DEP02,Ancash,Costa centro,rural,2
+D00031,ANC Dist 6-3,P0007,ANC Prov 3,DEP02,Ancash,Costa centro,urbano,1
+D00032,ANC Dist 1-4,P0008,ANC Prov 4,DEP02,Ancash,Costa centro,urbano,3
+D00033,ANC Dist 2-4,P0008,ANC Prov 4,DEP02,Ancash,Costa centro,mixto,1
+D00034,ANC Dist 3-4,P0008,ANC Prov 4,DEP02,Ancash,Costa centro,mixto,4
+D00035,ANC Dist 4-4,P0008,ANC Prov 4,DEP02,Ancash,Costa centro,urbano,3
+D00036,APU Dist 1-1,P0009,APU Prov 1,DEP03,Apurimac,Sierra sur,mixto,1
+D00037,APU Dist 2-1,P0009,APU Prov 1,DEP03,Apurimac,Sierra sur,rural,3
+D00038,APU Dist 3-1,P0009,APU Prov 1,DEP03,Apurimac,Sierra sur,urbano,1
+D00039,APU Dist 4-1,P0009,APU Prov 1,DEP03,Apurimac,Sierra sur,mixto,1
+D00040,APU Dist 1-2,P0010,APU Prov 2,DEP03,Apurimac,Sierra sur,urbano,2
+D00041,APU Dist 2-2,P0010,APU Prov 2,DEP03,Apurimac,Sierra sur,urbano,3
+D00042,APU Dist 3-2,P0010,APU Prov 2,DEP03,Apurimac,Sierra sur,urbano,1
+D00043,APU Dist 4-2,P0010,APU Prov 2,DEP03,Apurimac,Sierra sur,urbano,3
+D00044,APU Dist 1-3,P0011,APU Prov 3,DEP03,Apurimac,Sierra sur,urbano,3
+D00045,APU Dist 2-3,P0011,APU Prov 3,DEP03,Apurimac,Sierra sur,urbano,1
+D00046,APU Dist 3-3,P0011,APU Prov 3,DEP03,Apurimac,Sierra sur,urbano,1
+D00047,APU Dist 1-4,P0012,APU Prov 4,DEP03,Apurimac,Sierra sur,rural,3
+D00048,APU Dist 2-4,P0012,APU Prov 4,DEP03,Apurimac,Sierra sur,rural,2
+D00049,APU Dist 3-4,P0012,APU Prov 4,DEP03,Apurimac,Sierra sur,urbano,1
+D00050,APU Dist 4-4,P0012,APU Prov 4,DEP03,Apurimac,Sierra sur,mixto,2
+D00051,APU Dist 5-4,P0012,APU Prov 4,DEP03,Apurimac,Sierra sur,urbano,1
+D00052,APU Dist 6-4,P0012,APU Prov 4,DEP03,Apurimac,Sierra sur,rural,4
+D00053,ARE Dist 1-1,P0013,ARE Prov 1,DEP04,Arequipa,Costa sur,rural,2
+D00054,ARE Dist 2-1,P0013,ARE Prov 1,DEP04,Arequipa,Costa sur,urbano,4
+D00055,ARE Dist 3-1,P0013,ARE Prov 1,DEP04,Arequipa,Costa sur,rural,3
+D00056,ARE Dist 1-2,P0014,ARE Prov 2,DEP04,Arequipa,Costa sur,urbano,3
+D00057,ARE Dist 2-2,P0014,ARE Prov 2,DEP04,Arequipa,Costa sur,rural,2
+D00058,ARE Dist 3-2,P0014,ARE Prov 2,DEP04,Arequipa,Costa sur,urbano,1
+D00059,AYA Dist 1-1,P0015,AYA Prov 1,DEP05,Ayacucho,Sierra centro,rural,3
+D00060,AYA Dist 2-1,P0015,AYA Prov 1,DEP05,Ayacucho,Sierra centro,urbano,2
+D00061,AYA Dist 3-1,P0015,AYA Prov 1,DEP05,Ayacucho,Sierra centro,rural,3
+D00062,AYA Dist 4-1,P0015,AYA Prov 1,DEP05,Ayacucho,Sierra centro,urbano,1
+D00063,AYA Dist 5-1,P0015,AYA Prov 1,DEP05,Ayacucho,Sierra centro,mixto,3
+D00064,AYA Dist 6-1,P0015,AYA Prov 1,DEP05,Ayacucho,Sierra centro,rural,2
+D00065,AYA Dist 1-2,P0016,AYA Prov 2,DEP05,Ayacucho,Sierra centro,urbano,1
+D00066,AYA Dist 2-2,P0016,AYA Prov 2,DEP05,Ayacucho,Sierra centro,rural,4
+D00067,AYA Dist 3-2,P0016,AYA Prov 2,DEP05,Ayacucho,Sierra centro,rural,3
+D00068,AYA Dist 4-2,P0016,AYA Prov 2,DEP05,Ayacucho,Sierra centro,urbano,1
+D00069,AYA Dist 5-2,P0016,AYA Prov 2,DEP05,Ayacucho,Sierra centro,rural,4
+D00070,AYA Dist 1-3,P0017,AYA Prov 3,DEP05,Ayacucho,Sierra centro,mixto,2
+D00071,AYA Dist 2-3,P0017,AYA Prov 3,DEP05,Ayacucho,Sierra centro,rural,4
+D00072,AYA Dist 3-3,P0017,AYA Prov 3,DEP05,Ayacucho,Sierra centro,mixto,4
+D00073,AYA Dist 4-3,P0017,AYA Prov 3,DEP05,Ayacucho,Sierra centro,rural,4
+D00074,AYA Dist 5-3,P0017,AYA Prov 3,DEP05,Ayacucho,Sierra centro,rural,2
+D00075,AYA Dist 6-3,P0017,AYA Prov 3,DEP05,Ayacucho,Sierra centro,mixto,3
+D00076,AYA Dist 1-4,P0018,AYA Prov 4,DEP05,Ayacucho,Sierra centro,mixto,3
+D00077,AYA Dist 2-4,P0018,AYA Prov 4,DEP05,Ayacucho,Sierra centro,rural,2
+D00078,AYA Dist 3-4,P0018,AYA Prov 4,DEP05,Ayacucho,Sierra centro,mixto,3
+D00079,AYA Dist 4-4,P0018,AYA Prov 4,DEP05,Ayacucho,Sierra centro,mixto,1
+D00080,AYA Dist 5-4,P0018,AYA Prov 4,DEP05,Ayacucho,Sierra centro,rural,3
+D00081,CAJ Dist 1-1,P0019,CAJ Prov 1,DEP06,Cajamarca,Sierra norte,rural,2
+D00082,CAJ Dist 2-1,P0019,CAJ Prov 1,DEP06,Cajamarca,Sierra norte,urbano,1
+D00083,CAJ Dist 3-1,P0019,CAJ Prov 1,DEP06,Cajamarca,Sierra norte,urbano,2
+D00084,CAJ Dist 1-2,P0020,CAJ Prov 2,DEP06,Cajamarca,Sierra norte,urbano,4
+D00085,CAJ Dist 2-2,P0020,CAJ Prov 2,DEP06,Cajamarca,Sierra norte,urbano,1
+D00086,CAJ Dist 3-2,P0020,CAJ Prov 2,DEP06,Cajamarca,Sierra norte,rural,4
+D00087,CAJ Dist 4-2,P0020,CAJ Prov 2,DEP06,Cajamarca,Sierra norte,urbano,2
+D00088,CAJ Dist 5-2,P0020,CAJ Prov 2,DEP06,Cajamarca,Sierra norte,rural,3
+D00089,CAJ Dist 6-2,P0020,CAJ Prov 2,DEP06,Cajamarca,Sierra norte,urbano,1
+D00090,CAL Dist 1-1,P0021,CAL Prov 1,DEP07,Callao,Costa centro,rural,3
+D00091,CAL Dist 2-1,P0021,CAL Prov 1,DEP07,Callao,Costa centro,urbano,1
+D00092,CAL Dist 3-1,P0021,CAL Prov 1,DEP07,Callao,Costa centro,rural,2
+D00093,CAL Dist 4-1,P0021,CAL Prov 1,DEP07,Callao,Costa centro,mixto,3
+D00094,CAL Dist 5-1,P0021,CAL Prov 1,DEP07,Callao,Costa centro,mixto,1
+D00095,CAL Dist 6-1,P0021,CAL Prov 1,DEP07,Callao,Costa centro,rural,1
+D00096,CAL Dist 1-2,P0022,CAL Prov 2,DEP07,Callao,Costa centro,rural,3
+D00097,CAL Dist 2-2,P0022,CAL Prov 2,DEP07,Callao,Costa centro,mixto,4
+D00098,CAL Dist 3-2,P0022,CAL Prov 2,DEP07,Callao,Costa centro,rural,2
+D00099,CAL Dist 4-2,P0022,CAL Prov 2,DEP07,Callao,Costa centro,urbano,2
+D00100,CAL Dist 5-2,P0022,CAL Prov 2,DEP07,Callao,Costa centro,rural,2
+D00101,CAL Dist 6-2,P0022,CAL Prov 2,DEP07,Callao,Costa centro,mixto,3
+D00102,CAL Dist 1-3,P0023,CAL Prov 3,DEP07,Callao,Costa centro,rural,2
+D00103,CAL Dist 2-3,P0023,CAL Prov 3,DEP07,Callao,Costa centro,mixto,1
+D00104,CAL Dist 3-3,P0023,CAL Prov 3,DEP07,Callao,Costa centro,rural,2
+D00105,CAL Dist 4-3,P0023,CAL Prov 3,DEP07,Callao,Costa centro,urbano,3
+D00106,CAL Dist 1-4,P0024,CAL Prov 4,DEP07,Callao,Costa centro,urbano,3
+D00107,CAL Dist 2-4,P0024,CAL Prov 4,DEP07,Callao,Costa centro,rural,2
+D00108,CAL Dist 3-4,P0024,CAL Prov 4,DEP07,Callao,Costa centro,urbano,1
+D00109,CAL Dist 4-4,P0024,CAL Prov 4,DEP07,Callao,Costa centro,urbano,5
+D00110,CAL Dist 5-4,P0024,CAL Prov 4,DEP07,Callao,Costa centro,rural,2
+D00111,CAL Dist 6-4,P0024,CAL Prov 4,DEP07,Callao,Costa centro,urbano,2
+D00112,CUS Dist 1-1,P0025,CUS Prov 1,DEP08,Cusco,Sierra sur,urbano,4
+D00113,CUS Dist 2-1,P0025,CUS Prov 1,DEP08,Cusco,Sierra sur,rural,4
+D00114,CUS Dist 3-1,P0025,CUS Prov 1,DEP08,Cusco,Sierra sur,rural,4
+D00115,CUS Dist 1-2,P0026,CUS Prov 2,DEP08,Cusco,Sierra sur,rural,3
+D00116,CUS Dist 2-2,P0026,CUS Prov 2,DEP08,Cusco,Sierra sur,rural,4
+D00117,CUS Dist 3-2,P0026,CUS Prov 2,DEP08,Cusco,Sierra sur,urbano,3
+D00118,CUS Dist 1-3,P0027,CUS Prov 3,DEP08,Cusco,Sierra sur,urbano,2
+D00119,CUS Dist 2-3,P0027,CUS Prov 3,DEP08,Cusco,Sierra sur,urbano,2
+D00120,CUS Dist 3-3,P0027,CUS Prov 3,DEP08,Cusco,Sierra sur,urbano,2
+D00121,CUS Dist 4-3,P0027,CUS Prov 3,DEP08,Cusco,Sierra sur,urbano,5
+D00122,HUA Dist 1-1,P0028,HUA Prov 1,DEP09,Huancavelica,Sierra centro,urbano,2
+D00123,HUA Dist 2-1,P0028,HUA Prov 1,DEP09,Huancavelica,Sierra centro,rural,3
+D00124,HUA Dist 3-1,P0028,HUA Prov 1,DEP09,Huancavelica,Sierra centro,mixto,2
+D00125,HUA Dist 4-1,P0028,HUA Prov 1,DEP09,Huancavelica,Sierra centro,mixto,1
+D00126,HUA Dist 5-1,P0028,HUA Prov 1,DEP09,Huancavelica,Sierra centro,urbano,2
+D00127,HUA Dist 1-2,P0029,HUA Prov 2,DEP09,Huancavelica,Sierra centro,mixto,2
+D00128,HUA Dist 2-2,P0029,HUA Prov 2,DEP09,Huancavelica,Sierra centro,rural,2
+D00129,HUA Dist 3-2,P0029,HUA Prov 2,DEP09,Huancavelica,Sierra centro,rural,3
+D00130,HUA Dist 4-2,P0029,HUA Prov 2,DEP09,Huancavelica,Sierra centro,urbano,2
+D00131,HUA Dist 5-2,P0029,HUA Prov 2,DEP09,Huancavelica,Sierra centro,mixto,1
+D00132,HUA Dist 1-3,P0030,HUA Prov 3,DEP09,Huancavelica,Sierra centro,rural,1
+D00133,HUA Dist 2-3,P0030,HUA Prov 3,DEP09,Huancavelica,Sierra centro,mixto,3
+D00134,HUA Dist 3-3,P0030,HUA Prov 3,DEP09,Huancavelica,Sierra centro,mixto,1
+D00135,HUA Dist 4-3,P0030,HUA Prov 3,DEP09,Huancavelica,Sierra centro,urbano,2
+D00136,HUA Dist 5-3,P0030,HUA Prov 3,DEP09,Huancavelica,Sierra centro,urbano,1
+D00137,HUA Dist 6-3,P0030,HUA Prov 3,DEP09,Huancavelica,Sierra centro,rural,1
+D00138,HUA Dist 1-4,P0031,HUA Prov 4,DEP09,Huancavelica,Sierra centro,rural,1
+D00139,HUA Dist 2-4,P0031,HUA Prov 4,DEP09,Huancavelica,Sierra centro,rural,3
+D00140,HUA Dist 3-4,P0031,HUA Prov 4,DEP09,Huancavelica,Sierra centro,urbano,1
+D00141,HUA Dist 4-4,P0031,HUA Prov 4,DEP09,Huancavelica,Sierra centro,urbano,1
+D00142,HUA Dist 5-4,P0031,HUA Prov 4,DEP09,Huancavelica,Sierra centro,mixto,1
+D00143,HUA Dist 6-4,P0031,HUA Prov 4,DEP09,Huancavelica,Sierra centro,rural,3
+D00144,HUA Dist 1-1,P0032,HUA Prov 1,DEP10,Huanuco,Sierra centro,rural,4
+D00145,HUA Dist 2-1,P0032,HUA Prov 1,DEP10,Huanuco,Sierra centro,urbano,2
+D00146,HUA Dist 3-1,P0032,HUA Prov 1,DEP10,Huanuco,Sierra centro,urbano,3
+D00147,HUA Dist 4-1,P0032,HUA Prov 1,DEP10,Huanuco,Sierra centro,urbano,1
+D00148,HUA Dist 5-1,P0032,HUA Prov 1,DEP10,Huanuco,Sierra centro,urbano,1
+D00149,HUA Dist 1-2,P0033,HUA Prov 2,DEP10,Huanuco,Sierra centro,rural,2
+D00150,HUA Dist 2-2,P0033,HUA Prov 2,DEP10,Huanuco,Sierra centro,urbano,2
+D00151,HUA Dist 3-2,P0033,HUA Prov 2,DEP10,Huanuco,Sierra centro,urbano,1
+D00152,HUA Dist 4-2,P0033,HUA Prov 2,DEP10,Huanuco,Sierra centro,urbano,1
+D00153,HUA Dist 5-2,P0033,HUA Prov 2,DEP10,Huanuco,Sierra centro,urbano,1
+D00154,HUA Dist 6-2,P0033,HUA Prov 2,DEP10,Huanuco,Sierra centro,rural,3
+D00155,HUA Dist 1-3,P0034,HUA Prov 3,DEP10,Huanuco,Sierra centro,mixto,2
+D00156,HUA Dist 2-3,P0034,HUA Prov 3,DEP10,Huanuco,Sierra centro,urbano,2
+D00157,HUA Dist 3-3,P0034,HUA Prov 3,DEP10,Huanuco,Sierra centro,urbano,2
+D00158,HUA Dist 4-3,P0034,HUA Prov 3,DEP10,Huanuco,Sierra centro,urbano,1
+D00159,ICA Dist 1-1,P0035,ICA Prov 1,DEP11,Ica,Costa centro,rural,4
+D00160,ICA Dist 2-1,P0035,ICA Prov 1,DEP11,Ica,Costa centro,mixto,3
+D00161,ICA Dist 3-1,P0035,ICA Prov 1,DEP11,Ica,Costa centro,mixto,3
+D00162,ICA Dist 4-1,P0035,ICA Prov 1,DEP11,Ica,Costa centro,rural,4
+D00163,ICA Dist 1-2,P0036,ICA Prov 2,DEP11,Ica,Costa centro,rural,3
+D00164,ICA Dist 2-2,P0036,ICA Prov 2,DEP11,Ica,Costa centro,urbano,2
+D00165,ICA Dist 3-2,P0036,ICA Prov 2,DEP11,Ica,Costa centro,rural,3
+D00166,ICA Dist 4-2,P0036,ICA Prov 2,DEP11,Ica,Costa centro,urbano,2
+D00167,ICA Dist 5-2,P0036,ICA Prov 2,DEP11,Ica,Costa centro,mixto,1
+D00168,ICA Dist 6-2,P0036,ICA Prov 2,DEP11,Ica,Costa centro,urbano,1
+D00169,JUN Dist 1-1,P0037,JUN Prov 1,DEP12,Junin,Sierra centro,rural,1
+D00170,JUN Dist 2-1,P0037,JUN Prov 1,DEP12,Junin,Sierra centro,urbano,2
+D00171,JUN Dist 3-1,P0037,JUN Prov 1,DEP12,Junin,Sierra centro,mixto,3
+D00172,JUN Dist 4-1,P0037,JUN Prov 1,DEP12,Junin,Sierra centro,mixto,1
+D00173,JUN Dist 1-2,P0038,JUN Prov 2,DEP12,Junin,Sierra centro,urbano,3
+D00174,JUN Dist 2-2,P0038,JUN Prov 2,DEP12,Junin,Sierra centro,mixto,4
+D00175,JUN Dist 3-2,P0038,JUN Prov 2,DEP12,Junin,Sierra centro,mixto,2
+D00176,JUN Dist 4-2,P0038,JUN Prov 2,DEP12,Junin,Sierra centro,rural,2
+D00177,JUN Dist 5-2,P0038,JUN Prov 2,DEP12,Junin,Sierra centro,mixto,5
+D00178,JUN Dist 6-2,P0038,JUN Prov 2,DEP12,Junin,Sierra centro,urbano,1
+D00179,LA  Dist 1-1,P0039,LA  Prov 1,DEP13,La Libertad,Costa norte,urbano,2
+D00180,LA  Dist 2-1,P0039,LA  Prov 1,DEP13,La Libertad,Costa norte,mixto,3
+D00181,LA  Dist 3-1,P0039,LA  Prov 1,DEP13,La Libertad,Costa norte,urbano,1
+D00182,LA  Dist 4-1,P0039,LA  Prov 1,DEP13,La Libertad,Costa norte,rural,1
+D00183,LA  Dist 1-2,P0040,LA  Prov 2,DEP13,La Libertad,Costa norte,rural,3
+D00184,LA  Dist 2-2,P0040,LA  Prov 2,DEP13,La Libertad,Costa norte,urbano,3
+D00185,LA  Dist 3-2,P0040,LA  Prov 2,DEP13,La Libertad,Costa norte,rural,3
+D00186,LA  Dist 1-3,P0041,LA  Prov 3,DEP13,La Libertad,Costa norte,urbano,2
+D00187,LA  Dist 2-3,P0041,LA  Prov 3,DEP13,La Libertad,Costa norte,rural,2
+D00188,LA  Dist 3-3,P0041,LA  Prov 3,DEP13,La Libertad,Costa norte,rural,2
+D00189,LA  Dist 1-4,P0042,LA  Prov 4,DEP13,La Libertad,Costa norte,urbano,1
+D00190,LA  Dist 2-4,P0042,LA  Prov 4,DEP13,La Libertad,Costa norte,urbano,3
+D00191,LA  Dist 3-4,P0042,LA  Prov 4,DEP13,La Libertad,Costa norte,rural,3
+D00192,LA  Dist 4-4,P0042,LA  Prov 4,DEP13,La Libertad,Costa norte,rural,1
+D00193,LAM Dist 1-1,P0043,LAM Prov 1,DEP14,Lambayeque,Costa norte,mixto,1
+D00194,LAM Dist 2-1,P0043,LAM Prov 1,DEP14,Lambayeque,Costa norte,rural,2
+D00195,LAM Dist 3-1,P0043,LAM Prov 1,DEP14,Lambayeque,Costa norte,urbano,2
+D00196,LAM Dist 4-1,P0043,LAM Prov 1,DEP14,Lambayeque,Costa norte,rural,2
+D00197,LAM Dist 1-2,P0044,LAM Prov 2,DEP14,Lambayeque,Costa norte,rural,2
+D00198,LAM Dist 2-2,P0044,LAM Prov 2,DEP14,Lambayeque,Costa norte,urbano,1
+D00199,LAM Dist 3-2,P0044,LAM Prov 2,DEP14,Lambayeque,Costa norte,rural,2
+D00200,LIM Dist 1-1,P0045,LIM Prov 1,DEP15,Lima,Costa centro,mixto,3
+D00201,LIM Dist 2-1,P0045,LIM Prov 1,DEP15,Lima,Costa centro,rural,1
+D00202,LIM Dist 3-1,P0045,LIM Prov 1,DEP15,Lima,Costa centro,mixto,1
+D00203,LIM Dist 1-2,P0046,LIM Prov 2,DEP15,Lima,Costa centro,urbano,1
+D00204,LIM Dist 2-2,P0046,LIM Prov 2,DEP15,Lima,Costa centro,mixto,1
+D00205,LIM Dist 3-2,P0046,LIM Prov 2,DEP15,Lima,Costa centro,urbano,1
+D00206,LIM Dist 1-3,P0047,LIM Prov 3,DEP15,Lima,Costa centro,rural,3
+D00207,LIM Dist 2-3,P0047,LIM Prov 3,DEP15,Lima,Costa centro,mixto,2
+D00208,LIM Dist 3-3,P0047,LIM Prov 3,DEP15,Lima,Costa centro,rural,3
+D00209,LIM Dist 4-3,P0047,LIM Prov 3,DEP15,Lima,Costa centro,urbano,1
+D00210,LOR Dist 1-1,P0048,LOR Prov 1,DEP16,Loreto,Amazonia,rural,4
+D00211,LOR Dist 2-1,P0048,LOR Prov 1,DEP16,Loreto,Amazonia,mixto,1
+D00212,LOR Dist 3-1,P0048,LOR Prov 1,DEP16,Loreto,Amazonia,rural,2
+D00213,LOR Dist 4-1,P0048,LOR Prov 1,DEP16,Loreto,Amazonia,mixto,2
+D00214,LOR Dist 1-2,P0049,LOR Prov 2,DEP16,Loreto,Amazonia,rural,4
+D00215,LOR Dist 2-2,P0049,LOR Prov 2,DEP16,Loreto,Amazonia,rural,3
+D00216,LOR Dist 3-2,P0049,LOR Prov 2,DEP16,Loreto,Amazonia,mixto,4
+D00217,MOQ Dist 1-1,P0050,MOQ Prov 1,DEP17,Moquegua,Costa sur,rural,3
+D00218,MOQ Dist 2-1,P0050,MOQ Prov 1,DEP17,Moquegua,Costa sur,rural,3
+D00219,MOQ Dist 3-1,P0050,MOQ Prov 1,DEP17,Moquegua,Costa sur,mixto,2
+D00220,MOQ Dist 4-1,P0050,MOQ Prov 1,DEP17,Moquegua,Costa sur,rural,2
+D00221,MOQ Dist 1-2,P0051,MOQ Prov 2,DEP17,Moquegua,Costa sur,rural,1
+D00222,MOQ Dist 2-2,P0051,MOQ Prov 2,DEP17,Moquegua,Costa sur,urbano,3
+D00223,MOQ Dist 3-2,P0051,MOQ Prov 2,DEP17,Moquegua,Costa sur,urbano,2
+D00224,MOQ Dist 4-2,P0051,MOQ Prov 2,DEP17,Moquegua,Costa sur,mixto,2
+D00225,MOQ Dist 5-2,P0051,MOQ Prov 2,DEP17,Moquegua,Costa sur,rural,3
+D00226,MOQ Dist 6-2,P0051,MOQ Prov 2,DEP17,Moquegua,Costa sur,urbano,3
+D00227,MOQ Dist 1-3,P0052,MOQ Prov 3,DEP17,Moquegua,Costa sur,rural,4
+D00228,MOQ Dist 2-3,P0052,MOQ Prov 3,DEP17,Moquegua,Costa sur,rural,1
+D00229,MOQ Dist 3-3,P0052,MOQ Prov 3,DEP17,Moquegua,Costa sur,rural,1
+D00230,PAS Dist 1-1,P0053,PAS Prov 1,DEP18,Pasco,Sierra centro,mixto,1
+D00231,PAS Dist 2-1,P0053,PAS Prov 1,DEP18,Pasco,Sierra centro,urbano,3
+D00232,PAS Dist 3-1,P0053,PAS Prov 1,DEP18,Pasco,Sierra centro,rural,3
+D00233,PAS Dist 4-1,P0053,PAS Prov 1,DEP18,Pasco,Sierra centro,mixto,1
+D00234,PAS Dist 1-2,P0054,PAS Prov 2,DEP18,Pasco,Sierra centro,rural,3
+D00235,PAS Dist 2-2,P0054,PAS Prov 2,DEP18,Pasco,Sierra centro,rural,3
+D00236,PAS Dist 3-2,P0054,PAS Prov 2,DEP18,Pasco,Sierra centro,urbano,4
+D00237,PAS Dist 4-2,P0054,PAS Prov 2,DEP18,Pasco,Sierra centro,mixto,1
+D00238,PAS Dist 5-2,P0054,PAS Prov 2,DEP18,Pasco,Sierra centro,urbano,3
+D00239,PAS Dist 1-3,P0055,PAS Prov 3,DEP18,Pasco,Sierra centro,urbano,2
+D00240,PAS Dist 2-3,P0055,PAS Prov 3,DEP18,Pasco,Sierra centro,urbano,2
+D00241,PAS Dist 3-3,P0055,PAS Prov 3,DEP18,Pasco,Sierra centro,rural,1
+D00242,PAS Dist 4-3,P0055,PAS Prov 3,DEP18,Pasco,Sierra centro,mixto,1
+D00243,PAS Dist 1-4,P0056,PAS Prov 4,DEP18,Pasco,Sierra centro,mixto,3
+D00244,PAS Dist 2-4,P0056,PAS Prov 4,DEP18,Pasco,Sierra centro,rural,3
+D00245,PAS Dist 3-4,P0056,PAS Prov 4,DEP18,Pasco,Sierra centro,urbano,3
+D00246,PAS Dist 4-4,P0056,PAS Prov 4,DEP18,Pasco,Sierra centro,urbano,2
+D00247,PAS Dist 5-4,P0056,PAS Prov 4,DEP18,Pasco,Sierra centro,urbano,2
+D00248,PAS Dist 6-4,P0056,PAS Prov 4,DEP18,Pasco,Sierra centro,urbano,2
+D00249,PIU Dist 1-1,P0057,PIU Prov 1,DEP19,Piura,Costa norte,urbano,3
+D00250,PIU Dist 2-1,P0057,PIU Prov 1,DEP19,Piura,Costa norte,urbano,2
+D00251,PIU Dist 3-1,P0057,PIU Prov 1,DEP19,Piura,Costa norte,mixto,1
+D00252,PIU Dist 4-1,P0057,PIU Prov 1,DEP19,Piura,Costa norte,rural,3
+D00253,PIU Dist 5-1,P0057,PIU Prov 1,DEP19,Piura,Costa norte,mixto,1
+D00254,PIU Dist 6-1,P0057,PIU Prov 1,DEP19,Piura,Costa norte,urbano,1
+D00255,PIU Dist 1-2,P0058,PIU Prov 2,DEP19,Piura,Costa norte,mixto,1
+D00256,PIU Dist 2-2,P0058,PIU Prov 2,DEP19,Piura,Costa norte,rural,4
+D00257,PIU Dist 3-2,P0058,PIU Prov 2,DEP19,Piura,Costa norte,urbano,3
+D00258,PIU Dist 1-3,P0059,PIU Prov 3,DEP19,Piura,Costa norte,urbano,1
+D00259,PIU Dist 2-3,P0059,PIU Prov 3,DEP19,Piura,Costa norte,urbano,2
+D00260,PIU Dist 3-3,P0059,PIU Prov 3,DEP19,Piura,Costa norte,rural,4
+D00261,PUN Dist 1-1,P0060,PUN Prov 1,DEP20,Puno,Sierra sur,mixto,2
+D00262,PUN Dist 2-1,P0060,PUN Prov 1,DEP20,Puno,Sierra sur,rural,3
+D00263,PUN Dist 3-1,P0060,PUN Prov 1,DEP20,Puno,Sierra sur,urbano,2
+D00264,PUN Dist 1-2,P0061,PUN Prov 2,DEP20,Puno,Sierra sur,urbano,3
+D00265,PUN Dist 2-2,P0061,PUN Prov 2,DEP20,Puno,Sierra sur,mixto,1
+D00266,PUN Dist 3-2,P0061,PUN Prov 2,DEP20,Puno,Sierra sur,mixto,2
+D00267,PUN Dist 4-2,P0061,PUN Prov 2,DEP20,Puno,Sierra sur,rural,2
+D00268,PUN Dist 1-3,P0062,PUN Prov 3,DEP20,Puno,Sierra sur,mixto,2
+D00269,PUN Dist 2-3,P0062,PUN Prov 3,DEP20,Puno,Sierra sur,rural,3
+D00270,PUN Dist 3-3,P0062,PUN Prov 3,DEP20,Puno,Sierra sur,rural,2
+D00271,PUN Dist 4-3,P0062,PUN Prov 3,DEP20,Puno,Sierra sur,urbano,2
+D00272,PUN Dist 5-3,P0062,PUN Prov 3,DEP20,Puno,Sierra sur,rural,3
+D00273,PUN Dist 6-3,P0062,PUN Prov 3,DEP20,Puno,Sierra sur,rural,4
+D00274,PUN Dist 1-4,P0063,PUN Prov 4,DEP20,Puno,Sierra sur,urbano,1
+D00275,PUN Dist 2-4,P0063,PUN Prov 4,DEP20,Puno,Sierra sur,mixto,1
+D00276,PUN Dist 3-4,P0063,PUN Prov 4,DEP20,Puno,Sierra sur,rural,2
+D00277,PUN Dist 4-4,P0063,PUN Prov 4,DEP20,Puno,Sierra sur,urbano,1
+D00278,PUN Dist 5-4,P0063,PUN Prov 4,DEP20,Puno,Sierra sur,rural,3
+D00279,SAN Dist 1-1,P0064,SAN Prov 1,DEP21,San Martin,Amazonia,rural,2
+D00280,SAN Dist 2-1,P0064,SAN Prov 1,DEP21,San Martin,Amazonia,urbano,1
+D00281,SAN Dist 3-1,P0064,SAN Prov 1,DEP21,San Martin,Amazonia,rural,2
+D00282,SAN Dist 1-2,P0065,SAN Prov 2,DEP21,San Martin,Amazonia,urbano,2
+D00283,SAN Dist 2-2,P0065,SAN Prov 2,DEP21,San Martin,Amazonia,mixto,1
+D00284,SAN Dist 3-2,P0065,SAN Prov 2,DEP21,San Martin,Amazonia,mixto,1
+D00285,SAN Dist 4-2,P0065,SAN Prov 2,DEP21,San Martin,Amazonia,urbano,2
+D00286,SAN Dist 5-2,P0065,SAN Prov 2,DEP21,San Martin,Amazonia,rural,2
+D00287,SAN Dist 6-2,P0065,SAN Prov 2,DEP21,San Martin,Amazonia,urbano,1
+D00288,TAC Dist 1-1,P0066,TAC Prov 1,DEP22,Tacna,Costa sur,rural,3
+D00289,TAC Dist 2-1,P0066,TAC Prov 1,DEP22,Tacna,Costa sur,mixto,3
+D00290,TAC Dist 3-1,P0066,TAC Prov 1,DEP22,Tacna,Costa sur,rural,1
+D00291,TAC Dist 4-1,P0066,TAC Prov 1,DEP22,Tacna,Costa sur,rural,5
+D00292,TAC Dist 5-1,P0066,TAC Prov 1,DEP22,Tacna,Costa sur,urbano,1
+D00293,TAC Dist 6-1,P0066,TAC Prov 1,DEP22,Tacna,Costa sur,rural,2
+D00294,TAC Dist 1-2,P0067,TAC Prov 2,DEP22,Tacna,Costa sur,mixto,2
+D00295,TAC Dist 2-2,P0067,TAC Prov 2,DEP22,Tacna,Costa sur,rural,2
+D00296,TAC Dist 3-2,P0067,TAC Prov 2,DEP22,Tacna,Costa sur,mixto,1
+D00297,TAC Dist 1-3,P0068,TAC Prov 3,DEP22,Tacna,Costa sur,urbano,1
+D00298,TAC Dist 2-3,P0068,TAC Prov 3,DEP22,Tacna,Costa sur,mixto,2
+D00299,TAC Dist 3-3,P0068,TAC Prov 3,DEP22,Tacna,Costa sur,rural,2
+D00300,TAC Dist 4-3,P0068,TAC Prov 3,DEP22,Tacna,Costa sur,urbano,3
+D00301,TAC Dist 5-3,P0068,TAC Prov 3,DEP22,Tacna,Costa sur,rural,2
+D00302,TAC Dist 1-4,P0069,TAC Prov 4,DEP22,Tacna,Costa sur,urbano,1
+D00303,TAC Dist 2-4,P0069,TAC Prov 4,DEP22,Tacna,Costa sur,urbano,4
+D00304,TAC Dist 3-4,P0069,TAC Prov 4,DEP22,Tacna,Costa sur,mixto,1
+D00305,TAC Dist 4-4,P0069,TAC Prov 4,DEP22,Tacna,Costa sur,rural,3
+D00306,TUM Dist 1-1,P0070,TUM Prov 1,DEP23,Tumbes,Costa norte,urbano,3
+D00307,TUM Dist 2-1,P0070,TUM Prov 1,DEP23,Tumbes,Costa norte,urbano,1
+D00308,TUM Dist 3-1,P0070,TUM Prov 1,DEP23,Tumbes,Costa norte,rural,2
+D00309,TUM Dist 4-1,P0070,TUM Prov 1,DEP23,Tumbes,Costa norte,mixto,1
+D00310,TUM Dist 1-2,P0071,TUM Prov 2,DEP23,Tumbes,Costa norte,rural,4
+D00311,TUM Dist 2-2,P0071,TUM Prov 2,DEP23,Tumbes,Costa norte,urbano,1
+D00312,TUM Dist 3-2,P0071,TUM Prov 2,DEP23,Tumbes,Costa norte,urbano,1
+D00313,TUM Dist 4-2,P0071,TUM Prov 2,DEP23,Tumbes,Costa norte,urbano,3
+D00314,TUM Dist 1-3,P0072,TUM Prov 3,DEP23,Tumbes,Costa norte,mixto,1
+D00315,TUM Dist 2-3,P0072,TUM Prov 3,DEP23,Tumbes,Costa norte,urbano,1
+D00316,TUM Dist 3-3,P0072,TUM Prov 3,DEP23,Tumbes,Costa norte,mixto,2
+D00317,TUM Dist 4-3,P0072,TUM Prov 3,DEP23,Tumbes,Costa norte,mixto,1
+D00318,TUM Dist 1-4,P0073,TUM Prov 4,DEP23,Tumbes,Costa norte,rural,2
+D00319,TUM Dist 2-4,P0073,TUM Prov 4,DEP23,Tumbes,Costa norte,rural,4
+D00320,TUM Dist 3-4,P0073,TUM Prov 4,DEP23,Tumbes,Costa norte,rural,2
+D00321,TUM Dist 4-4,P0073,TUM Prov 4,DEP23,Tumbes,Costa norte,urbano,4
+D00322,TUM Dist 5-4,P0073,TUM Prov 4,DEP23,Tumbes,Costa norte,urbano,2
+D00323,UCA Dist 1-1,P0074,UCA Prov 1,DEP24,Ucayali,Amazonia,rural,2
+D00324,UCA Dist 2-1,P0074,UCA Prov 1,DEP24,Ucayali,Amazonia,rural,3
+D00325,UCA Dist 3-1,P0074,UCA Prov 1,DEP24,Ucayali,Amazonia,mixto,2
+D00326,UCA Dist 1-2,P0075,UCA Prov 2,DEP24,Ucayali,Amazonia,urbano,3
+D00327,UCA Dist 2-2,P0075,UCA Prov 2,DEP24,Ucayali,Amazonia,urbano,3
+D00328,UCA Dist 3-2,P0075,UCA Prov 2,DEP24,Ucayali,Amazonia,mixto,1
+D00329,UCA Dist 4-2,P0075,UCA Prov 2,DEP24,Ucayali,Amazonia,rural,4
+D00330,UCA Dist 5-2,P0075,UCA Prov 2,DEP24,Ucayali,Amazonia,rural,3
+D00331,UCA Dist 1-3,P0076,UCA Prov 3,DEP24,Ucayali,Amazonia,rural,5
+D00332,UCA Dist 2-3,P0076,UCA Prov 3,DEP24,Ucayali,Amazonia,urbano,1
+D00333,UCA Dist 3-3,P0076,UCA Prov 3,DEP24,Ucayali,Amazonia,rural,1
+D00334,UCA Dist 4-3,P0076,UCA Prov 3,DEP24,Ucayali,Amazonia,urbano,2

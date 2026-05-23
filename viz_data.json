@@ -1,0 +1,2703 @@
+{
+  "caso1": {
+    "agrupaciones": [
+      "Otros",
+      "Fuerza Popular",
+      "Renovacion Popular",
+      "Juntos por el Peru",
+      "Partido del Buen Gobierno",
+      "Partido Civico Obras",
+      "Ahora Nacion",
+      "Pais para Todos"
+    ],
+    "votos": [
+      3664041,
+      2771196,
+      2216577,
+      1959030,
+      1900691,
+      1512356,
+      1099560,
+      1073696
+    ],
+    "pct_validos": [
+      22.62,
+      17.11,
+      13.68,
+      12.09,
+      11.73,
+      9.34,
+      6.79,
+      6.63
+    ],
+    "pct_emitidos": [
+      18.55,
+      14.03,
+      11.22,
+      9.92,
+      9.63,
+      7.66,
+      5.57,
+      5.44
+    ],
+    "pct_padron": [
+      13.41,
+      10.14,
+      8.11,
+      7.17,
+      6.96,
+      5.53,
+      4.02,
+      3.93
+    ],
+    "totales": {
+      "votos_validos": 16197147,
+      "votos_emitidos": 19747057,
+      "electores_habiles": 27325431,
+      "participacion_pct": 72.27
+    }
+  },
+  "caso2": {
+    "elecciones": [
+      "Formula Presidencial",
+      "Senadores DU",
+      "Senadores DM",
+      "Diputados",
+      "Parlamento Andino"
+    ],
+    "ambito": [
+      "Nacional",
+      "Nacional",
+      "Lima Metropolitana",
+      "Lima Metropolitana",
+      "Nacional"
+    ],
+    "pct_contabilizadas": [
+      99.84,
+      85.18,
+      92.86,
+      91.23,
+      88.91
+    ],
+    "total_actas": [
+      92766,
+      92766,
+      26368,
+      26368,
+      92766
+    ],
+    "actas_pendientes": [
+      0,
+      17,
+      1,
+      0,
+      11
+    ],
+    "votos_validos_millones": [
+      16.73,
+      12.9,
+      4.4,
+      4.55,
+      12.09
+    ],
+    "riesgo_cambio_visual": [
+      0.1595,
+      14.8179,
+      7.145,
+      8.7682,
+      11.0935
+    ]
+  },
+  "caso3": {
+    "puntos": [
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-01",
+        "tipo_area": "rural",
+        "pobreza": 48.0,
+        "voto_x": 8.8,
+        "electores": 28108
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-02",
+        "tipo_area": "rural",
+        "pobreza": 41.2,
+        "voto_x": 12.61,
+        "electores": 184673
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-03",
+        "tipo_area": "urbano",
+        "pobreza": 34.2,
+        "voto_x": 8.06,
+        "electores": 55413
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-04",
+        "tipo_area": "urbano",
+        "pobreza": 33.2,
+        "voto_x": 12.31,
+        "electores": 14783
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-05",
+        "tipo_area": "mixto",
+        "pobreza": 35.1,
+        "voto_x": 15.9,
+        "electores": 72811
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-06",
+        "tipo_area": "rural",
+        "pobreza": 36.8,
+        "voto_x": 16.15,
+        "electores": 125179
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-07",
+        "tipo_area": "rural",
+        "pobreza": 41.2,
+        "voto_x": 10.31,
+        "electores": 77002
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-08",
+        "tipo_area": "urbano",
+        "pobreza": 28.9,
+        "voto_x": 16.87,
+        "electores": 49839
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-09",
+        "tipo_area": "mixto",
+        "pobreza": 28.2,
+        "voto_x": 9.76,
+        "electores": 106801
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-10",
+        "tipo_area": "urbano",
+        "pobreza": 19.0,
+        "voto_x": 11.15,
+        "electores": 53991
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-11",
+        "tipo_area": "urbano",
+        "pobreza": 36.9,
+        "voto_x": 16.0,
+        "electores": 33982
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-12",
+        "tipo_area": "mixto",
+        "pobreza": 33.5,
+        "voto_x": 12.05,
+        "electores": 34049
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-13",
+        "tipo_area": "urbano",
+        "pobreza": 27.6,
+        "voto_x": 11.82,
+        "electores": 216363
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-14",
+        "tipo_area": "urbano",
+        "pobreza": 29.3,
+        "voto_x": 12.27,
+        "electores": 83865
+      },
+      {
+        "departamento": "Amazonas",
+        "distrito": "AMA-15",
+        "tipo_area": "rural",
+        "pobreza": 40.4,
+        "voto_x": 13.44,
+        "electores": 101433
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-01",
+        "tipo_area": "mixto",
+        "pobreza": 30.1,
+        "voto_x": 12.5,
+        "electores": 210488
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-02",
+        "tipo_area": "mixto",
+        "pobreza": 31.9,
+        "voto_x": 8.75,
+        "electores": 71996
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-03",
+        "tipo_area": "mixto",
+        "pobreza": 31.6,
+        "voto_x": 12.73,
+        "electores": 50068
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-04",
+        "tipo_area": "mixto",
+        "pobreza": 29.8,
+        "voto_x": 3.96,
+        "electores": 73468
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-05",
+        "tipo_area": "urbano",
+        "pobreza": 27.0,
+        "voto_x": 3.41,
+        "electores": 11493
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-06",
+        "tipo_area": "urbano",
+        "pobreza": 15.4,
+        "voto_x": 15.53,
+        "electores": 52267
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-07",
+        "tipo_area": "rural",
+        "pobreza": 39.8,
+        "voto_x": 15.1,
+        "electores": 87698
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-08",
+        "tipo_area": "mixto",
+        "pobreza": 37.4,
+        "voto_x": 18.41,
+        "electores": 25585
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-09",
+        "tipo_area": "rural",
+        "pobreza": 34.0,
+        "voto_x": 13.88,
+        "electores": 91429
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-10",
+        "tipo_area": "rural",
+        "pobreza": 41.5,
+        "voto_x": 12.27,
+        "electores": 60759
+      },
+      {
+        "departamento": "Ancash",
+        "distrito": "ANC-11",
+        "tipo_area": "mixto",
+        "pobreza": 26.1,
+        "voto_x": 9.72,
+        "electores": 144856
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-01",
+        "tipo_area": "rural",
+        "pobreza": 51.4,
+        "voto_x": 14.45,
+        "electores": 224322
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-02",
+        "tipo_area": "mixto",
+        "pobreza": 51.5,
+        "voto_x": 14.8,
+        "electores": 179337
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-03",
+        "tipo_area": "rural",
+        "pobreza": 48.4,
+        "voto_x": 19.01,
+        "electores": 31205
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-04",
+        "tipo_area": "urbano",
+        "pobreza": 41.2,
+        "voto_x": 10.25,
+        "electores": 37582
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-05",
+        "tipo_area": "rural",
+        "pobreza": 59.8,
+        "voto_x": 14.97,
+        "electores": 259242
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-06",
+        "tipo_area": "mixto",
+        "pobreza": 47.3,
+        "voto_x": 13.05,
+        "electores": 52319
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-07",
+        "tipo_area": "mixto",
+        "pobreza": 51.0,
+        "voto_x": 13.63,
+        "electores": 26453
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-08",
+        "tipo_area": "urbano",
+        "pobreza": 42.1,
+        "voto_x": 19.84,
+        "electores": 32250
+      },
+      {
+        "departamento": "Apurimac",
+        "distrito": "APU-09",
+        "tipo_area": "urbano",
+        "pobreza": 44.1,
+        "voto_x": 12.53,
+        "electores": 103571
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-01",
+        "tipo_area": "urbano",
+        "pobreza": 8.4,
+        "voto_x": 10.65,
+        "electores": 11128
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-02",
+        "tipo_area": "mixto",
+        "pobreza": 10.5,
+        "voto_x": 2.0,
+        "electores": 210513
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-03",
+        "tipo_area": "mixto",
+        "pobreza": 19.7,
+        "voto_x": 9.67,
+        "electores": 146941
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-04",
+        "tipo_area": "mixto",
+        "pobreza": 14.8,
+        "voto_x": 4.34,
+        "electores": 188597
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-05",
+        "tipo_area": "rural",
+        "pobreza": 19.2,
+        "voto_x": 6.0,
+        "electores": 50590
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-06",
+        "tipo_area": "rural",
+        "pobreza": 24.2,
+        "voto_x": 14.61,
+        "electores": 14649
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-07",
+        "tipo_area": "mixto",
+        "pobreza": 15.9,
+        "voto_x": 6.5,
+        "electores": 140693
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-08",
+        "tipo_area": "mixto",
+        "pobreza": 20.6,
+        "voto_x": 7.41,
+        "electores": 404043
+      },
+      {
+        "departamento": "Arequipa",
+        "distrito": "ARE-09",
+        "tipo_area": "urbano",
+        "pobreza": 15.9,
+        "voto_x": 19.21,
+        "electores": 17724
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-01",
+        "tipo_area": "mixto",
+        "pobreza": 44.8,
+        "voto_x": 14.23,
+        "electores": 216101
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-02",
+        "tipo_area": "urbano",
+        "pobreza": 43.4,
+        "voto_x": 16.77,
+        "electores": 92988
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-03",
+        "tipo_area": "urbano",
+        "pobreza": 33.3,
+        "voto_x": 16.6,
+        "electores": 55005
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-04",
+        "tipo_area": "rural",
+        "pobreza": 55.5,
+        "voto_x": 11.31,
+        "electores": 86285
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-05",
+        "tipo_area": "mixto",
+        "pobreza": 44.5,
+        "voto_x": 8.89,
+        "electores": 67886
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-06",
+        "tipo_area": "urbano",
+        "pobreza": 47.0,
+        "voto_x": 12.5,
+        "electores": 92243
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-07",
+        "tipo_area": "mixto",
+        "pobreza": 46.6,
+        "voto_x": 3.47,
+        "electores": 40178
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-08",
+        "tipo_area": "urbano",
+        "pobreza": 38.7,
+        "voto_x": 14.8,
+        "electores": 50205
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-09",
+        "tipo_area": "urbano",
+        "pobreza": 37.5,
+        "voto_x": 13.7,
+        "electores": 99263
+      },
+      {
+        "departamento": "Ayacucho",
+        "distrito": "AYA-10",
+        "tipo_area": "rural",
+        "pobreza": 51.3,
+        "voto_x": 16.63,
+        "electores": 27534
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-01",
+        "tipo_area": "mixto",
+        "pobreza": 33.7,
+        "voto_x": 13.16,
+        "electores": 162723
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-02",
+        "tipo_area": "rural",
+        "pobreza": 52.4,
+        "voto_x": 13.11,
+        "electores": 27986
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-03",
+        "tipo_area": "urbano",
+        "pobreza": 29.4,
+        "voto_x": 20.55,
+        "electores": 167299
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-04",
+        "tipo_area": "urbano",
+        "pobreza": 40.3,
+        "voto_x": 11.62,
+        "electores": 102912
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-05",
+        "tipo_area": "rural",
+        "pobreza": 47.5,
+        "voto_x": 12.18,
+        "electores": 49316
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-06",
+        "tipo_area": "mixto",
+        "pobreza": 53.6,
+        "voto_x": 13.07,
+        "electores": 33066
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-07",
+        "tipo_area": "urbano",
+        "pobreza": 31.3,
+        "voto_x": 15.49,
+        "electores": 46524
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-08",
+        "tipo_area": "urbano",
+        "pobreza": 30.9,
+        "voto_x": 19.52,
+        "electores": 75686
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-09",
+        "tipo_area": "rural",
+        "pobreza": 53.4,
+        "voto_x": 22.75,
+        "electores": 21861
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-10",
+        "tipo_area": "mixto",
+        "pobreza": 45.5,
+        "voto_x": 22.35,
+        "electores": 171194
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-11",
+        "tipo_area": "urbano",
+        "pobreza": 33.7,
+        "voto_x": 8.47,
+        "electores": 47177
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-12",
+        "tipo_area": "rural",
+        "pobreza": 55.6,
+        "voto_x": 20.38,
+        "electores": 9623
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-13",
+        "tipo_area": "mixto",
+        "pobreza": 37.8,
+        "voto_x": 12.03,
+        "electores": 99359
+      },
+      {
+        "departamento": "Cajamarca",
+        "distrito": "CAJ-14",
+        "tipo_area": "rural",
+        "pobreza": 46.4,
+        "voto_x": 17.25,
+        "electores": 34042
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-01",
+        "tipo_area": "urbano",
+        "pobreza": 11.1,
+        "voto_x": 5.09,
+        "electores": 25231
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-02",
+        "tipo_area": "urbano",
+        "pobreza": 17.4,
+        "voto_x": 9.75,
+        "electores": 43886
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-03",
+        "tipo_area": "rural",
+        "pobreza": 29.0,
+        "voto_x": 5.47,
+        "electores": 58252
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-04",
+        "tipo_area": "rural",
+        "pobreza": 24.5,
+        "voto_x": 14.4,
+        "electores": 63068
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-05",
+        "tipo_area": "mixto",
+        "pobreza": 24.2,
+        "voto_x": 11.43,
+        "electores": 985
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-06",
+        "tipo_area": "mixto",
+        "pobreza": 13.4,
+        "voto_x": 13.93,
+        "electores": 78919
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-07",
+        "tipo_area": "rural",
+        "pobreza": 13.1,
+        "voto_x": 18.41,
+        "electores": 30023
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-08",
+        "tipo_area": "rural",
+        "pobreza": 30.9,
+        "voto_x": 11.14,
+        "electores": 23092
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-09",
+        "tipo_area": "mixto",
+        "pobreza": 12.3,
+        "voto_x": 21.21,
+        "electores": 65609
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-10",
+        "tipo_area": "urbano",
+        "pobreza": 21.7,
+        "voto_x": 7.83,
+        "electores": 44341
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-11",
+        "tipo_area": "urbano",
+        "pobreza": 5.0,
+        "voto_x": 8.94,
+        "electores": 6944
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-12",
+        "tipo_area": "rural",
+        "pobreza": 16.6,
+        "voto_x": 17.25,
+        "electores": 29117
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-13",
+        "tipo_area": "rural",
+        "pobreza": 17.8,
+        "voto_x": 10.64,
+        "electores": 40043
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-14",
+        "tipo_area": "rural",
+        "pobreza": 23.2,
+        "voto_x": 10.5,
+        "electores": 96839
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-15",
+        "tipo_area": "urbano",
+        "pobreza": 11.3,
+        "voto_x": 6.24,
+        "electores": 94818
+      },
+      {
+        "departamento": "Callao",
+        "distrito": "CAL-16",
+        "tipo_area": "urbano",
+        "pobreza": 12.7,
+        "voto_x": 14.26,
+        "electores": 58837
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-01",
+        "tipo_area": "mixto",
+        "pobreza": 28.6,
+        "voto_x": 5.36,
+        "electores": 2793
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-02",
+        "tipo_area": "urbano",
+        "pobreza": 29.5,
+        "voto_x": 17.59,
+        "electores": 13625
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-03",
+        "tipo_area": "rural",
+        "pobreza": 33.5,
+        "voto_x": 12.03,
+        "electores": 67125
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-04",
+        "tipo_area": "rural",
+        "pobreza": 41.6,
+        "voto_x": 11.76,
+        "electores": 109409
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-05",
+        "tipo_area": "urbano",
+        "pobreza": 32.2,
+        "voto_x": 9.78,
+        "electores": 44499
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-06",
+        "tipo_area": "rural",
+        "pobreza": 34.2,
+        "voto_x": 10.06,
+        "electores": 11735
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-07",
+        "tipo_area": "urbano",
+        "pobreza": 39.2,
+        "voto_x": 11.6,
+        "electores": 25415
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-08",
+        "tipo_area": "mixto",
+        "pobreza": 34.3,
+        "voto_x": 13.62,
+        "electores": 28656
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-09",
+        "tipo_area": "mixto",
+        "pobreza": 45.0,
+        "voto_x": 8.59,
+        "electores": 26975
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-10",
+        "tipo_area": "urbano",
+        "pobreza": 23.4,
+        "voto_x": 7.34,
+        "electores": 73094
+      },
+      {
+        "departamento": "Cusco",
+        "distrito": "CUS-11",
+        "tipo_area": "rural",
+        "pobreza": 44.0,
+        "voto_x": 11.11,
+        "electores": 28907
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-01",
+        "tipo_area": "rural",
+        "pobreza": 60.6,
+        "voto_x": 25.09,
+        "electores": 15826
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-02",
+        "tipo_area": "urbano",
+        "pobreza": 38.8,
+        "voto_x": 14.78,
+        "electores": 39944
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-03",
+        "tipo_area": "urbano",
+        "pobreza": 38.9,
+        "voto_x": 14.8,
+        "electores": 61508
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-04",
+        "tipo_area": "rural",
+        "pobreza": 56.8,
+        "voto_x": 16.81,
+        "electores": 17216
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-05",
+        "tipo_area": "urbano",
+        "pobreza": 42.0,
+        "voto_x": 12.0,
+        "electores": 6536
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-06",
+        "tipo_area": "mixto",
+        "pobreza": 47.2,
+        "voto_x": 12.75,
+        "electores": 51523
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-07",
+        "tipo_area": "mixto",
+        "pobreza": 48.5,
+        "voto_x": 9.33,
+        "electores": 7762
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-08",
+        "tipo_area": "urbano",
+        "pobreza": 35.6,
+        "voto_x": 12.46,
+        "electores": 15081
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-09",
+        "tipo_area": "urbano",
+        "pobreza": 31.6,
+        "voto_x": 15.43,
+        "electores": 21705
+      },
+      {
+        "departamento": "Huancavelica",
+        "distrito": "HUA-10",
+        "tipo_area": "urbano",
+        "pobreza": 42.1,
+        "voto_x": 13.27,
+        "electores": 5096
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-01",
+        "tipo_area": "mixto",
+        "pobreza": 31.9,
+        "voto_x": 17.81,
+        "electores": 24048
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-02",
+        "tipo_area": "urbano",
+        "pobreza": 21.1,
+        "voto_x": 15.43,
+        "electores": 27281
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-03",
+        "tipo_area": "mixto",
+        "pobreza": 33.4,
+        "voto_x": 11.18,
+        "electores": 40762
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-04",
+        "tipo_area": "rural",
+        "pobreza": 43.5,
+        "voto_x": 17.19,
+        "electores": 47172
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-05",
+        "tipo_area": "rural",
+        "pobreza": 54.3,
+        "voto_x": 15.62,
+        "electores": 56699
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-06",
+        "tipo_area": "urbano",
+        "pobreza": 28.1,
+        "voto_x": 10.93,
+        "electores": 22144
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-07",
+        "tipo_area": "rural",
+        "pobreza": 47.7,
+        "voto_x": 16.51,
+        "electores": 2439
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-08",
+        "tipo_area": "urbano",
+        "pobreza": 30.8,
+        "voto_x": 13.61,
+        "electores": 47521
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-09",
+        "tipo_area": "urbano",
+        "pobreza": 38.2,
+        "voto_x": 18.35,
+        "electores": 54417
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-10",
+        "tipo_area": "mixto",
+        "pobreza": 38.8,
+        "voto_x": 15.37,
+        "electores": 27614
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-11",
+        "tipo_area": "rural",
+        "pobreza": 36.5,
+        "voto_x": 18.49,
+        "electores": 56886
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-12",
+        "tipo_area": "urbano",
+        "pobreza": 36.7,
+        "voto_x": 6.72,
+        "electores": 3549
+      },
+      {
+        "departamento": "Huanuco",
+        "distrito": "HUA-13",
+        "tipo_area": "urbano",
+        "pobreza": 31.7,
+        "voto_x": 10.22,
+        "electores": 105652
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-01",
+        "tipo_area": "mixto",
+        "pobreza": 22.2,
+        "voto_x": 12.32,
+        "electores": 11146
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-02",
+        "tipo_area": "urbano",
+        "pobreza": 8.4,
+        "voto_x": 14.57,
+        "electores": 23997
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-03",
+        "tipo_area": "urbano",
+        "pobreza": 17.0,
+        "voto_x": 6.42,
+        "electores": 16091
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-04",
+        "tipo_area": "rural",
+        "pobreza": 22.6,
+        "voto_x": 9.5,
+        "electores": 27867
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-05",
+        "tipo_area": "mixto",
+        "pobreza": 17.9,
+        "voto_x": 6.37,
+        "electores": 68104
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-06",
+        "tipo_area": "rural",
+        "pobreza": 19.6,
+        "voto_x": 16.3,
+        "electores": 22478
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-07",
+        "tipo_area": "mixto",
+        "pobreza": 14.1,
+        "voto_x": 15.34,
+        "electores": 34432
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-08",
+        "tipo_area": "mixto",
+        "pobreza": 27.5,
+        "voto_x": 10.52,
+        "electores": 15655
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-09",
+        "tipo_area": "rural",
+        "pobreza": 29.9,
+        "voto_x": 11.93,
+        "electores": 80455
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-10",
+        "tipo_area": "urbano",
+        "pobreza": 11.6,
+        "voto_x": 12.15,
+        "electores": 15515
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-11",
+        "tipo_area": "rural",
+        "pobreza": 12.4,
+        "voto_x": 6.42,
+        "electores": 53107
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-12",
+        "tipo_area": "urbano",
+        "pobreza": 6.8,
+        "voto_x": 9.66,
+        "electores": 58116
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-13",
+        "tipo_area": "urbano",
+        "pobreza": 14.4,
+        "voto_x": 8.84,
+        "electores": 13296
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-14",
+        "tipo_area": "mixto",
+        "pobreza": 11.6,
+        "voto_x": 8.73,
+        "electores": 34420
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-15",
+        "tipo_area": "urbano",
+        "pobreza": 17.2,
+        "voto_x": 10.14,
+        "electores": 1587
+      },
+      {
+        "departamento": "Ica",
+        "distrito": "ICA-16",
+        "tipo_area": "rural",
+        "pobreza": 19.6,
+        "voto_x": 11.52,
+        "electores": 23009
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-01",
+        "tipo_area": "mixto",
+        "pobreza": 34.9,
+        "voto_x": 15.52,
+        "electores": 128141
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-02",
+        "tipo_area": "urbano",
+        "pobreza": 17.7,
+        "voto_x": 14.2,
+        "electores": 16265
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-03",
+        "tipo_area": "urbano",
+        "pobreza": 25.2,
+        "voto_x": 10.11,
+        "electores": 57948
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-04",
+        "tipo_area": "rural",
+        "pobreza": 24.8,
+        "voto_x": 19.96,
+        "electores": 342971
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-05",
+        "tipo_area": "urbano",
+        "pobreza": 33.1,
+        "voto_x": 20.97,
+        "electores": 42940
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-06",
+        "tipo_area": "rural",
+        "pobreza": 27.6,
+        "voto_x": 11.1,
+        "electores": 106749
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-07",
+        "tipo_area": "urbano",
+        "pobreza": 24.2,
+        "voto_x": 12.98,
+        "electores": 35843
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-08",
+        "tipo_area": "mixto",
+        "pobreza": 34.4,
+        "voto_x": 6.31,
+        "electores": 274346
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-09",
+        "tipo_area": "rural",
+        "pobreza": 36.9,
+        "voto_x": 13.53,
+        "electores": 126364
+      },
+      {
+        "departamento": "Junin",
+        "distrito": "JUN-10",
+        "tipo_area": "urbano",
+        "pobreza": 24.0,
+        "voto_x": 10.08,
+        "electores": 26811
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -01",
+        "tipo_area": "mixto",
+        "pobreza": 33.1,
+        "voto_x": 14.75,
+        "electores": 52155
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -02",
+        "tipo_area": "rural",
+        "pobreza": 25.8,
+        "voto_x": 17.55,
+        "electores": 268854
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -03",
+        "tipo_area": "rural",
+        "pobreza": 30.8,
+        "voto_x": 16.67,
+        "electores": 105865
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -04",
+        "tipo_area": "rural",
+        "pobreza": 23.1,
+        "voto_x": 12.85,
+        "electores": 187842
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -05",
+        "tipo_area": "mixto",
+        "pobreza": 25.9,
+        "voto_x": 13.76,
+        "electores": 49964
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -06",
+        "tipo_area": "mixto",
+        "pobreza": 38.2,
+        "voto_x": 11.36,
+        "electores": 59347
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -07",
+        "tipo_area": "rural",
+        "pobreza": 30.3,
+        "voto_x": 10.54,
+        "electores": 49148
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -08",
+        "tipo_area": "urbano",
+        "pobreza": 26.4,
+        "voto_x": 9.49,
+        "electores": 34999
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -09",
+        "tipo_area": "urbano",
+        "pobreza": 23.7,
+        "voto_x": 3.9,
+        "electores": 49924
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -10",
+        "tipo_area": "rural",
+        "pobreza": 33.9,
+        "voto_x": 15.9,
+        "electores": 90889
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -11",
+        "tipo_area": "urbano",
+        "pobreza": 27.5,
+        "voto_x": 12.36,
+        "electores": 11702
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -12",
+        "tipo_area": "rural",
+        "pobreza": 36.8,
+        "voto_x": 16.05,
+        "electores": 126347
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -13",
+        "tipo_area": "urbano",
+        "pobreza": 16.0,
+        "voto_x": 11.51,
+        "electores": 61218
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -14",
+        "tipo_area": "urbano",
+        "pobreza": 25.1,
+        "voto_x": 6.49,
+        "electores": 23390
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -15",
+        "tipo_area": "urbano",
+        "pobreza": 24.6,
+        "voto_x": 7.11,
+        "electores": 29022
+      },
+      {
+        "departamento": "La Libertad",
+        "distrito": "LA -16",
+        "tipo_area": "urbano",
+        "pobreza": 22.5,
+        "voto_x": 11.82,
+        "electores": 1470
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-01",
+        "tipo_area": "rural",
+        "pobreza": 20.7,
+        "voto_x": 11.85,
+        "electores": 11877
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-02",
+        "tipo_area": "urbano",
+        "pobreza": 23.1,
+        "voto_x": 11.27,
+        "electores": 13252
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-03",
+        "tipo_area": "urbano",
+        "pobreza": 23.5,
+        "voto_x": 9.17,
+        "electores": 11770
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-04",
+        "tipo_area": "urbano",
+        "pobreza": 15.6,
+        "voto_x": 17.68,
+        "electores": 71376
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-05",
+        "tipo_area": "urbano",
+        "pobreza": 26.4,
+        "voto_x": 9.59,
+        "electores": 7569
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-06",
+        "tipo_area": "urbano",
+        "pobreza": 16.7,
+        "voto_x": 10.94,
+        "electores": 9910
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-07",
+        "tipo_area": "urbano",
+        "pobreza": 24.2,
+        "voto_x": 9.5,
+        "electores": 5919
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-08",
+        "tipo_area": "rural",
+        "pobreza": 32.3,
+        "voto_x": 18.88,
+        "electores": 28068
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-09",
+        "tipo_area": "urbano",
+        "pobreza": 10.4,
+        "voto_x": 10.43,
+        "electores": 8227
+      },
+      {
+        "departamento": "Lambayeque",
+        "distrito": "LAM-10",
+        "tipo_area": "urbano",
+        "pobreza": 20.6,
+        "voto_x": 17.13,
+        "electores": 17930
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-01",
+        "tipo_area": "rural",
+        "pobreza": 19.6,
+        "voto_x": 13.82,
+        "electores": 1192811
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-02",
+        "tipo_area": "mixto",
+        "pobreza": 26.7,
+        "voto_x": 20.56,
+        "electores": 1248215
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-03",
+        "tipo_area": "mixto",
+        "pobreza": 19.3,
+        "voto_x": 13.96,
+        "electores": 1153545
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-04",
+        "tipo_area": "rural",
+        "pobreza": 26.1,
+        "voto_x": 19.55,
+        "electores": 651099
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-05",
+        "tipo_area": "urbano",
+        "pobreza": 20.8,
+        "voto_x": 10.64,
+        "electores": 165227
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-06",
+        "tipo_area": "mixto",
+        "pobreza": 21.5,
+        "voto_x": 8.02,
+        "electores": 875898
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-07",
+        "tipo_area": "urbano",
+        "pobreza": 19.0,
+        "voto_x": 11.0,
+        "electores": 332537
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-08",
+        "tipo_area": "urbano",
+        "pobreza": 12.1,
+        "voto_x": 2.0,
+        "electores": 404720
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-09",
+        "tipo_area": "rural",
+        "pobreza": 29.3,
+        "voto_x": 13.67,
+        "electores": 479286
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-10",
+        "tipo_area": "rural",
+        "pobreza": 31.2,
+        "voto_x": 11.13,
+        "electores": 541794
+      },
+      {
+        "departamento": "Lima",
+        "distrito": "LIM-11",
+        "tipo_area": "mixto",
+        "pobreza": 19.5,
+        "voto_x": 15.84,
+        "electores": 154867
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-01",
+        "tipo_area": "urbano",
+        "pobreza": 29.7,
+        "voto_x": 18.08,
+        "electores": 11899
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-02",
+        "tipo_area": "mixto",
+        "pobreza": 42.4,
+        "voto_x": 18.45,
+        "electores": 42784
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-03",
+        "tipo_area": "rural",
+        "pobreza": 55.0,
+        "voto_x": 12.13,
+        "electores": 285158
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-04",
+        "tipo_area": "mixto",
+        "pobreza": 35.8,
+        "voto_x": 21.19,
+        "electores": 14244
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-05",
+        "tipo_area": "urbano",
+        "pobreza": 21.3,
+        "voto_x": 9.33,
+        "electores": 221197
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-06",
+        "tipo_area": "urbano",
+        "pobreza": 36.3,
+        "voto_x": 16.49,
+        "electores": 56714
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-07",
+        "tipo_area": "urbano",
+        "pobreza": 34.5,
+        "voto_x": 16.14,
+        "electores": 184743
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-08",
+        "tipo_area": "urbano",
+        "pobreza": 37.7,
+        "voto_x": 3.91,
+        "electores": 133611
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-09",
+        "tipo_area": "rural",
+        "pobreza": 36.8,
+        "voto_x": 19.63,
+        "electores": 49235
+      },
+      {
+        "departamento": "Loreto",
+        "distrito": "LOR-10",
+        "tipo_area": "mixto",
+        "pobreza": 32.6,
+        "voto_x": 14.97,
+        "electores": 100191
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-01",
+        "tipo_area": "urbano",
+        "pobreza": 12.0,
+        "voto_x": 11.74,
+        "electores": 12176
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-02",
+        "tipo_area": "urbano",
+        "pobreza": 21.1,
+        "voto_x": 11.66,
+        "electores": 38779
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-03",
+        "tipo_area": "urbano",
+        "pobreza": 15.3,
+        "voto_x": 7.32,
+        "electores": 33625
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-04",
+        "tipo_area": "mixto",
+        "pobreza": 17.9,
+        "voto_x": 10.36,
+        "electores": 34140
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-05",
+        "tipo_area": "mixto",
+        "pobreza": 13.9,
+        "voto_x": 2.5,
+        "electores": 40688
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-06",
+        "tipo_area": "urbano",
+        "pobreza": 5.0,
+        "voto_x": 11.66,
+        "electores": 69899
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-07",
+        "tipo_area": "urbano",
+        "pobreza": 6.1,
+        "voto_x": 9.18,
+        "electores": 26991
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-08",
+        "tipo_area": "urbano",
+        "pobreza": 5.0,
+        "voto_x": 2.76,
+        "electores": 33407
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-09",
+        "tipo_area": "rural",
+        "pobreza": 9.3,
+        "voto_x": 8.24,
+        "electores": 12418
+      },
+      {
+        "departamento": "Moquegua",
+        "distrito": "MOQ-10",
+        "tipo_area": "urbano",
+        "pobreza": 5.0,
+        "voto_x": 12.84,
+        "electores": 25090
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-01",
+        "tipo_area": "rural",
+        "pobreza": 37.7,
+        "voto_x": 6.08,
+        "electores": 7328
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-02",
+        "tipo_area": "urbano",
+        "pobreza": 27.5,
+        "voto_x": 15.27,
+        "electores": 38614
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-03",
+        "tipo_area": "urbano",
+        "pobreza": 37.5,
+        "voto_x": 8.42,
+        "electores": 96976
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-04",
+        "tipo_area": "mixto",
+        "pobreza": 42.9,
+        "voto_x": 10.12,
+        "electores": 68071
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-05",
+        "tipo_area": "rural",
+        "pobreza": 40.9,
+        "voto_x": 8.72,
+        "electores": 15377
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-06",
+        "tipo_area": "mixto",
+        "pobreza": 23.3,
+        "voto_x": 8.6,
+        "electores": 42169
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-07",
+        "tipo_area": "rural",
+        "pobreza": 40.3,
+        "voto_x": 16.15,
+        "electores": 53040
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-08",
+        "tipo_area": "urbano",
+        "pobreza": 29.8,
+        "voto_x": 18.02,
+        "electores": 1356
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-09",
+        "tipo_area": "urbano",
+        "pobreza": 31.0,
+        "voto_x": 10.25,
+        "electores": 126634
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-10",
+        "tipo_area": "urbano",
+        "pobreza": 32.2,
+        "voto_x": 9.42,
+        "electores": 20443
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-11",
+        "tipo_area": "rural",
+        "pobreza": 45.9,
+        "voto_x": 16.92,
+        "electores": 7201
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-12",
+        "tipo_area": "urbano",
+        "pobreza": 42.2,
+        "voto_x": 22.95,
+        "electores": 365886
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-13",
+        "tipo_area": "rural",
+        "pobreza": 43.2,
+        "voto_x": 25.99,
+        "electores": 12188
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-14",
+        "tipo_area": "mixto",
+        "pobreza": 30.0,
+        "voto_x": 14.18,
+        "electores": 34768
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-15",
+        "tipo_area": "mixto",
+        "pobreza": 33.5,
+        "voto_x": 12.36,
+        "electores": 19558
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-16",
+        "tipo_area": "rural",
+        "pobreza": 45.6,
+        "voto_x": 13.78,
+        "electores": 126972
+      },
+      {
+        "departamento": "Pasco",
+        "distrito": "PAS-17",
+        "tipo_area": "urbano",
+        "pobreza": 24.4,
+        "voto_x": 13.04,
+        "electores": 36136
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-01",
+        "tipo_area": "urbano",
+        "pobreza": 15.0,
+        "voto_x": 12.33,
+        "electores": 22338
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-02",
+        "tipo_area": "rural",
+        "pobreza": 40.1,
+        "voto_x": 9.08,
+        "electores": 39503
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-03",
+        "tipo_area": "rural",
+        "pobreza": 46.3,
+        "voto_x": 16.04,
+        "electores": 39135
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-04",
+        "tipo_area": "urbano",
+        "pobreza": 23.2,
+        "voto_x": 16.94,
+        "electores": 23737
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-05",
+        "tipo_area": "mixto",
+        "pobreza": 38.6,
+        "voto_x": 13.09,
+        "electores": 56167
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-06",
+        "tipo_area": "urbano",
+        "pobreza": 29.4,
+        "voto_x": 9.93,
+        "electores": 88521
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-07",
+        "tipo_area": "mixto",
+        "pobreza": 31.8,
+        "voto_x": 8.52,
+        "electores": 10706
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-08",
+        "tipo_area": "urbano",
+        "pobreza": 26.5,
+        "voto_x": 22.33,
+        "electores": 11872
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-09",
+        "tipo_area": "urbano",
+        "pobreza": 17.9,
+        "voto_x": 8.93,
+        "electores": 11198
+      },
+      {
+        "departamento": "Piura",
+        "distrito": "PIU-10",
+        "tipo_area": "urbano",
+        "pobreza": 25.1,
+        "voto_x": 14.34,
+        "electores": 10196
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-01",
+        "tipo_area": "urbano",
+        "pobreza": 37.0,
+        "voto_x": 17.77,
+        "electores": 95210
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-02",
+        "tipo_area": "rural",
+        "pobreza": 49.7,
+        "voto_x": 14.27,
+        "electores": 12889
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-03",
+        "tipo_area": "urbano",
+        "pobreza": 28.4,
+        "voto_x": 10.56,
+        "electores": 10940
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-04",
+        "tipo_area": "urbano",
+        "pobreza": 42.9,
+        "voto_x": 18.46,
+        "electores": 38468
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-05",
+        "tipo_area": "urbano",
+        "pobreza": 37.0,
+        "voto_x": 10.81,
+        "electores": 23841
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-06",
+        "tipo_area": "rural",
+        "pobreza": 47.1,
+        "voto_x": 19.04,
+        "electores": 60256
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-07",
+        "tipo_area": "rural",
+        "pobreza": 47.4,
+        "voto_x": 16.36,
+        "electores": 27642
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-08",
+        "tipo_area": "rural",
+        "pobreza": 43.8,
+        "voto_x": 10.38,
+        "electores": 7439
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-09",
+        "tipo_area": "urbano",
+        "pobreza": 45.2,
+        "voto_x": 15.25,
+        "electores": 900
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-10",
+        "tipo_area": "urbano",
+        "pobreza": 41.6,
+        "voto_x": 19.59,
+        "electores": 45964
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-11",
+        "tipo_area": "mixto",
+        "pobreza": 39.8,
+        "voto_x": 12.88,
+        "electores": 13150
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-12",
+        "tipo_area": "rural",
+        "pobreza": 52.0,
+        "voto_x": 21.47,
+        "electores": 36447
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-13",
+        "tipo_area": "rural",
+        "pobreza": 55.0,
+        "voto_x": 22.22,
+        "electores": 12238
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-14",
+        "tipo_area": "rural",
+        "pobreza": 40.1,
+        "voto_x": 15.95,
+        "electores": 46321
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-15",
+        "tipo_area": "mixto",
+        "pobreza": 41.4,
+        "voto_x": 18.13,
+        "electores": 84485
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-16",
+        "tipo_area": "rural",
+        "pobreza": 43.4,
+        "voto_x": 22.57,
+        "electores": 86369
+      },
+      {
+        "departamento": "Puno",
+        "distrito": "PUN-17",
+        "tipo_area": "rural",
+        "pobreza": 49.7,
+        "voto_x": 20.39,
+        "electores": 102056
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-01",
+        "tipo_area": "urbano",
+        "pobreza": 27.3,
+        "voto_x": 15.83,
+        "electores": 139729
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-02",
+        "tipo_area": "urbano",
+        "pobreza": 35.0,
+        "voto_x": 14.18,
+        "electores": 43088
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-03",
+        "tipo_area": "mixto",
+        "pobreza": 30.5,
+        "voto_x": 14.94,
+        "electores": 26860
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-04",
+        "tipo_area": "rural",
+        "pobreza": 46.2,
+        "voto_x": 16.76,
+        "electores": 287301
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-05",
+        "tipo_area": "rural",
+        "pobreza": 46.8,
+        "voto_x": 15.69,
+        "electores": 20692
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-06",
+        "tipo_area": "urbano",
+        "pobreza": 21.5,
+        "voto_x": 6.76,
+        "electores": 58273
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-07",
+        "tipo_area": "rural",
+        "pobreza": 33.8,
+        "voto_x": 20.17,
+        "electores": 126354
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-08",
+        "tipo_area": "rural",
+        "pobreza": 47.9,
+        "voto_x": 19.21,
+        "electores": 41314
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-09",
+        "tipo_area": "mixto",
+        "pobreza": 32.4,
+        "voto_x": 13.16,
+        "electores": 55635
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-10",
+        "tipo_area": "urbano",
+        "pobreza": 25.1,
+        "voto_x": 12.66,
+        "electores": 119107
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-11",
+        "tipo_area": "urbano",
+        "pobreza": 18.6,
+        "voto_x": 13.89,
+        "electores": 45687
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-12",
+        "tipo_area": "rural",
+        "pobreza": 39.5,
+        "voto_x": 18.53,
+        "electores": 89293
+      },
+      {
+        "departamento": "San Martin",
+        "distrito": "SAN-13",
+        "tipo_area": "urbano",
+        "pobreza": 32.3,
+        "voto_x": 6.12,
+        "electores": 41106
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-01",
+        "tipo_area": "urbano",
+        "pobreza": 5.0,
+        "voto_x": 4.53,
+        "electores": 57044
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-02",
+        "tipo_area": "urbano",
+        "pobreza": 5.1,
+        "voto_x": 4.46,
+        "electores": 38313
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-03",
+        "tipo_area": "mixto",
+        "pobreza": 11.8,
+        "voto_x": 2.17,
+        "electores": 26316
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-04",
+        "tipo_area": "mixto",
+        "pobreza": 5.5,
+        "voto_x": 10.72,
+        "electores": 28104
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-05",
+        "tipo_area": "urbano",
+        "pobreza": 20.0,
+        "voto_x": 3.66,
+        "electores": 2529
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-06",
+        "tipo_area": "mixto",
+        "pobreza": 19.5,
+        "voto_x": 9.04,
+        "electores": 93610
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-07",
+        "tipo_area": "urbano",
+        "pobreza": 18.4,
+        "voto_x": 8.53,
+        "electores": 16385
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-08",
+        "tipo_area": "mixto",
+        "pobreza": 7.3,
+        "voto_x": 11.36,
+        "electores": 47781
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-09",
+        "tipo_area": "rural",
+        "pobreza": 12.0,
+        "voto_x": 8.01,
+        "electores": 41589
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-10",
+        "tipo_area": "urbano",
+        "pobreza": 12.2,
+        "voto_x": 7.25,
+        "electores": 35673
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-11",
+        "tipo_area": "urbano",
+        "pobreza": 12.1,
+        "voto_x": 2.46,
+        "electores": 67728
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-12",
+        "tipo_area": "mixto",
+        "pobreza": 16.8,
+        "voto_x": 7.54,
+        "electores": 16559
+      },
+      {
+        "departamento": "Tacna",
+        "distrito": "TAC-13",
+        "tipo_area": "mixto",
+        "pobreza": 12.9,
+        "voto_x": 13.11,
+        "electores": 47765
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-01",
+        "tipo_area": "mixto",
+        "pobreza": 19.4,
+        "voto_x": 12.25,
+        "electores": 5317
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-02",
+        "tipo_area": "rural",
+        "pobreza": 22.2,
+        "voto_x": 8.31,
+        "electores": 75127
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-03",
+        "tipo_area": "urbano",
+        "pobreza": 31.0,
+        "voto_x": 13.33,
+        "electores": 29307
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-04",
+        "tipo_area": "mixto",
+        "pobreza": 27.4,
+        "voto_x": 9.9,
+        "electores": 45992
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-05",
+        "tipo_area": "rural",
+        "pobreza": 30.1,
+        "voto_x": 14.67,
+        "electores": 49362
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-06",
+        "tipo_area": "mixto",
+        "pobreza": 20.3,
+        "voto_x": 9.6,
+        "electores": 7659
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-07",
+        "tipo_area": "urbano",
+        "pobreza": 15.6,
+        "voto_x": 5.33,
+        "electores": 96842
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-08",
+        "tipo_area": "urbano",
+        "pobreza": 12.7,
+        "voto_x": 11.73,
+        "electores": 24493
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-09",
+        "tipo_area": "mixto",
+        "pobreza": 15.7,
+        "voto_x": 7.88,
+        "electores": 20583
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-10",
+        "tipo_area": "rural",
+        "pobreza": 32.6,
+        "voto_x": 20.67,
+        "electores": 1493
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-11",
+        "tipo_area": "mixto",
+        "pobreza": 21.6,
+        "voto_x": 17.45,
+        "electores": 6725
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-12",
+        "tipo_area": "urbano",
+        "pobreza": 26.2,
+        "voto_x": 8.54,
+        "electores": 22239
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-13",
+        "tipo_area": "urbano",
+        "pobreza": 32.6,
+        "voto_x": 17.93,
+        "electores": 78733
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-14",
+        "tipo_area": "mixto",
+        "pobreza": 24.4,
+        "voto_x": 10.4,
+        "electores": 73720
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-15",
+        "tipo_area": "urbano",
+        "pobreza": 9.8,
+        "voto_x": 8.44,
+        "electores": 17041
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-16",
+        "tipo_area": "rural",
+        "pobreza": 29.7,
+        "voto_x": 18.54,
+        "electores": 4294
+      },
+      {
+        "departamento": "Tumbes",
+        "distrito": "TUM-17",
+        "tipo_area": "urbano",
+        "pobreza": 30.9,
+        "voto_x": 8.29,
+        "electores": 3669
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-01",
+        "tipo_area": "rural",
+        "pobreza": 52.5,
+        "voto_x": 17.88,
+        "electores": 30732
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-02",
+        "tipo_area": "mixto",
+        "pobreza": 42.9,
+        "voto_x": 19.81,
+        "electores": 3945
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-03",
+        "tipo_area": "rural",
+        "pobreza": 47.4,
+        "voto_x": 27.11,
+        "electores": 6844
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-04",
+        "tipo_area": "urbano",
+        "pobreza": 39.5,
+        "voto_x": 20.68,
+        "electores": 22017
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-05",
+        "tipo_area": "urbano",
+        "pobreza": 37.2,
+        "voto_x": 18.92,
+        "electores": 15790
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-06",
+        "tipo_area": "mixto",
+        "pobreza": 40.8,
+        "voto_x": 9.82,
+        "electores": 13245
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-07",
+        "tipo_area": "mixto",
+        "pobreza": 35.0,
+        "voto_x": 12.94,
+        "electores": 44198
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-08",
+        "tipo_area": "urbano",
+        "pobreza": 35.5,
+        "voto_x": 7.46,
+        "electores": 7248
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-09",
+        "tipo_area": "mixto",
+        "pobreza": 45.0,
+        "voto_x": 16.67,
+        "electores": 21105
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-10",
+        "tipo_area": "urbano",
+        "pobreza": 32.5,
+        "voto_x": 15.91,
+        "electores": 174787
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-11",
+        "tipo_area": "rural",
+        "pobreza": 34.0,
+        "voto_x": 18.94,
+        "electores": 22678
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-12",
+        "tipo_area": "mixto",
+        "pobreza": 28.1,
+        "voto_x": 17.83,
+        "electores": 7845
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-13",
+        "tipo_area": "rural",
+        "pobreza": 42.9,
+        "voto_x": 21.66,
+        "electores": 86070
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-14",
+        "tipo_area": "urbano",
+        "pobreza": 33.9,
+        "voto_x": 19.86,
+        "electores": 6193
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-15",
+        "tipo_area": "urbano",
+        "pobreza": 30.6,
+        "voto_x": 14.05,
+        "electores": 14310
+      },
+      {
+        "departamento": "Ucayali",
+        "distrito": "UCA-16",
+        "tipo_area": "rural",
+        "pobreza": 52.2,
+        "voto_x": 11.84,
+        "electores": 14827
+      }
+    ],
+    "tipos_area": [
+      "mixto",
+      "rural",
+      "urbano"
+    ]
+  },
+  "caso4": {
+    "ranking_monto_bruto": {
+      "departamentos": [
+        "San Martin",
+        "Tacna",
+        "Arequipa",
+        "Ica",
+        "Callao",
+        "Moquegua",
+        "Piura",
+        "Apurimac",
+        "Ancash",
+        "Pasco",
+        "Ucayali",
+        "Cusco",
+        "Lima",
+        "Cajamarca",
+        "Puno"
+      ],
+      "monto_mm": [
+        209.33,
+        234.7,
+        235.15,
+        248.4,
+        252.47,
+        255.63,
+        263.85,
+        278.91,
+        287.01,
+        288.32,
+        294.62,
+        414.83,
+        445.79,
+        475.06,
+        486.63
+      ],
+      "n_obras": [
+        24,
+        39,
+        39,
+        45,
+        45,
+        33,
+        46,
+        41,
+        46,
+        32,
+        42,
+        52,
+        49,
+        68,
+        66
+      ]
+    },
+    "ranking_normalizado": {
+      "departamentos": [
+        "Arequipa",
+        "Loreto",
+        "Ancash",
+        "Lambayeque",
+        "Huancavelica",
+        "Ayacucho",
+        "Apurimac",
+        "Cajamarca",
+        "Ucayali",
+        "Puno",
+        "Moquegua",
+        "Cusco",
+        "San Martin",
+        "Pasco",
+        "Lima"
+      ],
+      "monto_por_obra_mm": [
+        6.03,
+        6.213,
+        6.239,
+        6.376,
+        6.632,
+        6.732,
+        6.803,
+        6.986,
+        7.015,
+        7.373,
+        7.746,
+        7.978,
+        8.722,
+        9.01,
+        9.098
+      ],
+      "n_obras": [
+        39,
+        25,
+        46,
+        21,
+        28,
+        24,
+        41,
+        68,
+        42,
+        66,
+        33,
+        52,
+        24,
+        32,
+        49
+      ]
+    },
+    "por_sector": {
+      "sectores": [
+        "Saneamiento",
+        "Transporte",
+        "Educacion",
+        "Salud",
+        "Riego"
+      ],
+      "obras": [
+        233,
+        223,
+        181,
+        162,
+        84
+      ],
+      "monto_mm": [
+        1746.1,
+        1451.61,
+        1155.44,
+        1007.17,
+        520.1
+      ]
+    },
+    "totales": {
+      "total_obras": 883,
+      "monto_total_mm": 5880.4
+    }
+  },
+  "caso5": {
+    "cardinalidad": {
+      "mesas_unicas": 1358,
+      "distritos_en_fact": 334,
+      "distritos_en_dim_territorio": 334,
+      "distritos_en_dim_servicios": 334,
+      "dim_territorio_clave_unica": true,
+      "distritos_sin_dim": [],
+      "mesas_con_votos_validos_inconsistente": 0,
+      "total_votos_fact": 254830,
+      "total_votos_tras_join_correcto": 254830,
+      "inflacion_votos_si_join_malo": 0,
+      "elecciones_unicas": 1,
+      "organizaciones_unicas": 5
+    }
+  }
+}

@@ -1,0 +1,126 @@
+eleccion,ambito_mostrado,tipo_ambito,nivel_fila,total_actas,actas_contabilizadas,actas_jee,actas_pendientes,votos_validos,fila_panel_resumen,pct_contabilizadas,riesgo_cambio_visual,nota
+Formula Presidencial,Nacional,nacional,panel_resumen,92766,92618,148,0,16729875,True,99.84,0.0015954121121962788,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Amazonas,departamento_detalle,detalle_departamental,10068,10045,23,0,1886134,False,99.772,0.0022844656336909017,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Ancash,departamento_detalle,detalle_departamental,781,754,1,0,152371,False,96.543,0.0012804097311139564,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Apurimac,departamento_detalle,detalle_departamental,710,708,2,0,121451,False,99.718,0.0028169014084507044,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Arequipa,departamento_detalle,detalle_departamental,5461,4981,5,0,997453,False,91.21,0.0009155832265152902,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Ayacucho,departamento_detalle,detalle_departamental,7851,7758,11,0,1349300,False,98.815,0.0014010954018596356,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Cajamarca,departamento_detalle,detalle_departamental,558,516,1,0,93784,False,92.473,0.0017921146953405018,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Callao,departamento_detalle,detalle_departamental,3492,3485,7,0,650354,False,99.8,0.002004581901489118,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Cusco,departamento_detalle,detalle_departamental,4204,4062,7,0,753588,False,96.622,0.001665080875356803,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Huancavelica,departamento_detalle,detalle_departamental,1549,1487,4,0,316241,False,95.997,0.0025823111684958036,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Huanuco,departamento_detalle,detalle_departamental,3596,3589,7,0,649605,False,99.805,0.001946607341490545,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Ica,departamento_detalle,detalle_departamental,6050,6041,9,0,1094965,False,99.851,0.0014876033057851239,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Junin,departamento_detalle,detalle_departamental,7800,7311,12,0,1409351,False,93.731,0.0015384615384615385,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,La Libertad,departamento_detalle,detalle_departamental,1656,1653,3,0,234330,False,99.819,0.0018115942028985507,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Lambayeque,departamento_detalle,detalle_departamental,1710,1679,4,0,322091,False,98.187,0.0023391812865497076,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Lima,departamento_detalle,detalle_departamental,2546,2484,6,0,440790,False,97.565,0.002356637863315004,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Loreto,departamento_detalle,detalle_departamental,1611,1588,3,0,294533,False,98.572,0.00186219739292365,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Moquegua,departamento_detalle,detalle_departamental,7739,7110,21,0,1325779,False,91.872,0.0027135288797002196,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Pasco,departamento_detalle,detalle_departamental,68,68,0,0,13198,False,100.0,0.0,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Piura,departamento_detalle,detalle_departamental,1140,1138,2,0,189245,False,99.825,0.0017543859649122807,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Puno,departamento_detalle,detalle_departamental,17807,17789,16,0,3437978,False,99.899,0.0008985230527320717,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,San Martin,departamento_detalle,detalle_departamental,1820,1818,1,0,345745,False,99.89,0.0005494505494505495,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Tacna,departamento_detalle,detalle_departamental,3411,3280,5,0,651199,False,96.159,0.001465845793022574,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Tumbes,departamento_detalle,detalle_departamental,996,983,1,0,166012,False,98.695,0.001004016064257028,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Formula Presidencial,Ucayali,departamento_detalle,detalle_departamental,142,142,0,0,24879,False,100.0,0.0,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Nacional,nacional,panel_resumen,92766,79020,13729,17,12897001,True,85.182,0.14817928982601383,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Amazonas,departamento_detalle,detalle_departamental,10289,8319,1970,0,1443798,False,80.853,0.1914666148313733,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Ancash,departamento_detalle,detalle_departamental,13080,10593,2071,2,1965488,False,80.986,0.15848623853211008,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Apurimac,departamento_detalle,detalle_departamental,4733,3916,816,1,654072,False,82.738,0.1726177899852102,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Arequipa,departamento_detalle,detalle_departamental,9241,7526,1713,2,1211659,False,81.441,0.18558597554377232,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Ayacucho,departamento_detalle,detalle_departamental,388,327,61,0,58839,False,84.278,0.15721649484536082,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Cajamarca,departamento_detalle,detalle_departamental,299,245,54,0,40112,False,81.94,0.1806020066889632,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Callao,departamento_detalle,detalle_departamental,4261,3707,382,1,588504,False,86.998,0.0898850035203004,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Cusco,departamento_detalle,detalle_departamental,4044,3321,723,0,592619,False,82.122,0.17878338278931752,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Huancavelica,departamento_detalle,detalle_departamental,1901,1494,220,1,258341,False,78.59,0.1162546028406102,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Huanuco,departamento_detalle,detalle_departamental,3456,2494,961,1,473803,False,72.164,0.27835648148148145,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Ica,departamento_detalle,detalle_departamental,3707,2888,615,1,524230,False,77.907,0.1661721068249258,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Junin,departamento_detalle,detalle_departamental,594,415,179,0,83796,False,69.865,0.30134680134680136,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,La Libertad,departamento_detalle,detalle_departamental,7696,6589,741,2,1181896,False,85.616,0.09654365904365904,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Lambayeque,departamento_detalle,detalle_departamental,2684,2167,517,0,359701,False,80.738,0.19262295081967212,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Lima,departamento_detalle,detalle_departamental,2276,2083,193,0,315747,False,91.52,0.08479789103690685,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Loreto,departamento_detalle,detalle_departamental,1161,928,98,0,146298,False,79.931,0.08440999138673558,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Moquegua,departamento_detalle,detalle_departamental,169,138,31,0,24942,False,81.657,0.1834319526627219,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Pasco,departamento_detalle,detalle_departamental,2141,1794,20,0,256245,False,83.793,0.009341429238673517,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Piura,departamento_detalle,detalle_departamental,4877,4027,849,1,668929,False,82.571,0.1742874718064384,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Puno,departamento_detalle,detalle_departamental,5035,3986,1048,1,750519,False,79.166,0.2083416087388282,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,San Martin,departamento_detalle,detalle_departamental,1995,1612,383,0,267374,False,80.802,0.19197994987468672,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Tacna,departamento_detalle,detalle_departamental,222,192,18,0,27756,False,86.486,0.08108108108108109,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Tumbes,departamento_detalle,detalle_departamental,458,381,77,0,63362,False,83.188,0.16812227074235808,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DU,Ucayali,departamento_detalle,detalle_departamental,8059,6424,715,2,1199814,False,79.712,0.08896885469661248,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Lima Metropolitana,distrito_electoral,panel_resumen,26368,24484,1883,1,4396254,True,92.855,0.0714502427184466,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Amazonas,departamento_detalle,detalle_departamental,972,852,120,0,172956,False,87.654,0.12345679012345678,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Ancash,departamento_detalle,detalle_departamental,465,425,40,0,73104,False,91.398,0.08602150537634409,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Apurimac,departamento_detalle,detalle_departamental,1061,983,78,0,161184,False,92.648,0.07351555136663525,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Arequipa,departamento_detalle,detalle_departamental,177,158,19,0,25743,False,89.266,0.10734463276836158,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Ayacucho,departamento_detalle,detalle_departamental,923,883,28,0,164579,False,95.666,0.030335861321776816,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Cajamarca,departamento_detalle,detalle_departamental,3400,3006,184,0,526924,False,88.412,0.05411764705882353,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Callao,departamento_detalle,detalle_departamental,102,90,3,0,17900,False,88.235,0.029411764705882353,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Cusco,departamento_detalle,detalle_departamental,1362,1227,135,0,251975,False,90.088,0.09911894273127753,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Huancavelica,departamento_detalle,detalle_departamental,1172,1035,81,0,176771,False,88.311,0.06911262798634812,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Huanuco,departamento_detalle,detalle_departamental,621,556,24,0,97065,False,89.533,0.03864734299516908,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Ica,departamento_detalle,detalle_departamental,4017,3702,315,0,628366,False,92.158,0.07841672890216579,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Junin,departamento_detalle,detalle_departamental,755,687,68,0,121810,False,90.993,0.09006622516556291,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,La Libertad,departamento_detalle,detalle_departamental,1016,899,117,0,165778,False,88.484,0.11515748031496063,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Lambayeque,departamento_detalle,detalle_departamental,643,604,39,0,100217,False,93.935,0.060653188180404355,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Lima,departamento_detalle,detalle_departamental,2956,2702,205,0,453950,False,91.407,0.06935047361299053,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Loreto,departamento_detalle,detalle_departamental,229,209,20,0,44756,False,91.266,0.08733624454148471,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Moquegua,departamento_detalle,detalle_departamental,497,442,55,0,91076,False,88.934,0.11066398390342053,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Pasco,departamento_detalle,detalle_departamental,549,525,24,0,96296,False,95.628,0.04371584699453552,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Piura,departamento_detalle,detalle_departamental,96,86,9,0,14412,False,89.583,0.09375,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Puno,departamento_detalle,detalle_departamental,795,741,47,0,126513,False,93.208,0.05911949685534591,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,San Martin,departamento_detalle,detalle_departamental,529,462,44,0,85605,False,87.335,0.0831758034026465,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Tacna,departamento_detalle,detalle_departamental,1079,961,118,0,175226,False,89.064,0.10936051899907322,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Tumbes,departamento_detalle,detalle_departamental,218,197,21,0,35535,False,90.367,0.0963302752293578,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Senadores DM,Ucayali,departamento_detalle,detalle_departamental,2732,2485,142,0,489627,False,90.959,0.05197657393850659,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Lima Metropolitana,distrito_electoral,panel_resumen,26368,24056,2312,0,4546985,True,91.232,0.08768203883495146,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Amazonas,departamento_detalle,detalle_departamental,124,109,15,0,22183,False,87.903,0.12096774193548387,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Ancash,departamento_detalle,detalle_departamental,41,36,3,0,7195,False,87.805,0.07317073170731707,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Apurimac,departamento_detalle,detalle_departamental,2368,2181,187,0,367704,False,92.103,0.0789695945945946,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Arequipa,departamento_detalle,detalle_departamental,326,291,35,0,52464,False,89.264,0.10736196319018405,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Ayacucho,departamento_detalle,detalle_departamental,1266,1104,98,0,237065,False,87.204,0.07740916271721959,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Cajamarca,departamento_detalle,detalle_departamental,1278,1160,118,0,256563,False,90.767,0.09233176838810642,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Callao,departamento_detalle,detalle_departamental,1456,1303,153,0,255146,False,89.492,0.10508241758241758,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Cusco,departamento_detalle,detalle_departamental,493,449,44,0,98269,False,91.075,0.08924949290060852,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Huancavelica,departamento_detalle,detalle_departamental,1314,1142,129,0,236660,False,86.91,0.09817351598173515,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Huanuco,departamento_detalle,detalle_departamental,1107,1031,55,0,194649,False,93.135,0.04968383017163505,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Ica,departamento_detalle,detalle_departamental,2653,2354,299,0,431898,False,88.73,0.1127026008292499,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Junin,departamento_detalle,detalle_departamental,967,928,33,0,180247,False,95.967,0.03412616339193381,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,La Libertad,departamento_detalle,detalle_departamental,326,297,25,0,47917,False,91.104,0.07668711656441718,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Lambayeque,departamento_detalle,detalle_departamental,941,885,24,0,170666,False,94.049,0.025504782146652496,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Lima,departamento_detalle,detalle_departamental,1287,1164,86,0,229614,False,90.443,0.06682206682206682,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Loreto,departamento_detalle,detalle_departamental,1550,1430,112,0,273336,False,92.258,0.07225806451612904,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Moquegua,departamento_detalle,detalle_departamental,1463,1368,95,0,221252,False,93.506,0.06493506493506493,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Pasco,departamento_detalle,detalle_departamental,440,414,21,0,79110,False,94.091,0.04772727272727273,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Piura,departamento_detalle,detalle_departamental,572,520,34,0,105213,False,90.909,0.05944055944055944,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Puno,departamento_detalle,detalle_departamental,2004,1883,121,0,327779,False,93.962,0.06037924151696607,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,San Martin,departamento_detalle,detalle_departamental,320,287,33,0,55922,False,89.688,0.103125,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Tacna,departamento_detalle,detalle_departamental,225,198,23,0,36068,False,88.0,0.10222222222222223,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Tumbes,departamento_detalle,detalle_departamental,1044,904,71,0,179611,False,86.59,0.06800766283524905,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Diputados,Ucayali,departamento_detalle,detalle_departamental,2804,2504,300,0,492947,False,89.301,0.10699001426533523,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Nacional,nacional,panel_resumen,92766,82475,10280,11,12085302,True,88.906,0.11093504085548585,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Amazonas,departamento_detalle,detalle_departamental,3251,2974,276,1,395831,False,91.48,0.08520455244540141,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Ancash,departamento_detalle,detalle_departamental,6498,5766,229,1,750412,False,88.735,0.035395506309633736,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Apurimac,departamento_detalle,detalle_departamental,2269,1884,229,1,277747,False,83.032,0.10136624063464081,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Arequipa,departamento_detalle,detalle_departamental,4522,3854,583,1,496786,False,85.228,0.12914639540026537,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Ayacucho,departamento_detalle,detalle_departamental,4448,4125,323,0,576263,False,92.738,0.07261690647482015,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Cajamarca,departamento_detalle,detalle_departamental,670,605,62,0,99184,False,90.299,0.09253731343283582,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Callao,departamento_detalle,detalle_departamental,1005,873,120,0,125487,False,86.866,0.11940298507462686,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Cusco,departamento_detalle,detalle_departamental,3172,2742,259,0,385825,False,86.444,0.08165195460277427,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Huancavelica,departamento_detalle,detalle_departamental,3066,2717,148,1,418537,False,88.617,0.048597521200260924,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Huanuco,departamento_detalle,detalle_departamental,2145,1820,238,0,296259,False,84.848,0.11095571095571095,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Ica,departamento_detalle,detalle_departamental,455,403,44,0,55799,False,88.571,0.0967032967032967,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Junin,departamento_detalle,detalle_departamental,2099,1770,329,0,258069,False,84.326,0.15674130538351597,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,La Libertad,departamento_detalle,detalle_departamental,2011,1595,416,0,289840,False,79.314,0.20686225758329188,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Lambayeque,departamento_detalle,detalle_departamental,991,885,90,0,141046,False,89.304,0.09081735620585267,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Lima,departamento_detalle,detalle_departamental,26081,22742,3334,5,3480446,False,87.198,0.1280242321996856,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Loreto,departamento_detalle,detalle_departamental,7540,6651,345,1,1020732,False,88.21,0.04588859416445623,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Moquegua,departamento_detalle,detalle_departamental,2696,2354,277,0,371114,False,87.315,0.10274480712166172,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Pasco,departamento_detalle,detalle_departamental,2202,1976,168,0,296304,False,89.737,0.07629427792915532,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Piura,departamento_detalle,detalle_departamental,4123,3301,821,1,575927,False,80.063,0.19936939121998545,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Puno,departamento_detalle,detalle_departamental,3397,2847,305,0,412459,False,83.809,0.08978510450397409,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,San Martin,departamento_detalle,detalle_departamental,2191,1923,268,0,298519,False,87.768,0.1223185759926974,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Tacna,departamento_detalle,detalle_departamental,1890,1591,230,0,249703,False,84.18,0.12169312169312169,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Tumbes,departamento_detalle,detalle_departamental,3418,2875,543,0,445644,False,84.114,0.1588648332358104,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.
+Parlamento Andino,Ucayali,departamento_detalle,detalle_departamental,2628,2152,476,0,371117,False,81.887,0.1811263318112633,Sintetico; diseñado para comparar elecciones con distinto avance y ambito.

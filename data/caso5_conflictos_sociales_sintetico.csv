@@ -1,0 +1,568 @@
+departamento,id_conflicto,tipo_conflicto,estado,en_dialogo,duracion_meses_sintetica,poblacion_afectada_sintetica,nota
+Amazonas,CS-AMA-001,socioambiental-mineria,activo,si,1,6733,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-002,gobierno nacional,activo,si,17,1073,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-003,socioambiental-mineria,latente,no aplica,42,10640,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-004,gobierno nacional,activo,si,26,7228,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-005,socioambiental-hidrocarburos,activo,si,10,8730,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-006,socioambiental-hidrocarburos,activo,si,1,1254,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-007,otros,activo,si,14,4851,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-008,gobierno nacional,activo,no,3,9420,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-009,gobierno nacional,activo,no,20,10393,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-010,socioambiental-mineria,activo,no,25,3356,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-011,gobierno nacional,latente,no aplica,7,3232,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-012,gobierno nacional,activo,si,6,1892,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-013,socioambiental-mineria,activo,si,11,8475,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-014,socioambiental-hidrocarburos,activo,si,7,3157,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-015,socioambiental-hidrocarburos,activo,no,1,67701,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-016,gobierno nacional,activo,si,16,6295,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-017,socioambiental-mineria,activo,si,1,11128,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-018,socioambiental-mineria,activo,no,24,7010,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Amazonas,CS-AMA-019,electoral,activo,no,12,13743,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-001,socioambiental-mineria,activo,no,11,5379,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-002,electoral,activo,no,39,9926,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-003,otros,activo,si,20,11510,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-004,comunal,activo,no,16,20300,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-005,gobierno nacional,activo,si,13,806,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-006,comunal,activo,no,24,6500,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-007,socioambiental-hidrocarburos,activo,si,11,15552,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-008,socioambiental-hidrocarburos,activo,si,18,5637,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-009,electoral,latente,no aplica,8,23531,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-010,otros,activo,si,19,54980,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-011,laboral,activo,no,8,18114,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-012,socioambiental-mineria,activo,no,14,2282,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-013,socioambiental-mineria,activo,si,16,6853,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-014,otros,activo,no,34,7116,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-015,electoral,latente,no aplica,23,4450,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-016,otros,activo,no,13,1535,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-017,socioambiental-mineria,activo,si,10,3266,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-018,gobierno nacional,activo,si,38,9533,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-019,otros,activo,si,12,21441,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-020,comunal,activo,no,8,7387,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ancash,CS-ANC-021,socioambiental-mineria,activo,no,28,37922,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-001,comunal,activo,si,4,13358,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-002,gobierno nacional,activo,no,27,4412,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-003,socioambiental-mineria,activo,no,17,1827,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-004,socioambiental-mineria,activo,si,15,3867,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-005,socioambiental-mineria,activo,si,15,3859,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-006,socioambiental-hidrocarburos,activo,si,39,4647,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-007,laboral,activo,si,12,8476,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-008,gobierno nacional,activo,si,13,6420,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-009,socioambiental-mineria,activo,si,21,4043,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-010,otros,activo,si,32,3409,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-011,socioambiental-mineria,activo,no,15,8550,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-012,socioambiental-mineria,activo,no,22,3546,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-013,socioambiental-mineria,activo,no,37,10120,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-014,gobierno nacional,activo,no,17,3316,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-015,socioambiental-mineria,activo,si,25,6149,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-016,socioambiental-mineria,activo,no,13,6389,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-017,socioambiental-mineria,activo,no,30,979,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-018,socioambiental-mineria,activo,no,1,11530,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-019,gobierno nacional,activo,si,14,11961,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-020,otros,activo,no,1,7149,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-021,socioambiental-mineria,activo,no,13,5822,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-022,electoral,activo,no,31,12514,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-023,socioambiental-mineria,activo,si,27,16364,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-024,socioambiental-hidrocarburos,latente,no aplica,26,3782,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-025,socioambiental-mineria,latente,no aplica,10,938,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-026,otros,activo,no,1,3582,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-027,socioambiental-mineria,activo,si,9,1671,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-028,socioambiental-mineria,activo,no,9,2238,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-029,socioambiental-mineria,activo,si,23,2713,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-030,socioambiental-mineria,activo,no,4,6049,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-031,socioambiental-mineria,activo,si,19,2564,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-032,gobierno nacional,activo,si,25,5004,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-033,socioambiental-mineria,activo,no,27,3614,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-034,gobierno nacional,activo,si,30,4505,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-035,socioambiental-mineria,activo,si,40,29202,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-036,gobierno nacional,activo,si,39,6301,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-037,otros,activo,si,4,5494,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-038,otros,activo,si,26,9452,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-039,otros,activo,si,37,14469,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-040,gobierno nacional,activo,no,24,18022,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Apurimac,CS-APU-041,gobierno nacional,latente,no aplica,1,11997,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-001,socioambiental-mineria,latente,no aplica,20,8529,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-002,socioambiental-mineria,latente,no aplica,27,4581,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-003,gobierno nacional,activo,si,14,27197,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-004,laboral,activo,si,7,3204,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-005,gobierno nacional,latente,no aplica,9,3435,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-006,gobierno nacional,activo,si,13,9490,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-007,gobierno nacional,activo,si,20,879,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-008,socioambiental-hidrocarburos,activo,no,20,15882,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-009,socioambiental-hidrocarburos,activo,si,39,5213,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Arequipa,CS-ARE-010,laboral,activo,no,24,3397,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-001,socioambiental-mineria,activo,si,29,8475,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-002,socioambiental-mineria,activo,si,2,4814,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-003,comunal,latente,no aplica,23,5098,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-004,electoral,activo,si,23,3711,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-005,socioambiental-hidrocarburos,activo,no,1,13169,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-006,socioambiental-hidrocarburos,activo,si,1,13411,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-007,otros,activo,no,1,4302,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-008,otros,activo,si,27,5430,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-009,otros,activo,si,11,2650,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-010,gobierno nacional,activo,no,46,8381,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-011,socioambiental-mineria,activo,si,18,9603,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-012,comunal,activo,si,32,14912,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-013,comunal,latente,no aplica,9,7390,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-014,comunal,activo,no,30,15738,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-015,socioambiental-mineria,activo,si,7,3498,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-016,otros,activo,no,1,2129,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-017,socioambiental-hidrocarburos,activo,no,25,1613,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-018,socioambiental-mineria,activo,no,43,10262,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-019,socioambiental-mineria,activo,si,10,15210,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-020,comunal,latente,no aplica,20,2819,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-021,socioambiental-mineria,latente,no aplica,21,1494,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-022,otros,activo,si,12,3009,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ayacucho,CS-AYA-023,socioambiental-hidrocarburos,activo,no,9,9792,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-001,socioambiental-hidrocarburos,activo,si,6,5302,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-002,socioambiental-mineria,activo,si,31,10819,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-003,otros,activo,si,31,4834,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-004,socioambiental-mineria,activo,no,15,3218,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-005,laboral,activo,si,33,14529,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-006,socioambiental-mineria,activo,no,30,6135,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-007,gobierno nacional,activo,no,11,5889,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-008,electoral,latente,no aplica,4,4656,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-009,gobierno nacional,activo,no,14,39530,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-010,socioambiental-mineria,activo,no,1,10960,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-011,gobierno nacional,activo,no,30,4052,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-012,otros,latente,no aplica,9,2174,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-013,socioambiental-hidrocarburos,activo,no,31,11514,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-014,laboral,activo,no,9,8680,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-015,laboral,activo,si,6,8604,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-016,laboral,activo,no,20,3268,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-017,socioambiental-mineria,activo,no,28,6227,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-018,socioambiental-mineria,activo,no,9,2533,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-019,socioambiental-mineria,activo,si,7,21830,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-020,gobierno nacional,activo,si,18,3646,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-021,comunal,latente,no aplica,13,9022,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-022,socioambiental-mineria,activo,no,24,9105,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-023,comunal,activo,si,39,4626,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-024,laboral,activo,no,24,2840,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-025,laboral,activo,no,21,1948,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-026,electoral,activo,no,1,7904,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-027,comunal,activo,si,35,23423,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-028,comunal,activo,no,29,49751,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-029,otros,latente,no aplica,14,2149,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-030,socioambiental-mineria,activo,no,27,7325,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-031,socioambiental-mineria,activo,no,28,22259,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-032,socioambiental-mineria,activo,no,4,3849,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-033,socioambiental-mineria,activo,si,15,4662,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-034,socioambiental-mineria,activo,no,4,2588,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-035,socioambiental-mineria,activo,si,18,25132,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-036,laboral,activo,si,33,26644,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-037,socioambiental-mineria,activo,si,1,6310,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-038,otros,activo,si,34,14087,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-039,gobierno nacional,activo,no,31,5464,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cajamarca,CS-CAJ-040,socioambiental-hidrocarburos,activo,no,28,12393,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-001,socioambiental-mineria,activo,no,12,8751,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-002,socioambiental-mineria,activo,no,37,5314,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-003,comunal,latente,no aplica,33,51005,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-004,laboral,activo,si,35,21312,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-005,gobierno nacional,latente,no aplica,5,27906,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-006,socioambiental-mineria,activo,si,22,8797,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-007,socioambiental-mineria,latente,no aplica,48,2835,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-008,socioambiental-hidrocarburos,activo,no,20,9753,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-009,otros,activo,si,16,2923,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-010,socioambiental-mineria,activo,si,35,7399,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-011,otros,activo,si,1,2565,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-012,socioambiental-hidrocarburos,activo,no,26,4661,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-013,socioambiental-hidrocarburos,activo,no,30,2252,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-014,socioambiental-mineria,activo,no,48,8368,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-015,laboral,activo,no,16,10937,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-016,socioambiental-mineria,activo,si,1,7344,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-017,socioambiental-mineria,activo,no,26,15373,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-018,socioambiental-mineria,activo,no,14,10704,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-019,socioambiental-mineria,activo,si,46,19058,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-020,laboral,activo,si,20,2474,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-021,comunal,activo,no,6,31038,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-022,socioambiental-mineria,activo,si,29,5467,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Callao,CS-CAL-023,laboral,latente,no aplica,34,1515,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-001,laboral,activo,no,14,9668,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-002,laboral,activo,no,11,9537,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-003,comunal,activo,si,40,3013,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-004,socioambiental-mineria,activo,si,21,24819,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-005,socioambiental-mineria,activo,no,28,19702,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-006,laboral,activo,no,7,13095,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-007,socioambiental-mineria,activo,si,24,2901,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-008,socioambiental-mineria,activo,si,22,6962,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-009,laboral,activo,si,1,34064,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-010,comunal,activo,no,18,6618,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-011,laboral,activo,si,16,8859,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-012,otros,latente,no aplica,10,7553,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-013,socioambiental-mineria,activo,no,12,5551,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-014,gobierno nacional,activo,si,4,7380,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-015,laboral,activo,si,35,1060,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-016,gobierno nacional,activo,si,29,26452,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-017,laboral,activo,si,9,11240,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-018,gobierno nacional,activo,si,37,7392,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-019,socioambiental-hidrocarburos,activo,si,19,8340,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-020,otros,activo,no,31,83759,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-021,gobierno nacional,latente,no aplica,26,20538,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-022,gobierno nacional,activo,si,42,14998,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-023,socioambiental-mineria,latente,no aplica,33,2746,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-024,socioambiental-mineria,activo,no,17,42499,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-025,gobierno nacional,activo,si,15,1719,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-026,socioambiental-mineria,activo,no,1,3378,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-027,socioambiental-mineria,latente,no aplica,28,2491,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-028,electoral,latente,no aplica,21,9758,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-029,socioambiental-mineria,activo,no,23,10236,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-030,otros,activo,no,24,3628,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-031,gobierno nacional,activo,no,32,3494,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-032,comunal,activo,si,19,5828,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-033,otros,activo,si,33,6169,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-034,otros,latente,no aplica,22,9437,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-035,electoral,activo,si,35,3864,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-036,gobierno nacional,activo,si,27,19526,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-037,socioambiental-mineria,latente,no aplica,3,3765,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Cusco,CS-CUS-038,socioambiental-mineria,activo,si,17,1690,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-001,laboral,activo,si,21,9574,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-002,gobierno nacional,latente,no aplica,5,1806,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-003,comunal,latente,no aplica,7,7614,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-004,laboral,activo,no,12,23313,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-005,laboral,activo,no,1,2493,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-006,socioambiental-mineria,activo,si,28,2860,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-007,socioambiental-mineria,activo,no,23,2624,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-008,socioambiental-mineria,activo,si,24,3601,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-009,socioambiental-mineria,activo,si,19,2767,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-010,laboral,activo,si,34,10709,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-011,gobierno nacional,activo,no,30,3397,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-012,socioambiental-hidrocarburos,activo,no,46,7309,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huancavelica,CS-HUA-013,gobierno nacional,latente,no aplica,25,4741,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-001,otros,activo,si,19,4029,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-002,socioambiental-mineria,activo,no,8,6386,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-003,otros,activo,no,16,12987,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-004,otros,activo,si,13,2834,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-005,laboral,activo,si,1,10295,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-006,gobierno nacional,latente,no aplica,13,3453,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-007,gobierno nacional,activo,no,11,2842,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-008,gobierno nacional,activo,si,6,1716,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-009,gobierno nacional,activo,si,1,3880,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-010,laboral,activo,no,11,27120,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-011,socioambiental-mineria,activo,no,1,66354,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-012,gobierno nacional,activo,si,1,22200,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-013,comunal,activo,si,24,17137,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Huanuco,CS-HUA-014,socioambiental-mineria,activo,si,1,4105,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-001,socioambiental-hidrocarburos,activo,si,22,7216,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-002,socioambiental-mineria,activo,si,8,6990,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-003,laboral,activo,no,16,12444,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-004,socioambiental-mineria,activo,no,22,5673,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-005,otros,activo,si,14,5917,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-006,socioambiental-hidrocarburos,activo,si,26,7672,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-007,gobierno nacional,activo,si,11,6554,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-008,socioambiental-hidrocarburos,activo,si,10,3165,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-009,comunal,latente,no aplica,17,3031,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-010,socioambiental-hidrocarburos,activo,no,20,10799,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-011,otros,activo,no,6,6763,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ica,CS-ICA-012,gobierno nacional,activo,no,31,8400,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-001,otros,activo,no,28,4441,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-002,gobierno nacional,activo,no,36,24372,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-003,socioambiental-mineria,activo,si,30,52327,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-004,gobierno nacional,activo,si,18,24854,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-005,socioambiental-mineria,activo,no,5,2239,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-006,socioambiental-hidrocarburos,activo,no,3,5858,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-007,socioambiental-mineria,activo,no,21,5735,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-008,comunal,latente,no aplica,5,8207,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-009,socioambiental-mineria,activo,si,3,25580,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-010,gobierno nacional,activo,si,19,6907,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-011,socioambiental-hidrocarburos,activo,si,22,16349,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-012,otros,activo,si,4,8106,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-013,socioambiental-hidrocarburos,activo,no,1,10833,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-014,socioambiental-mineria,activo,si,1,9923,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-015,socioambiental-mineria,activo,no,10,3569,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-016,socioambiental-mineria,activo,si,42,19461,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-017,otros,activo,si,34,5261,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-018,socioambiental-mineria,activo,no,20,14479,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-019,gobierno nacional,latente,no aplica,22,10383,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Junin,CS-JUN-020,laboral,activo,no,5,18247,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -001,socioambiental-mineria,activo,si,65,6412,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -002,socioambiental-hidrocarburos,activo,si,29,4594,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -003,socioambiental-mineria,activo,no,50,9627,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -004,otros,latente,no aplica,23,5571,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -005,socioambiental-mineria,activo,no,19,3403,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -006,otros,activo,si,11,6965,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -007,socioambiental-mineria,activo,no,1,2934,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -008,electoral,activo,si,4,4889,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -009,socioambiental-mineria,activo,si,14,3430,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -010,socioambiental-mineria,activo,si,23,6560,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -011,socioambiental-mineria,activo,no,21,25630,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -012,socioambiental-mineria,activo,no,25,1447,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+La Libertad,CS-LA -013,gobierno nacional,activo,si,7,39382,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-001,laboral,activo,no,32,5679,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-002,comunal,activo,si,10,24102,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-003,otros,activo,si,28,6029,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-004,comunal,activo,no,1,10726,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-005,socioambiental-mineria,activo,si,9,2438,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-006,socioambiental-hidrocarburos,latente,no aplica,20,1672,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-007,gobierno nacional,activo,no,8,21774,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-008,laboral,activo,si,36,11010,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-009,laboral,latente,no aplica,10,8561,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-010,socioambiental-mineria,activo,si,10,2057,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-011,laboral,activo,si,15,6804,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-012,laboral,activo,si,6,5088,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-013,socioambiental-hidrocarburos,activo,si,1,8503,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-014,electoral,activo,no,24,17234,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-015,socioambiental-mineria,activo,si,11,4856,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-016,otros,activo,si,36,5949,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-017,otros,activo,si,42,13053,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-018,laboral,activo,no,5,4947,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-019,socioambiental-mineria,activo,no,24,1030,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-020,socioambiental-mineria,activo,no,1,3064,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-021,socioambiental-mineria,activo,si,1,4184,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lambayeque,CS-LAM-022,comunal,activo,no,10,7134,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-001,laboral,activo,si,16,5567,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-002,socioambiental-mineria,activo,no,26,3484,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-003,otros,activo,si,14,4134,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-004,laboral,activo,si,38,4692,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-005,socioambiental-mineria,activo,si,12,1582,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-006,gobierno nacional,latente,no aplica,28,8092,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-007,laboral,activo,no,6,2389,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-008,gobierno nacional,activo,no,15,22954,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-009,gobierno nacional,activo,si,1,7502,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-010,comunal,activo,si,14,25084,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-011,gobierno nacional,activo,no,3,14360,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-012,socioambiental-mineria,activo,si,8,26748,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-013,laboral,activo,no,22,42823,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-014,socioambiental-mineria,latente,no aplica,36,4543,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Lima,CS-LIM-015,gobierno nacional,activo,si,27,3697,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-001,comunal,activo,si,20,5182,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-002,otros,activo,no,30,9729,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-003,laboral,latente,no aplica,20,2710,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-004,socioambiental-mineria,activo,si,10,2551,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-005,socioambiental-mineria,activo,no,14,15293,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-006,socioambiental-mineria,activo,no,22,9927,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-007,comunal,latente,no aplica,11,5826,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-008,socioambiental-mineria,activo,si,7,4272,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-009,socioambiental-mineria,activo,no,10,5451,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-010,gobierno nacional,activo,si,24,14461,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-011,socioambiental-mineria,activo,si,32,19537,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-012,socioambiental-mineria,activo,si,24,23889,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-013,laboral,activo,no,1,4511,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-014,otros,activo,si,34,9905,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-015,laboral,activo,si,5,3540,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-016,gobierno nacional,activo,si,1,4302,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-017,socioambiental-hidrocarburos,activo,si,5,4706,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-018,laboral,activo,no,40,24742,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-019,gobierno nacional,latente,no aplica,14,2544,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-020,otros,activo,no,5,27955,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-021,laboral,activo,no,7,8280,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-022,laboral,activo,no,1,1559,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-023,otros,activo,si,17,9268,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-024,gobierno nacional,activo,no,19,14372,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-025,gobierno nacional,activo,si,28,6082,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-026,socioambiental-mineria,activo,si,1,3815,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-027,socioambiental-mineria,activo,no,22,4782,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-028,comunal,activo,si,28,2543,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-029,socioambiental-mineria,activo,si,28,1827,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-030,otros,activo,si,20,2620,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-031,otros,activo,si,17,10023,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-032,gobierno nacional,latente,no aplica,35,8233,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-033,socioambiental-mineria,activo,si,25,10491,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-034,socioambiental-hidrocarburos,activo,si,33,7150,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Loreto,CS-LOR-035,socioambiental-mineria,latente,no aplica,34,2146,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-001,socioambiental-mineria,activo,si,21,10922,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-002,socioambiental-mineria,activo,si,5,3335,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-003,socioambiental-mineria,activo,no,30,9466,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-004,comunal,activo,si,22,12848,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-005,socioambiental-mineria,latente,no aplica,29,7856,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-006,gobierno nacional,activo,no,27,3890,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-007,gobierno nacional,latente,no aplica,4,5266,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-008,socioambiental-mineria,activo,si,40,8836,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-009,socioambiental-hidrocarburos,latente,no aplica,45,4649,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-010,comunal,activo,si,13,4061,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-011,laboral,activo,no,24,6007,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-012,comunal,activo,no,37,25480,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-013,socioambiental-mineria,activo,si,7,10215,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Moquegua,CS-MOQ-014,socioambiental-hidrocarburos,latente,no aplica,16,9242,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-001,socioambiental-hidrocarburos,activo,si,1,8068,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-002,gobierno nacional,activo,si,13,15519,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-003,socioambiental-mineria,activo,no,19,12141,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-004,socioambiental-mineria,activo,no,30,7825,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-005,gobierno nacional,activo,si,3,29783,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-006,electoral,latente,no aplica,1,10895,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-007,comunal,activo,si,4,9325,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-008,otros,activo,no,11,9588,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-009,socioambiental-hidrocarburos,latente,no aplica,22,2547,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-010,laboral,activo,si,21,9293,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-011,socioambiental-mineria,activo,si,3,1684,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-012,electoral,latente,no aplica,10,3787,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-013,socioambiental-mineria,activo,no,15,5789,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-014,socioambiental-mineria,activo,no,18,764,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-015,gobierno nacional,activo,si,22,8663,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-016,otros,activo,si,27,14370,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-017,comunal,activo,no,16,13524,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-018,comunal,activo,si,28,11203,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-019,socioambiental-mineria,activo,si,28,6059,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-020,laboral,activo,no,6,6153,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-021,otros,activo,no,6,4941,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-022,socioambiental-mineria,activo,si,27,4055,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-023,socioambiental-mineria,activo,no,34,6742,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-024,socioambiental-hidrocarburos,activo,si,6,3385,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-025,gobierno nacional,activo,si,8,5981,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-026,comunal,activo,si,10,8491,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-027,socioambiental-mineria,activo,si,27,4420,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-028,otros,activo,no,3,24877,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-029,socioambiental-hidrocarburos,activo,si,1,4566,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-030,otros,activo,no,1,19096,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-031,socioambiental-mineria,activo,no,17,7724,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-032,socioambiental-mineria,activo,si,24,6720,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-033,gobierno nacional,activo,si,29,7275,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-034,socioambiental-mineria,latente,no aplica,42,5893,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-035,socioambiental-mineria,activo,si,13,6598,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-036,laboral,activo,no,12,7972,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-037,gobierno nacional,activo,si,21,2875,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-038,socioambiental-hidrocarburos,activo,si,14,2592,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-039,socioambiental-mineria,activo,no,16,35668,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-040,socioambiental-mineria,activo,si,31,2379,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-041,electoral,activo,no,1,1885,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-042,gobierno nacional,latente,no aplica,15,5655,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-043,otros,activo,si,18,18208,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-044,socioambiental-mineria,activo,no,17,4905,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-045,socioambiental-hidrocarburos,activo,si,11,6057,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-046,socioambiental-hidrocarburos,latente,no aplica,12,8120,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-047,socioambiental-mineria,activo,no,6,11205,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-048,laboral,activo,si,8,14916,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-049,comunal,activo,no,7,5202,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-050,socioambiental-mineria,activo,no,1,26878,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-051,laboral,activo,si,1,5635,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Pasco,CS-PAS-052,comunal,activo,no,23,1862,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-001,socioambiental-hidrocarburos,activo,si,46,9574,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-002,socioambiental-mineria,activo,no,23,8554,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-003,otros,activo,si,27,8139,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-004,gobierno nacional,activo,si,14,2595,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-005,socioambiental-mineria,activo,si,17,3084,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-006,socioambiental-mineria,activo,no,13,9433,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-007,gobierno nacional,activo,no,1,11944,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-008,socioambiental-mineria,activo,no,22,4667,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-009,gobierno nacional,activo,no,1,15866,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-010,socioambiental-mineria,activo,si,16,11079,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-011,socioambiental-mineria,activo,no,17,9851,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-012,comunal,activo,no,17,14488,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-013,laboral,activo,si,1,8893,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-014,socioambiental-mineria,activo,si,18,41951,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-015,otros,activo,no,23,11374,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-016,laboral,activo,no,29,9312,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-017,otros,activo,no,16,9926,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-018,laboral,activo,si,2,7420,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Piura,CS-PIU-019,socioambiental-mineria,activo,no,40,3298,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-001,socioambiental-hidrocarburos,activo,si,40,12014,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-002,socioambiental-hidrocarburos,latente,no aplica,1,12634,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-003,socioambiental-mineria,latente,no aplica,19,9655,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-004,socioambiental-mineria,activo,no,7,6812,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-005,comunal,activo,si,28,1333,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-006,gobierno nacional,latente,no aplica,9,27199,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-007,comunal,latente,no aplica,26,2400,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-008,otros,activo,si,7,9209,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-009,gobierno nacional,activo,no,26,29370,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-010,socioambiental-mineria,activo,no,15,13226,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-011,otros,latente,no aplica,25,3610,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-012,laboral,latente,no aplica,14,16106,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-013,comunal,activo,si,12,5894,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-014,socioambiental-mineria,activo,no,29,21461,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-015,electoral,activo,si,18,3127,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-016,gobierno nacional,activo,no,4,24815,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-017,otros,activo,si,18,9220,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-018,otros,activo,si,22,6404,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-019,socioambiental-mineria,activo,si,31,10553,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-020,socioambiental-mineria,activo,no,5,10514,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-021,socioambiental-mineria,latente,no aplica,31,3272,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-022,socioambiental-mineria,activo,si,2,14955,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-023,laboral,activo,si,10,8081,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-024,gobierno nacional,activo,si,18,4399,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-025,socioambiental-hidrocarburos,activo,si,1,2144,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-026,otros,activo,si,33,3180,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-027,socioambiental-mineria,activo,no,7,10242,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-028,electoral,activo,si,32,10343,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-029,gobierno nacional,latente,no aplica,9,3368,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-030,laboral,activo,si,1,2966,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-031,socioambiental-hidrocarburos,activo,no,1,7215,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-032,socioambiental-mineria,activo,si,14,12823,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-033,otros,activo,si,33,3160,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-034,gobierno nacional,activo,no,4,9663,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-035,electoral,latente,no aplica,5,10644,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-036,electoral,activo,si,14,10699,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-037,socioambiental-mineria,activo,si,11,47502,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-038,socioambiental-mineria,activo,no,20,2975,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-039,socioambiental-mineria,activo,si,13,28680,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-040,socioambiental-hidrocarburos,activo,si,22,5572,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-041,laboral,activo,no,4,6149,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-042,laboral,activo,no,7,36971,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-043,socioambiental-mineria,activo,no,17,5053,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-044,socioambiental-mineria,activo,no,1,5695,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-045,socioambiental-hidrocarburos,activo,si,20,4109,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-046,socioambiental-mineria,activo,no,31,2361,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-047,socioambiental-mineria,activo,si,11,3958,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-048,socioambiental-mineria,activo,no,1,24101,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Puno,CS-PUN-049,comunal,activo,no,36,5117,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-001,electoral,activo,si,8,5929,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-002,gobierno nacional,activo,no,1,10979,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-003,socioambiental-mineria,activo,no,20,15299,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-004,socioambiental-mineria,activo,si,26,7176,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-005,otros,activo,si,8,3100,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-006,socioambiental-mineria,activo,no,3,11057,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-007,socioambiental-hidrocarburos,activo,no,17,6384,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-008,socioambiental-hidrocarburos,activo,no,24,4094,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-009,comunal,latente,no aplica,10,6483,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-010,otros,activo,si,43,2256,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-011,socioambiental-mineria,activo,no,19,5208,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-012,gobierno nacional,activo,no,11,2277,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-013,otros,latente,no aplica,22,7046,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-014,electoral,activo,si,20,8343,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-015,gobierno nacional,activo,no,9,3954,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-016,comunal,latente,no aplica,8,1551,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-017,laboral,activo,no,30,1221,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-018,laboral,activo,si,19,8994,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-019,socioambiental-mineria,activo,no,17,10683,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-020,socioambiental-mineria,activo,si,26,6446,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+San Martin,CS-SAN-021,comunal,activo,si,16,6642,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-001,electoral,activo,no,15,11829,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-002,laboral,latente,no aplica,20,10928,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-003,gobierno nacional,latente,no aplica,16,15377,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-004,socioambiental-mineria,activo,no,8,9989,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-005,electoral,activo,no,20,10477,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-006,socioambiental-mineria,activo,si,11,4199,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-007,gobierno nacional,activo,si,20,7213,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-008,gobierno nacional,activo,si,30,5377,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-009,gobierno nacional,activo,no,17,16669,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-010,socioambiental-hidrocarburos,activo,si,14,7446,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-011,socioambiental-mineria,activo,si,22,7586,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-012,gobierno nacional,activo,no,26,19079,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-013,otros,activo,si,7,5141,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-014,otros,activo,no,15,5647,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-015,socioambiental-mineria,activo,si,28,4167,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tacna,CS-TAC-016,socioambiental-mineria,activo,si,2,12045,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-001,socioambiental-mineria,activo,si,29,10339,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-002,socioambiental-mineria,latente,no aplica,15,2930,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-003,socioambiental-mineria,latente,no aplica,34,2572,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-004,gobierno nacional,latente,no aplica,4,7164,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-005,gobierno nacional,activo,no,17,1313,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-006,socioambiental-mineria,activo,no,37,4330,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-007,socioambiental-hidrocarburos,activo,no,6,4946,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-008,laboral,activo,no,5,11338,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-009,laboral,latente,no aplica,3,17403,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-010,otros,activo,si,1,2244,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-011,socioambiental-mineria,activo,si,13,3013,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-012,socioambiental-mineria,activo,no,6,8174,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-013,socioambiental-mineria,activo,si,26,3943,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-014,comunal,activo,si,15,11264,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-015,otros,activo,no,6,11119,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-016,comunal,activo,no,20,4185,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-017,socioambiental-mineria,activo,no,17,18655,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-018,comunal,activo,no,49,6679,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-019,socioambiental-mineria,activo,si,8,12040,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-020,otros,activo,si,23,10384,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-021,socioambiental-mineria,activo,no,32,13037,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-022,socioambiental-mineria,activo,si,22,749,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Tumbes,CS-TUM-023,socioambiental-mineria,activo,si,28,14606,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-001,socioambiental-mineria,activo,si,21,15446,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-002,socioambiental-mineria,activo,si,33,3118,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-003,socioambiental-hidrocarburos,activo,si,21,10150,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-004,otros,activo,si,9,986,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-005,socioambiental-mineria,activo,no,28,23155,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-006,socioambiental-mineria,latente,no aplica,27,10241,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-007,socioambiental-mineria,activo,si,1,4941,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-008,socioambiental-mineria,activo,no,13,13300,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-009,gobierno nacional,activo,no,30,2617,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-010,comunal,activo,si,13,2365,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-011,socioambiental-mineria,latente,no aplica,16,6357,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-012,gobierno nacional,activo,si,18,5846,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-013,socioambiental-mineria,activo,no,30,2104,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.
+Ucayali,CS-UCA-014,comunal,latente,no aplica,2,3399,Sintetico inspirado en categorias de reportes de conflictos sociales; no representa casos reales.

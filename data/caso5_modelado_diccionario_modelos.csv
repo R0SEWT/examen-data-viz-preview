@@ -1,0 +1,6 @@
+tabla_logica,granularidad,uso_analitico,rol_en_estrella,rol_en_copo_de_nieve
+fact_mesa,mesa-organizacion-eleccion,medir votos y participacion,tabla de hechos,tabla de hechos
+dim_territorio,distrito,filtrar por geografia y ruralidad,dimension geografica denormalizada,dim_distrito + dim_provincia + dim_departamento
+dim_servicios,distrito-anio,contexto de acceso a servicios,dimension contextual amplia,dimension satelite enlazada a distrito
+dim_organizacion,organizacion,filtrar partido/candidatura,dimension simple,dimension simple
+dim_eleccion,eleccion,separar procesos electorales,dimension simple,dimension simple
