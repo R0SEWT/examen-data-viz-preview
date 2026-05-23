@@ -232,6 +232,13 @@
       <div class="cierre-reflexivo mt-4">
         <div class="cr-title">Cierre reflexivo del caso</div>
         El supuesto que tuve que revisar al construir la visualización alternativa: que "Otros" siempre debe ocultarse para que el gráfico "quede limpio". Al calcular los totales, Otros acumula 22.6% de votos válidos — el segmento mayor. Ocultarlo no simplifica la historia; la falsifica. Un ejemplo real que recuerdo: titulares que comparaban porcentajes de encuestas de distintas empresas sin declarar si eran sobre muestra total o sobre voto probable, haciendo imposible la comparación. Lo que haría distinto: siempre anotar el N y el denominador exacto en el subtítulo del gráfico antes de publicar.
+        <div style="margin-top:14px;border-top:1px solid var(--border);padding-top:12px;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:0.62rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#ff4500;margin-bottom:8px;">r/dataisugly — caso análogo</div>
+          <div style="display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;">
+            <img src="./figures/dataisugly_c1_venezuela_pie3d.png" style="width:220px;border-radius:4px;border:1px solid var(--border);flex-shrink:0;" alt="Venezuela 2013 - 3D pie chart"/>
+            <p style="font-size:0.82rem;color:#3f3f46;line-height:1.55;margin:0;"><strong>Venezuela, elección presidencial 2013.</strong> Pie chart 3D con Maduro 50.66% vs Capriles 49.07%. La perspectiva hace que la diferencia de 1.59 puntos luzca visualmente mucho mayor. Mismo error de fondo que el caso ONPE: el tipo de gráfico amplifica la diferencia y oculta el denominador real.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -264,7 +271,7 @@
 
       <div class="card p-5">
         <div class="section-title mb-1">Visualización alternativa honesta</div>
-        <div class="section-sub mb-3">Un solo eje · Y desde 0 · Ámbito anotado · Actas pendientes explícitas</div>
+        <div class="section-sub mb-3">Antídoto 3/3 Tufte: eje único normalizado · Y desde 0 · Ámbito anotado · Actas pendientes explícitas</div>
         <canvas id="chart-c2" style="max-height:320px"></canvas>
         <div class="takeaway mt-2">
           <span class="takeaway-icon">→</span>
@@ -280,7 +287,8 @@
         <div class="pregunta-num">Pregunta 1 — Por qué el doble eje induce lectura falsa</div>
         <div class="respuesta-texto">
           El doble eje yuxtapone <em>% actas contabilizadas</em> (una proporción, adimensional, 0–100%) y <em>millones de votos válidos</em> (una magnitud absoluta, con unidad diferente) en el mismo plano. El lector decodifica visualmente la posición de los puntos de la línea roja y de las barras como si compartieran escala — lo que induce la interpretación "cuando la barra baja, también bajan los votos", que sería correlación. Sin embargo, los ejes son alineados arbitrariamente por el software (ambos tienen distintos mínimos y máximos): cualquier posición de la línea es manipulable cambiando el rango del eje derecho sin cambiar los datos.<br><br>
-          El problema adicional: el eje Y izquierdo empieza en 84% en vez de 0%. Una diferencia de 5 puntos porcentuales (85% vs 90%) parece enorme visualmente pero en términos de actas pendientes sobre 92,766 puede ser trivial. <strong>La combinación de truncamiento + doble eje maximiza la distorsión perceptual.</strong>
+          El problema adicional: el eje Y izquierdo empieza en 84% en vez de 0%. Una diferencia de 5 puntos porcentuales (85% vs 90%) parece enorme visualmente pero en términos de actas pendientes sobre 92,766 puede ser trivial. <strong>La combinación de truncamiento + doble eje maximiza la distorsión perceptual.</strong><br><br>
+          <strong>Tres antídotos al doble eje (Tufte):</strong> (1) <em>Pequeños múltiplos</em> — un panel por variable, misma escala, el ojo escanea diferencias entre paneles; (2) <em>Ratio explícito</em> — calcular actas_pendientes / total_actas como métrica única; (3) <em>Eje único normalizado</em> — es la opción elegida en la visualización alternativa, llevando ambas métricas a la misma escala porcentual. La guía (Semana 7, Parte 5) menciona las tres; el gráfico alternativo implementa la tercera.
         </div>
       </div>
 
@@ -325,6 +333,13 @@
       <div class="cierre-reflexivo mt-4">
         <div class="cr-title">Cierre reflexivo del caso</div>
         El supuesto que tuve que revisar: que un gráfico con más ejes transmite más información. Al analizar el caso, el segundo eje no añade información — añade ilusión de relación. Lo que recuerdo: coberturas de avance electoral en tiempo real donde el porcentaje de actas contabilizadas caía mientras "subian" los votos del candidato favorito del medio, porque el denominador de las actas pendientes venía de zonas donde ese candidato perdía. Lo que haría distinto: antes de publicar cualquier gráfico de avance, verificar que el ámbito y total de referencia estén declarados explícitamente en el subtítulo, no solo en los metadatos del dataset.
+        <div style="margin-top:14px;border-top:1px solid var(--border);padding-top:12px;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:0.62rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#ff4500;margin-bottom:8px;">r/dataisugly — caso análogo</div>
+          <div style="display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;">
+            <img src="./figures/dataisugly_c2_foxnews_truncated_axis.png" style="width:260px;border-radius:4px;border:1px solid var(--border);flex-shrink:0;" alt="Fox News - eje Y truncado"/>
+            <p style="font-size:0.82rem;color:#3f3f46;line-height:1.55;margin:0;"><strong>Fox News / Tucker Carlson Tonight.</strong> "% de americanos que se identifican como cristianos": 77% (2009) vs 65% (2019). El eje Y empieza en 58% — la barra de 2019 parece la mitad de la de 2009 cuando la caída real es solo 12 puntos. Exactamente el mismo truco del eje truncado del caso mesas 900001.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -356,7 +371,7 @@
 
       <div class="card p-5">
         <div class="section-title mb-1">Visualización alternativa honesta</div>
-        <div class="section-sub mb-3">Bubble scatter · Color = tipo de área · Tamaño = electores hábiles · Sin trendline automática</div>
+        <div class="section-sub mb-3">Bubble scatter · Color = tipo de área · Tamaño = √electores (área ∝ valor) · Sin trendline</div>
         <canvas id="chart-c3" style="max-height:340px"></canvas>
         <div class="takeaway mt-2">
           <span class="takeaway-icon">→</span>
@@ -385,6 +400,7 @@
           </div>
           Ocurre en este caso cuando:<br><br>
           Un distrito con 48% de pobreza puede tener electores de todos los quintiles de ingreso, y esos electores pueden votar por cualquier partido por razones independientes de su condición material: identidad regional, relaciones clientelares, percepción de seguridad, historia local, etc. El promedio distrital de pobreza oculta esa heterogeneidad interna.<br><br>
+          <strong>Analogía con el Cuarteto de Anscombe</strong> <span class="concepto">Anscombe, 1973</span> — cuatro distribuciones con media, varianza y correlación idénticas pero patrones radicalmente distintos: el estadístico resumen destruye la heterogeneidad. Del mismo modo, una correlación ecológica puede ser idéntica en dos países con comportamientos individuales completamente opuestos. La conclusión es la misma que Anscombe enseña: los estadísticos resumen mienten si no se mira la distribución subyacente — en este caso, la distribución a nivel individual dentro del distrito.<br><br>
           El dataset tiene la columna <code>tipo_area_sintetica</code> (rural/urbano/mixto) que ya muestra que dentro del mismo nivel de pobreza distrital, distritos de distinto tipo de área tienen comportamientos de voto dispersos — lo que es inconsistente con la lectura "la pobreza explica el voto". Se necesitaría encuesta de salida con microdatos individuales (ingreso, etnicidad, educación, voto declarado) para hacer esa afirmación sobre individuos.
         </div>
       </div>
@@ -395,7 +411,7 @@
           <strong>Decisiones de diseño en el bubble scatter alternativo:</strong><br><br>
           <strong>Escala:</strong> Eje X (pobreza) arranca en 0%; eje Y (% votos) arranca en 0%. No se trunca el rango.<br>
           <strong>Etiquetas:</strong> Los ejes están rotulados con unidad explícita ("% votos válidos candidatura X") y fuente sintética declarada en subtítulo.<br>
-          <strong>Tamaño de marca:</strong> El radio de cada burbuja es proporcional a <code>log(electores_hábiles)</code> para que Lima no aplaste visualmente al resto pero se mantenga la codificación de peso demográfico.<br>
+          <strong>Tamaño de marca:</strong> El radio de cada burbuja es <code>√(electores_hábiles / 5000)</code> (raíz cuadrada). Esto garantiza que el <strong>área visual</strong> sea proporcional al número de electores — cumpliendo la regla de Cleveland &amp; McGill: el cerebro lee área, no radio; si se usa <code>r = valor</code>, un electorado 4× mayor se vería 16× más grande. Lima aparece más grande pero no aplasta al resto.<br>
           <strong>Anotación:</strong> El gráfico incluye el texto "Datos a nivel distrito (N=304). Correlación ecológica — no inferir preferencia individual de votantes rurales, urbanos ni indígenas."<br>
           <strong>Sin trendline impuesta:</strong> Si el usuario necesita ver la tendencia, puede activar la línea con banda de confianza del 95% y R² explícito. Por defecto, no se muestra porque la trendline sin contexto hace el gráfico activo en la narrativa.
         </div>
@@ -444,7 +460,7 @@
 
       <div class="card p-5">
         <div class="section-title mb-1">Visualización alternativa honesta</div>
-        <div class="section-sub mb-3">Monto promedio por obra paralizada (S/ MM/obra) · Etiqueta n_obras · Sin lenguaje acusatorio</div>
+        <div class="section-sub mb-3">Dot plot Cleveland · Posición codifica S/ MM/obra · Etiqueta n_obras · Título analítico</div>
         <canvas id="chart-c4" style="max-height:300px"></canvas>
         <div class="section-sub mt-4 mb-2">Distribución de obras paralizadas por sector</div>
         <canvas id="chart-c4-sector" style="max-height:190px"></canvas>
@@ -506,6 +522,13 @@
       <div class="cierre-reflexivo mt-4">
         <div class="cr-title">Cierre reflexivo del caso</div>
         El supuesto que tuve que revisar: que el ranking por monto bruto es la visualización "natural" de obras paralizadas. Al calcular monto_por_obra, el ranking cambia completamente — departamentos con muchas obras pequeñas bajan; los que tienen pocas obras de gran inversión suben. Ejemplo real que recuerdo: infografías sobre contratos públicos donde el "mayor gasto" era el departamento con más hospitales en construcción, no el de mayor corrupción per cápita. Lo que haría distinto: siempre declarar el denominador antes de ordenar cualquier ranking — ¿monto bruto, monto por obra, monto por habitante, monto sobre presupuesto disponible? Cada elección produce una historia diferente.
+        <div style="margin-top:14px;border-top:1px solid var(--border);padding-top:12px;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:0.62rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#ff4500;margin-bottom:8px;">r/dataisugly — caso análogo</div>
+          <div style="display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;">
+            <img src="./figures/dataisugly_c4_cars_absolute.png" style="width:260px;border-radius:4px;border:1px solid var(--border);flex-shrink:0;" alt="Cars collecting data - valores absolutos"/>
+            <p style="font-size:0.82rem;color:#3f3f46;line-height:1.55;margin:0;"><strong>"Number of Cars Collecting Data Today".</strong> Tesla 2,700,000 aplasta a Waymo (1,000), Cruise (300) y Baidu (500). El problema: Tesla domina por tamaño de flota, no por calidad de datos por vehículo. Sin normalizar por kilómetros recorridos o flota activa, la barra mide cuántos autos tienen, no qué tan bien recolectan datos — el mismo error que monto bruto de obras sin dividir por número de proyectos.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -801,6 +824,8 @@ function renderDenomChart() {
     options: {
       indexAxis: 'y', responsive: true,
       plugins: { legend: { display: false },
+        title: { display: true, text: '¿Sobre qué universo se calcula el porcentaje?',
+                 color: '#52525b', font: { size: 9, family: 'IBM Plex Mono' }, padding: { bottom: 4 } },
         tooltip: { callbacks: { label: ctx => (ctx.parsed.x/1e6).toFixed(2)+'M' } } },
       scales: {
         x: { beginAtZero: true, ticks: { color: '#71717a', font: { size: 9 }, callback: v => (v/1e6).toFixed(0)+'M' }, grid: { color: 'rgba(0,0,0,0.06)' } },
@@ -901,32 +926,44 @@ function renderC4OutlierChart() {
   });
 }
 
-// ── Caso 4: Dot chart (lollipop como bar horizontal) monto por obra ───────────
+// ── Caso 4: Cleveland dot plot — posición (no longitud) codifica monto por obra
 function renderCaso4() {
   const d = C4.ranking_normalizado;
+  const n = d.departamentos.length;
+  // Dot plot: y-index reversed so highest monto appears at top
+  const pts = d.departamentos.map((dep, i) => ({
+    dep, x: d.monto_por_obra_mm[i], y: n - 1 - i, n_obras: d.n_obras[i]
+  }));
   new Chart(document.getElementById('chart-c4'), {
-    type: 'bar',
-    data: {
-      labels: d.departamentos,
-      datasets: [{
-        label: 'S/ MM promedio por obra paralizada',
-        data: d.monto_por_obra_mm,
-        backgroundColor: 'rgba(13,148,136,0.75)',
-        borderColor: '#0d9488',
-        borderWidth: 1,
-        borderRadius: 3,
-      }]
-    },
+    type: 'scatter',
+    data: { datasets: [{ data: pts.map(p => ({ x: p.x, y: p.y })),
+      backgroundColor: 'rgba(13,148,136,0.82)', borderColor: '#0d9488',
+      borderWidth: 1.5, pointRadius: 7, pointHoverRadius: 9, pointStyle: 'circle',
+    }] },
     options: {
-      indexAxis: 'y',
       responsive: true,
       plugins: {
-        legend: { labels: { color: '#18181b', font: { size: 11 } } },
-        tooltip: { callbacks: { label: ctx => `S/ ${ctx.parsed.x.toFixed(2)} MM por obra`, afterLabel: ctx => `N obras: ${d.n_obras[ctx.dataIndex]}` } },
+        legend: { display: false },
+        title: { display: true,
+          text: 'Moquegua y Puno: alta inversión por obra — no necesariamente más obras',
+          color: '#18181b', font: { size: 10.5, weight: '600', family: 'DM Sans' },
+          padding: { bottom: 8 } },
+        tooltip: { callbacks: { label: ctx => {
+          const p = pts[ctx.dataIndex];
+          return `${p.dep}: S/ ${p.x.toFixed(2)}M/obra · ${p.n_obras} obras`;
+        } } },
       },
       scales: {
-        x: { beginAtZero: true, ticks: { color: '#71717a', callback: v => 'S/' + v + 'M' }, grid: { color: 'rgba(0,0,0,0.08)' }, title: { display: true, text: 'S/ millones por obra paralizada (métrica normalizada)', color: '#71717a', font: { size: 10 } } },
-        y: { ticks: { color: '#18181b', font: { size: 10 } }, grid: { color: 'rgba(0,0,0,0.05)' } }
+        x: { beginAtZero: true,
+             ticks: { color: '#71717a', callback: v => 'S/' + v + 'M' },
+             grid: { color: 'rgba(0,0,0,0.08)' },
+             title: { display: true, text: 'S/ millones por obra paralizada (métrica normalizada)',
+                      color: '#71717a', font: { size: 10 } } },
+        y: { type: 'linear', min: -0.5, max: n - 0.5,
+             ticks: { stepSize: 1,
+               callback: v => { const i = n - 1 - Math.round(v); return (i >= 0 && i < n) ? d.departamentos[i] : ''; },
+               color: '#18181b', font: { size: 9.5 } },
+             grid: { color: 'rgba(0,0,0,0.05)' } }
       }
     }
   });
