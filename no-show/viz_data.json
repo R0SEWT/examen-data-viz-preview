@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "schema_version": 2,
+    "period_start": "2025-01-01",
+    "period_end": "2025-06-30",
+    "source_appointments": 2800,
+    "source_clinics": 4,
+    "source_specialties": 5,
+    "audience": {
+      "current": "Negocio + datos",
+      "status": "provisional"
+    }
+  },
+  "hero": {
+    "id": "long_wait_no_show",
+    "eyebrow": "Hallazgo principal",
+    "title": "Las citas con 22+ días de espera alcanzan 39.6% de no-show",
+    "summary": "Es 2.4 veces la tasa general (16.8%) y concentra 106 ausencias.",
+    "primary_metric": {
+      "value": 39.6,
+      "unit": "%",
+      "label": "No-show con 22+ días de espera"
+    },
+    "comparison": {
+      "value": 2.4,
+      "unit": "x",
+      "label": "frente a la tasa general",
+      "baseline_pct": 16.8,
+      "delta_pp": 22.8
+    },
+    "impact": {
+      "appointments": 268,
+      "no_shows": 106,
+      "revenue_loss_usd": 8852.0,
+      "doctor_idle_minutes": 3382
+    },
+    "disclaimer": "Asociación descriptiva; no demuestra que la espera sea la causa del no-show."
+  },
+  "narrative": {
+    "context": {
+      "step": "01",
+      "eyebrow": "Contexto",
+      "title": "Una de cada seis citas termina en ausencia",
+      "body": "En seis meses, el no-show dejó capacidad clínica sin usar y una pérdida material de ingresos.",
+      "metrics": [
+        {
+          "value": 16.8,
+          "unit": "%",
+          "label": "tasa de no-show"
+        },
+        {
+          "value": 469,
+          "unit": "",
+          "label": "ausencias"
+        },
+        {
+          "value": 40142.0,
+          "unit": "USD",
+          "label": "ingreso no capturado"
+        },
+        {
+          "value": 247,
+          "unit": "h",
+          "label": "tiempo médico ocioso"
+        }
+      ],
+      "takeaway": "El problema tiene escala suficiente para justificar una intervención medible, pero no cualquier intervención."
+    },
+    "pattern": {
+      "step": "02",
+      "eyebrow": "Patrón",
+      "title": "El riesgo se acelera después de dos semanas de espera",
+      "body": "Las citas con 22+ días alcanzan 39.6% de no-show: 2.4 veces la tasa general. La relación es descriptiva y no prueba causalidad.",
+      "visual": "waiting_bands",
+      "highlight": {
+        "band": "22+",
+        "rate_pct": 39.6,
+        "rate_ratio": 2.4,
+        "delta_pp": 22.8,
+        "appointments": 268
+      },
+      "caveat": "Las dos primeras bandas son similares (10.1% y 9.5%); el salto aparece desde 15 días, no como una progresión perfectamente monotónica."
+    },
+    "concentration": {
+      "step": "03",
+      "eyebrow": "Desagregación",
+      "title": "La concentración combina riesgo, volumen e impacto",
+      "body": "Ningún ranking aislado decide la prioridad: la tasa muestra riesgo, el volumen muestra alcance y la pérdida muestra impacto.",
+      "items": [
+        {
+          "dimension": "Tiempo de espera",
+          "segment": "15+ días",
+          "rate_pct": 30.9,
+          "appointments": 722,
+          "no_shows": 223,
+          "revenue_loss_usd": 18776.0,
+          "interpretation": "Mayor señal operativa y población elegible para el piloto."
+        },
+        {
+          "dimension": "Paciente",
+          "segment": "Nuevo",
+          "rate_pct": 20.9,
+          "appointments": 1040,
+          "no_shows": 217,
+          "revenue_loss_usd": 18263.0,
+          "interpretation": "Mayor tasa por segmento y 45% de la pérdida total."
+        },
+        {
+          "dimension": "Canal",
+          "segment": "Call center",
+          "rate_pct": 21.3,
+          "appointments": 789,
+          "no_shows": 168,
+          "revenue_loss_usd": 14421.0,
+          "interpretation": "Señal para investigar el proceso de confirmación, no para asumir causalidad."
+        },
+        {
+          "dimension": "Especialidad",
+          "segment": "Traumatologia",
+          "rate_pct": 17.4,
+          "appointments": 547,
+          "no_shows": 95,
+          "revenue_loss_usd": 10450.0,
+          "interpretation": "Mayor pérdida absoluta por su ticket, aunque no tenga la tasa más alta."
+        }
+      ]
+    },
+    "method": {
+      "step": "04",
+      "eyebrow": "Método",
+      "title": "La evidencia es reproducible, pero todavía observacional",
+      "body": "Se perfilaron todas las citas del periodo y se compararon tasas, volúmenes y pérdidas por bandas y segmentos.",
+      "facts": [
+        "2,800 citas entre enero y junio de 2025",
+        "4 clínicas y 5 especialidades",
+        "21 controles automatizados; 0 fallos críticos",
+        "Diccionario con 4 de 22 campos documentados"
+      ],
+      "analysis": "Agregaciones descriptivas con Polars: conteos, tasas, pérdida e inactividad. No se entrenó un modelo ni se ejecutó una prueba causal.",
+      "limitations": [
+        "No existe patient_id para controlar recurrencia o seguir pacientes.",
+        "No hay distancia, motivo de cita ni costo real del recordatorio.",
+        "Las citas con y sin recordatorio pueden diferir por variables no observadas."
+      ],
+      "reproducibility": ".venv/bin/python dashboard/prepare_data.py genera dashboard/viz_data.json y este documento."
+    },
+    "decision": {
+      "step": "05",
+      "eyebrow": "Decisión",
+      "title": "Validar antes de escalar: piloto en citas con 15+ días",
+      "body": "La acción más inteligente no es asumir que el recordatorio funciona, sino medir una versión reforzada donde el riesgo observado es mayor.",
+      "action": "Asignar aleatoriamente las citas con 15+ días de espera a control o a un doble recordatorio interactivo.",
+      "experiment": {
+        "population": "Citas con 15+ días de espera",
+        "control": "Proceso actual de confirmación",
+        "treatment": "Mensajes 72 y 24 horas antes con opción explícita de confirmar o reprogramar",
+        "sample": "500 citas por brazo; duración estimada de 8–9 meses",
+        "primary_outcome": "Tasa de no-show",
+        "secondary_outcomes": [
+          "Pérdida de ingreso por cita",
+          "Tasa de reprogramación",
+          "Costo por ausencia evitada"
+        ],
+        "success_rule": "Escalar si la tasa baja al menos 8 puntos porcentuales y el valor recuperado supera claramente el costo operativo."
+      },
+      "risk": "El volumen mensual limita la velocidad del aprendizaje; detener antes puede producir una conclusión inestable.",
+      "next_decision": "Si el piloto supera el umbral, escalar por clínica; si no, priorizar reducción de espera y capturar distancia y motivo de cita."
+    }
+  },
+  "overall": {
+    "appointments": 2800,
+    "no_shows": 469,
+    "no_show_rate_pct": 16.8,
+    "revenue_loss_usd": 40142.0,
+    "doctor_idle_minutes": 14805
+  },
+  "reminder_delta_pct": 12.0,
+  "reminder_potential_saves": 113,
+  "reminder_scenario": {
+    "rate_gap_pp": 12.0,
+    "estimated_avoided_no_shows": 113,
+    "is_causal_estimate": false,
+    "assumption": "Aplica la tasa observada con recordatorio a las citas sin recordatorio."
+  },
+  "by_clinic": [
+    {
+      "clinic_id": "CL01",
+      "appointments": 642,
+      "no_shows": 116,
+      "no_show_rate_pct": 18.1,
+      "revenue_loss_usd": 9862.0,
+      "doctor_idle_minutes": 3511,
+      "label": "San Miguel"
+    },
+    {
+      "clinic_id": "CL02",
+      "appointments": 695,
+      "no_shows": 124,
+      "no_show_rate_pct": 17.8,
+      "revenue_loss_usd": 10511.0,
+      "doctor_idle_minutes": 3988,
+      "label": "Comas"
+    },
+    {
+      "clinic_id": "CL03",
+      "appointments": 762,
+      "no_shows": 121,
+      "no_show_rate_pct": 15.9,
+      "revenue_loss_usd": 10397.0,
+      "doctor_idle_minutes": 3864,
+      "label": "Arequipa Centro"
+    },
+    {
+      "clinic_id": "CL04",
+      "appointments": 701,
+      "no_shows": 108,
+      "no_show_rate_pct": 15.4,
+      "revenue_loss_usd": 9372.0,
+      "doctor_idle_minutes": 3442,
+      "label": "Cusco Norte"
+    }
+  ],
+  "by_specialty": [
+    {
+      "specialty_id": "SP04",
+      "appointments": 591,
+      "no_shows": 111,
+      "no_show_rate_pct": 18.8,
+      "revenue_loss_usd": 8880.0,
+      "doctor_idle_minutes": 3487,
+      "label": "Psicologia"
+    },
+    {
+      "specialty_id": "SP05",
+      "appointments": 547,
+      "no_shows": 95,
+      "no_show_rate_pct": 17.4,
+      "revenue_loss_usd": 10450.0,
+      "doctor_idle_minutes": 3016,
+      "label": "Traumatologia"
+    },
+    {
+      "specialty_id": "SP03",
+      "appointments": 530,
+      "no_shows": 90,
+      "no_show_rate_pct": 17.0,
+      "revenue_loss_usd": 8550.0,
+      "doctor_idle_minutes": 2934,
+      "label": "Dermatologia"
+    },
+    {
+      "specialty_id": "SP01",
+      "appointments": 577,
+      "no_shows": 90,
+      "no_show_rate_pct": 15.6,
+      "revenue_loss_usd": 6120.0,
+      "doctor_idle_minutes": 2801,
+      "label": "Medicina general"
+    },
+    {
+      "specialty_id": "SP02",
+      "appointments": 555,
+      "no_shows": 83,
+      "no_show_rate_pct": 15.0,
+      "revenue_loss_usd": 6142.0,
+      "doctor_idle_minutes": 2567,
+      "label": "Pediatria"
+    }
+  ],
+  "by_segment": [
+    {
+      "patient_segment": "Nuevo",
+      "appointments": 1040,
+      "no_shows": 217,
+      "no_show_rate_pct": 20.9,
+      "revenue_loss_usd": 18263.0,
+      "doctor_idle_minutes": 6786
+    },
+    {
+      "patient_segment": "Recurrente",
+      "appointments": 1203,
+      "no_shows": 183,
+      "no_show_rate_pct": 15.2,
+      "revenue_loss_usd": 15978.0,
+      "doctor_idle_minutes": 5844
+    },
+    {
+      "patient_segment": "Cronico",
+      "appointments": 557,
+      "no_shows": 69,
+      "no_show_rate_pct": 12.4,
+      "revenue_loss_usd": 5901.0,
+      "doctor_idle_minutes": 2175
+    }
+  ],
+  "by_channel": [
+    {
+      "booking_channel": "Call center",
+      "appointments": 789,
+      "no_shows": 168,
+      "no_show_rate_pct": 21.3,
+      "revenue_loss_usd": 14421.0,
+      "doctor_idle_minutes": 5327
+    },
+    {
+      "booking_channel": "Presencial",
+      "appointments": 381,
+      "no_shows": 62,
+      "no_show_rate_pct": 16.3,
+      "revenue_loss_usd": 5344.0,
+      "doctor_idle_minutes": 1979
+    },
+    {
+      "booking_channel": "WhatsApp",
+      "appointments": 983,
+      "no_shows": 152,
+      "no_show_rate_pct": 15.5,
+      "revenue_loss_usd": 12889.0,
+      "doctor_idle_minutes": 4772
+    },
+    {
+      "booking_channel": "Web",
+      "appointments": 647,
+      "no_shows": 87,
+      "no_show_rate_pct": 13.4,
+      "revenue_loss_usd": 7488.0,
+      "doctor_idle_minutes": 2727
+    }
+  ],
+  "by_reminder": [
+    {
+      "reminder_sent": 0,
+      "appointments": 944,
+      "no_shows": 233,
+      "no_show_rate_pct": 24.7,
+      "revenue_loss_usd": 19975.0,
+      "doctor_idle_minutes": 7522
+    },
+    {
+      "reminder_sent": 1,
+      "appointments": 1856,
+      "no_shows": 236,
+      "no_show_rate_pct": 12.7,
+      "revenue_loss_usd": 20167.0,
+      "doctor_idle_minutes": 7283
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2025-01",
+      "appointments": 471,
+      "no_shows": 74,
+      "no_show_rate_pct": 15.7,
+      "revenue_loss_usd": 6418.0,
+      "doctor_idle_minutes": 2400
+    },
+    {
+      "month": "2025-02",
+      "appointments": 448,
+      "no_shows": 68,
+      "no_show_rate_pct": 15.2,
+      "revenue_loss_usd": 5893.0,
+      "doctor_idle_minutes": 2115
+    },
+    {
+      "month": "2025-03",
+      "appointments": 484,
+      "no_shows": 89,
+      "no_show_rate_pct": 18.4,
+      "revenue_loss_usd": 7708.0,
+      "doctor_idle_minutes": 2873
+    },
+    {
+      "month": "2025-04",
+      "appointments": 477,
+      "no_shows": 71,
+      "no_show_rate_pct": 14.9,
+      "revenue_loss_usd": 5941.0,
+      "doctor_idle_minutes": 2154
+    },
+    {
+      "month": "2025-05",
+      "appointments": 494,
+      "no_shows": 102,
+      "no_show_rate_pct": 20.6,
+      "revenue_loss_usd": 8664.0,
+      "doctor_idle_minutes": 3260
+    },
+    {
+      "month": "2025-06",
+      "appointments": 426,
+      "no_shows": 65,
+      "no_show_rate_pct": 15.3,
+      "revenue_loss_usd": 5518.0,
+      "doctor_idle_minutes": 2003
+    }
+  ],
+  "waiting": [
+    {
+      "waiting_band": "0-3",
+      "appointments": 366,
+      "no_shows": 37,
+      "no_show_rate_pct": 10.1,
+      "revenue_loss_usd": 3344.0,
+      "doctor_idle_minutes": 1152
+    },
+    {
+      "waiting_band": "4-7",
+      "appointments": 704,
+      "no_shows": 67,
+      "no_show_rate_pct": 9.5,
+      "revenue_loss_usd": 5810.0,
+      "doctor_idle_minutes": 2095
+    },
+    {
+      "waiting_band": "8-14",
+      "appointments": 1008,
+      "no_shows": 142,
+      "no_show_rate_pct": 14.1,
+      "revenue_loss_usd": 12212.0,
+      "doctor_idle_minutes": 4402
+    },
+    {
+      "waiting_band": "15-21",
+      "appointments": 454,
+      "no_shows": 117,
+      "no_show_rate_pct": 25.8,
+      "revenue_loss_usd": 9924.0,
+      "doctor_idle_minutes": 3774
+    },
+    {
+      "waiting_band": "22+",
+      "appointments": 268,
+      "no_shows": 106,
+      "no_show_rate_pct": 39.6,
+      "revenue_loss_usd": 8852.0,
+      "doctor_idle_minutes": 3382
+    }
+  ]
+}

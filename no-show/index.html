@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>No-Show · Clínicas Lima 2025</title>
+<script src="./chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f4f0;
+    --surface: #ffffff;
+    --surface2: #eeece8;
+    --border: #d4d1ca;
+    --text: #18181b;
+    --muted: #71717a;
+    --accent: #1e3a8a;
+    --accent2: #7c3aed;
+    --ok: rgba(6,78,59,0.06);
+    --ok-border: rgba(6,78,59,0.28);
+    --warn: rgba(153,27,27,0.05);
+    --warn-border: rgba(153,27,27,0.28);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'DM Sans',-apple-system,sans-serif;min-height:100vh}
+  code,kbd{font-family:'IBM Plex Mono','Fira Code',monospace;font-size:.78em;background:var(--surface2);color:var(--accent);padding:1px 5px;border-radius:3px;border:1px solid var(--border)}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+  canvas{max-height:300px!important}
+
+  /* Layout */
+  .page{max-width:1280px;margin:0 auto;padding:32px 24px}
+  .page-header{margin-bottom:28px}
+  .page-title{font-size:1.35rem;font-weight:700;letter-spacing:-.025em;color:var(--text)}
+  .page-sub{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--muted);margin-top:4px;letter-spacing:.02em}
+
+  /* Tabs */
+  .tab-bar{display:flex;border-bottom:2px solid var(--border);margin-bottom:24px;overflow-x:auto;scrollbar-width:none}
+  .tab-bar::-webkit-scrollbar{display:none}
+  .tab-btn{font-family:'IBM Plex Mono',monospace;padding:10px 18px;font-size:.73rem;font-weight:500;cursor:pointer;border:none;background:transparent;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-2px;transition:color .12s,background .12s;white-space:nowrap;letter-spacing:.02em}
+  .tab-btn:hover{color:var(--text);background:var(--surface2)}
+  .tab-btn.active{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+  .tab-panel{display:none}
+  .tab-panel.active{display:block}
+
+  /* KPI row */
+  .kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+  @media(max-width:860px){.kpi-row{grid-template-columns:repeat(2,1fr)}}
+  .kpi-card{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:16px 18px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .kpi-value{font-family:'IBM Plex Mono',monospace;font-size:1.85rem;font-weight:700;letter-spacing:-.02em;color:var(--text);line-height:1}
+  .kpi-value.warn{color:#991b1b}
+  .kpi-label{font-family:'IBM Plex Mono',monospace;font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+  .kpi-sub{font-size:.75rem;color:var(--muted);margin-top:4px}
+
+  /* Grid */
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+  @media(max-width:900px){.grid-2,.grid-3{grid-template-columns:1fr}}
+
+  /* Section */
+  .section-heading{font-size:1rem;font-weight:700;letter-spacing:-.01em;color:var(--text);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+  .section-heading::before{content:'';width:3px;height:18px;background:var(--accent);border-radius:1px}
+  .section-sub{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--muted);margin-top:2px;margin-bottom:14px}
+
+  /* Takeaway */
+  .takeaway{display:flex;gap:8px;align-items:flex-start;margin-top:10px;padding:10px 12px;background:rgba(30,58,138,.04);border-left:2px solid var(--accent);border-radius:0 4px 4px 0}
+  .takeaway-icon{font-family:'IBM Plex Mono',monospace;color:var(--accent);font-weight:600;font-size:.8rem;flex-shrink:0}
+  .takeaway-text{font-size:.82rem;color:#3f3f46;line-height:1.55}
+  .takeaway-text strong{color:var(--text)}
+
+  /* Synth banner */
+  .synth-banner{background:var(--ok);border:1px solid var(--ok-border);border-radius:4px;padding:8px 14px;font-size:.79rem;color:#064e3b;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:16px}
+  .warn-banner{background:var(--warn);border:1px solid var(--warn-border);border-radius:4px;padding:8px 14px;font-size:.79rem;color:#991b1b;font-weight:500;margin-bottom:16px}
+
+  /* Table */
+  .data-table{width:100%;border-collapse:collapse;font-size:.8rem}
+  .data-table th{font-family:'IBM Plex Mono',monospace;font-size:.65rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:7px 12px;border-bottom:2px solid var(--border);text-align:left;background:var(--surface2)}
+  .data-table td{padding:7px 12px;border-bottom:1px solid var(--border);color:var(--text);vertical-align:middle}
+  .data-table tr:last-child td{border-bottom:none}
+  .data-table tr:hover td{background:var(--surface2)}
+  .mono{font-family:'IBM Plex Mono',monospace;font-size:.78rem}
+  .rate-bar{display:flex;align-items:center;gap:8px}
+  .rate-fill{height:6px;background:var(--accent);border-radius:2px;opacity:.7}
+
+  /* Lever hero */
+  .lever-hero{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+  @media(max-width:700px){.lever-hero{grid-template-columns:1fr}}
+  .lever-card{border-radius:6px;padding:20px;border:1px solid}
+  .lever-card.green{background:var(--ok);border-color:var(--ok-border)}
+  .lever-card.warn{background:var(--warn);border-color:var(--warn-border)}
+  .lever-card-val{font-family:'IBM Plex Mono',monospace;font-size:2.4rem;font-weight:700;letter-spacing:-.03em}
+  .lever-card.green .lever-card-val{color:#065f46}
+  .lever-card.warn .lever-card-val{color:#991b1b}
+  .lever-card-label{font-family:'IBM Plex Mono',monospace;font-size:.67rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+  .lever-card-desc{font-size:.8rem;color:#3f3f46;margin-top:8px;line-height:1.5}
+
+  /* Narrative */
+  .story-nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}
+  .story-nav a{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--muted);text-decoration:none;border:1px solid var(--border);background:var(--surface);padding:7px 10px;border-radius:4px}
+  .story-nav a:hover{color:var(--accent);border-color:var(--accent)}
+  .story{display:grid;gap:16px;margin-bottom:40px}
+  .story-section{scroll-margin-top:20px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:28px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+  .story-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:28px;align-items:center}
+  .story-step{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+  .story-title{font-size:1.65rem;line-height:1.18;letter-spacing:-.025em;margin-bottom:10px}
+  .story-body{color:#52525b;line-height:1.65;font-size:.92rem}
+  .story-note{margin-top:14px;padding:10px 12px;border-left:2px solid var(--accent);background:rgba(30,58,138,.04);font-size:.8rem;line-height:1.5;color:#3f3f46}
+  .story-note.warn{border-left-color:#991b1b;background:var(--warn);color:#7f1d1d}
+  .story-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+  .story-metric{padding:14px;border:1px solid var(--border);border-radius:5px;background:var(--surface2)}
+  .story-metric-value{font-family:'IBM Plex Mono',monospace;font-size:1.35rem;font-weight:700;color:var(--text)}
+  .story-metric-label{font-size:.7rem;color:var(--muted);margin-top:5px;line-height:1.35}
+  .story-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}
+  .story-card{border:1px solid var(--border);border-radius:5px;padding:15px;background:var(--surface2)}
+  .story-card-kicker{font-family:'IBM Plex Mono',monospace;font-size:.63rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  .story-card-title{font-weight:700;margin-top:5px}
+  .story-card-rate{font-family:'IBM Plex Mono',monospace;font-size:1.25rem;font-weight:700;color:var(--accent);margin-top:10px}
+  .story-card-detail{font-size:.72rem;color:var(--muted);margin-top:4px}
+  .story-card-copy{font-size:.76rem;line-height:1.45;color:#3f3f46;margin-top:9px}
+  .method-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}
+  .method-box{border:1px solid var(--border);border-radius:5px;padding:16px;background:var(--surface2)}
+  .method-box h3{font-size:.8rem;margin-bottom:10px}
+  .method-list{padding-left:18px;color:#52525b;font-size:.8rem;line-height:1.65}
+  .decision-section{border-color:rgba(30,58,138,.45);background:linear-gradient(135deg,#fff 0%,rgba(30,58,138,.04) 100%)}
+  .decision-action{font-size:1rem;font-weight:600;line-height:1.5;margin:18px 0}
+  .experiment-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .experiment-item{border:1px solid var(--border);border-radius:5px;padding:13px;background:#fff}
+  .experiment-label{font-family:'IBM Plex Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+  .experiment-value{font-size:.8rem;line-height:1.45;margin-top:5px}
+  .annex-heading{border-top:1px solid var(--border);padding-top:28px;margin-bottom:14px}
+  .annex-title{font-size:1.15rem;font-weight:700}
+  .annex-sub{font-size:.78rem;color:var(--muted);margin-top:4px}
+  @media(max-width:900px){.story-grid,.method-grid{grid-template-columns:1fr}.story-cards{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:620px){.story-section{padding:20px}.story-title{font-size:1.35rem}.story-metrics,.story-cards,.experiment-grid{grid-template-columns:1fr 1fr}}
+
+  .mb-4{margin-bottom:16px}.mb-5{margin-bottom:20px}.mb-6{margin-bottom:24px}
+  .p-5{padding:20px}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="page-header">
+    <div class="page-title">No-Show — Clínicas Lima 2025</div>
+    <div class="page-sub" id="page-sub">Ene–Jun 2025 · Dataset simulado</div>
+  </div>
+
+  <nav class="story-nav" aria-label="Secciones de la historia">
+    <a href="#contexto">01 Contexto</a>
+    <a href="#patron">02 Patrón</a>
+    <a href="#concentracion">03 Desagregación</a>
+    <a href="#metodo">04 Método</a>
+    <a href="#decision">05 Decisión</a>
+  </nav>
+
+  <main class="story" aria-label="Historia principal del hallazgo">
+    <section id="contexto" class="story-section">
+      <div id="story-context-copy"></div>
+      <div id="story-context-metrics" class="story-metrics"></div>
+      <div id="story-context-note" class="story-note"></div>
+    </section>
+
+    <section id="patron" class="story-section">
+      <div class="story-grid">
+        <div>
+          <div id="story-pattern-copy"></div>
+          <div id="story-pattern-note" class="story-note warn"></div>
+        </div>
+        <div>
+          <canvas id="chart-narrative-waiting" aria-label="Tasa de no-show por días de espera"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section id="concentracion" class="story-section">
+      <div id="story-concentration-copy"></div>
+      <div id="story-concentration-cards" class="story-cards"></div>
+    </section>
+
+    <section id="metodo" class="story-section">
+      <div id="story-method-copy"></div>
+      <div class="method-grid">
+        <div class="method-box">
+          <h3>Evidencia y controles</h3>
+          <ul id="story-method-facts" class="method-list"></ul>
+        </div>
+        <div class="method-box">
+          <h3>Límites del análisis</h3>
+          <ul id="story-method-limitations" class="method-list"></ul>
+        </div>
+      </div>
+      <div id="story-method-note" class="story-note"></div>
+    </section>
+
+    <section id="decision" class="story-section decision-section">
+      <div id="story-decision-copy"></div>
+      <div id="story-decision-action" class="decision-action"></div>
+      <div id="story-experiment" class="experiment-grid"></div>
+      <div id="story-decision-risk" class="story-note warn"></div>
+      <div id="story-next-decision" class="story-note"></div>
+    </section>
+  </main>
+
+  <div class="annex-heading">
+    <div class="annex-title">Anexos exploratorios</div>
+    <div class="annex-sub">Desagregaciones para profundizar la evidencia sin interrumpir la historia principal.</div>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab(event,'resumen')">Resumen ejecutivo</button>
+    <button class="tab-btn" onclick="switchTab(event,'clinica')">Clínica &amp; Especialidad</button>
+    <button class="tab-btn" onclick="switchTab(event,'segmento')">Segmento &amp; Canal</button>
+    <button class="tab-btn" onclick="switchTab(event,'palanca')">Palanca: Recordatorio</button>
+    <button class="tab-btn" onclick="switchTab(event,'tendencia')">Tendencia mensual</button>
+  </div>
+
+  <!-- ── TAB: Resumen ──────────────────────────────────────────────────── -->
+  <div id="tab-resumen" class="tab-panel active">
+    <div class="kpi-row" id="kpi-row"></div>
+
+    <div class="grid-2 mb-6">
+      <div class="card p-5">
+        <div class="section-heading">Tasa de no-show por tiempo de espera</div>
+        <div class="section-sub">El salto de riesgo aparece desde 15 días de espera</div>
+        <canvas id="chart-waiting"></canvas>
+        <div class="takeaway">
+          <span class="takeaway-icon">→</span>
+          <span class="takeaway-text">Citas con espera <strong>≥22 días</strong> tienen tasa de <strong id="wait22-rate"></strong> — casi 4× la de citas urgentes (0-3 días).</span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <div class="section-heading">Asociación con recordatorio</div>
+        <div class="section-sub">Comparación observada; los grupos no fueron asignados aleatoriamente</div>
+        <canvas id="chart-reminder-summary"></canvas>
+        <div class="takeaway">
+          <span class="takeaway-icon">→</span>
+          <span class="takeaway-text">Las citas con recordatorio presentan <strong><span id="delta-pct-label"></span> pp menos</strong>. El escenario de ~<strong id="potential-saves"></strong> ausencias requiere validación experimental.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card p-5">
+      <div class="section-heading">Resumen de dolores</div>
+      <div class="section-sub">Señales accionables detectadas en los datos</div>
+      <div id="pain-table"></div>
+    </div>
+  </div>
+
+  <!-- ── TAB: Clínica & Especialidad ──────────────────────────────────── -->
+  <div id="tab-clinica" class="tab-panel">
+    <div class="grid-2 mb-6">
+      <div class="card p-5">
+        <div class="section-heading">No-show por clínica</div>
+        <div class="section-sub">Tasa (%) y pérdida acumulada (USD)</div>
+        <canvas id="chart-clinic"></canvas>
+      </div>
+      <div class="card p-5">
+        <div class="section-heading">No-show por especialidad</div>
+        <div class="section-sub">Tasa (%) — las de mayor ticket también lideran la pérdida</div>
+        <canvas id="chart-specialty"></canvas>
+      </div>
+    </div>
+    <div class="card p-5">
+      <div class="section-heading">Detalle por clínica</div>
+      <div id="clinic-table"></div>
+    </div>
+  </div>
+
+  <!-- ── TAB: Segmento & Canal ─────────────────────────────────────────── -->
+  <div id="tab-segmento" class="tab-panel">
+    <div class="grid-2 mb-6">
+      <div class="card p-5">
+        <div class="section-heading">No-show por segmento de paciente</div>
+        <div class="section-sub">Nuevos vs Recurrentes vs Crónicos</div>
+        <canvas id="chart-segment"></canvas>
+        <div class="takeaway">
+          <span class="takeaway-icon">→</span>
+          <span class="takeaway-text">Los pacientes <strong>Nuevos</strong> concentran la mayor tasa y generan <strong>USD 18,263</strong> en pérdidas — target prioritario para onboarding + recordatorio.</span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <div class="section-heading">No-show por canal de reserva</div>
+        <div class="section-sub">Call Center lidera — Web tiene la menor tasa</div>
+        <canvas id="chart-channel"></canvas>
+        <div class="takeaway">
+          <span class="takeaway-icon">→</span>
+          <span class="takeaway-text"><strong>Call center</strong> (21.3%) vs <strong>Web</strong> (13.4%) — diferencia de ~8 pp. Conviene investigar confirmación y mix de pacientes antes de cambiar el canal.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TAB: Palanca ──────────────────────────────────────────────────── -->
+  <div id="tab-palanca" class="tab-panel">
+    <div class="synth-banner">Hipótesis prioritaria: validar un recordatorio reforzado en citas de mayor espera.</div>
+    <div class="lever-hero" id="lever-hero"></div>
+    <div class="card p-5 mb-4">
+      <div class="section-heading">Tasa de no-show vs. recordatorio</div>
+      <div class="section-sub">Comparación observacional; no estima por sí sola el efecto del recordatorio</div>
+      <canvas id="chart-reminder-detail"></canvas>
+    </div>
+    <div class="card p-5">
+      <div class="section-heading">¿Qué sigue?</div>
+      <table class="data-table">
+        <thead><tr><th>Acción</th><th>Impacto estimado</th><th>Complejidad</th></tr></thead>
+        <tbody>
+          <tr><td>A/B de doble recordatorio en citas con espera ≥15 días</td><td class="mono">Escalar si mejora ≥8 pp y recupera más valor que su costo</td><td>Media</td></tr>
+          <tr><td>Escenario de cobertura total</td><td class="mono">Hasta ~<span id="action-saves-1"></span> ausencias si la brecha observada se replicara</td><td>Baja</td></tr>
+          <tr><td>Investigar onboarding de pacientes Nuevos</td><td class="mono">20.9% observado; efecto aún no probado</td><td>Media</td></tr>
+          <tr><td>Auditar proceso de Call Center</td><td class="mono">21.3% observado; controlar mix antes de intervenir</td><td>Media</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ── TAB: Tendencia ────────────────────────────────────────────────── -->
+  <div id="tab-tendencia" class="tab-panel">
+    <div class="warn-banner">Mar y May 2025 muestran picos de no-show (18.4% y 20.6%) que merecen investigación operativa.</div>
+    <div class="card p-5 mb-4">
+      <div class="section-heading">Tasa de no-show mensual (%)</div>
+      <canvas id="chart-monthly-rate"></canvas>
+    </div>
+    <div class="card p-5">
+      <div class="section-heading">Pérdida de ingresos mensual (USD)</div>
+      <canvas id="chart-monthly-loss"></canvas>
+    </div>
+  </div>
+</div>
+
+<script>
+const ACCENT = '#1e3a8a';
+const ACCENT_ALPHA = 'rgba(30,58,138,0.15)';
+const WARN = '#991b1b';
+const MUTED = '#a1a1aa';
+const GREEN = '#065f46';
+
+const CHART_DEFAULTS = {
+  plugins: { legend: { display: false } },
+  scales: {
+    x: { grid: { color: '#e4e4e7' }, ticks: { font: { family: "'IBM Plex Mono', monospace", size: 11 }, color: '#71717a' } },
+    y: { grid: { color: '#e4e4e7' }, ticks: { font: { family: "'IBM Plex Mono', monospace", size: 11 }, color: '#71717a' } }
+  }
+};
+
+fetch('./viz_data.json').then(r => {
+  if (!r.ok) throw new Error(`No se pudo cargar viz_data.json (${r.status})`);
+  return r.json();
+}).then(d => {
+  buildNarrative(d);
+  buildKPIs(d);
+  buildWaitingChart(d);
+  buildReminderSummaryChart(d);
+  buildPainTable(d);
+  buildClinicChart(d);
+  buildSpecialtyChart(d);
+  buildClinicTable(d);
+  buildSegmentChart(d);
+  buildChannelChart(d);
+  buildLeverHero(d);
+  buildReminderDetailChart(d);
+  buildMonthlyCharts(d);
+}).catch(error => {
+  console.error(error);
+  document.querySelector('.story').innerHTML =
+    `<div class="warn-banner">No se pudo cargar la evidencia del dashboard: ${error.message}</div>`;
+});
+
+// ── Narrative ────────────────────────────────────────────────────────────────
+function storyHeading(section) {
+  return `<div class="story-step">${section.step} · ${section.eyebrow}</div>
+    <h2 class="story-title">${section.title}</h2>
+    <p class="story-body">${section.body}</p>`;
+}
+
+function formatMetric(metric) {
+  const value = typeof metric.value === 'number'
+    ? metric.value.toLocaleString('es-PE', { maximumFractionDigits: 1 })
+    : metric.value;
+  return metric.unit === 'USD' ? `USD ${value}` : `${value}${metric.unit}`;
+}
+
+function buildNarrative(d) {
+  const n = d.narrative;
+  const meta = d.meta;
+  document.getElementById('page-sub').textContent =
+    `Ene–Jun 2025 · ${meta.source_clinics} clínicas · ${meta.source_specialties} especialidades · Dataset simulado`;
+
+  document.getElementById('story-context-copy').innerHTML = storyHeading(n.context);
+  document.getElementById('story-context-metrics').innerHTML = n.context.metrics.map(metric =>
+    `<div class="story-metric">
+      <div class="story-metric-value">${formatMetric(metric)}</div>
+      <div class="story-metric-label">${metric.label}</div>
+    </div>`
+  ).join('');
+  document.getElementById('story-context-note').textContent = n.context.takeaway;
+
+  document.getElementById('story-pattern-copy').innerHTML = storyHeading(n.pattern);
+  document.getElementById('story-pattern-note').textContent = n.pattern.caveat;
+  buildNarrativeWaitingChart(d);
+
+  document.getElementById('story-concentration-copy').innerHTML = storyHeading(n.concentration);
+  document.getElementById('story-concentration-cards').innerHTML =
+    n.concentration.items.map(item =>
+      `<article class="story-card">
+        <div class="story-card-kicker">${item.dimension}</div>
+        <div class="story-card-title">${item.segment}</div>
+        <div class="story-card-rate">${item.rate_pct}%</div>
+        <div class="story-card-detail">${item.appointments.toLocaleString('es-PE')} citas · ${item.no_shows} ausencias</div>
+        <div class="story-card-detail">USD ${item.revenue_loss_usd.toLocaleString('es-PE')} de pérdida</div>
+        <div class="story-card-copy">${item.interpretation}</div>
+      </article>`
+    ).join('');
+
+  document.getElementById('story-method-copy').innerHTML = storyHeading(n.method);
+  document.getElementById('story-method-facts').innerHTML =
+    n.method.facts.map(item => `<li>${item}</li>`).join('');
+  document.getElementById('story-method-limitations').innerHTML =
+    n.method.limitations.map(item => `<li>${item}</li>`).join('');
+  document.getElementById('story-method-note').textContent =
+    `${n.method.analysis} Reproducibilidad: ${n.method.reproducibility}`;
+
+  document.getElementById('story-decision-copy').innerHTML = storyHeading(n.decision);
+  document.getElementById('story-decision-action').textContent = n.decision.action;
+  const experiment = n.decision.experiment;
+  const experimentItems = [
+    ['Población', experiment.population],
+    ['Control', experiment.control],
+    ['Tratamiento', experiment.treatment],
+    ['Muestra', experiment.sample],
+    ['Resultado principal', experiment.primary_outcome],
+    ['Resultados secundarios', experiment.secondary_outcomes.join(' · ')],
+    ['Regla de éxito', experiment.success_rule],
+  ];
+  document.getElementById('story-experiment').innerHTML = experimentItems.map(([label, value]) =>
+    `<div class="experiment-item">
+      <div class="experiment-label">${label}</div>
+      <div class="experiment-value">${value}</div>
+    </div>`
+  ).join('');
+  document.getElementById('story-decision-risk').innerHTML =
+    `<strong>Riesgo:</strong> ${n.decision.risk}`;
+  document.getElementById('story-next-decision').innerHTML =
+    `<strong>Siguiente decisión:</strong> ${n.decision.next_decision}`;
+}
+
+function buildNarrativeWaitingChart(d) {
+  const w = d.waiting;
+  new Chart(document.getElementById('chart-narrative-waiting'), {
+    type: 'bar',
+    data: {
+      labels: w.map(row => row.waiting_band + ' días'),
+      datasets: [{
+        label: 'Tasa no-show (%)',
+        data: w.map(row => row.no_show_rate_pct),
+        backgroundColor: w.map(row => row.waiting_band === '22+' ? WARN + 'e6' : ACCENT + '99'),
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      scales: {
+        ...CHART_DEFAULTS.scales,
+        y: { ...CHART_DEFAULTS.scales.y, beginAtZero: true, suggestedMax: 45 }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => `${ctx.parsed.y}% no-show` } }
+      }
+    }
+  });
+}
+
+// ── KPIs ─────────────────────────────────────────────────────────────────────
+function buildKPIs(d) {
+  const o = d.overall;
+  const kpis = [
+    { val: o.appointments.toLocaleString('es-PE'), label: 'Citas totales', sub: 'Ene–Jun 2025' },
+    { val: o.no_show_rate_pct + '%', label: 'Tasa no-show', sub: o.no_shows + ' ausencias', warn: true },
+    { val: 'USD ' + o.revenue_loss_usd.toLocaleString('es-PE'), label: 'Pérdida estimada', sub: 'Ingreso no capturado', warn: true },
+    { val: (o.doctor_idle_minutes / 60).toFixed(0) + 'h', label: 'Tiempo médico ocioso', sub: o.doctor_idle_minutes.toLocaleString('es-PE') + ' min' },
+  ];
+  document.getElementById('kpi-row').innerHTML = kpis.map(k =>
+    `<div class="kpi-card">
+      <div class="kpi-value${k.warn ? ' warn' : ''}">${k.val}</div>
+      <div class="kpi-label">${k.label}</div>
+      <div class="kpi-sub">${k.sub}</div>
+    </div>`
+  ).join('');
+}
+
+// ── Waiting band chart ───────────────────────────────────────────────────────
+function buildWaitingChart(d) {
+  const w = d.waiting;
+  const last = w[w.length - 1];
+  document.getElementById('wait22-rate').textContent = last.no_show_rate_pct + '%';
+  new Chart(document.getElementById('chart-waiting'), {
+    type: 'bar',
+    data: {
+      labels: w.map(r => r.waiting_band + ' días'),
+      datasets: [{
+        label: 'Tasa no-show (%)',
+        data: w.map(r => r.no_show_rate_pct),
+        backgroundColor: w.map((r, i) => i >= 3 ? WARN + 'cc' : ACCENT + 'b0'),
+        borderRadius: 3,
+      }]
+    },
+    options: { ...CHART_DEFAULTS, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y + '%' } } } }
+  });
+}
+
+// ── Reminder summary (grouped bar) ──────────────────────────────────────────
+function buildReminderSummaryChart(d) {
+  document.getElementById('delta-pct-label').textContent = d.reminder_delta_pct;
+  document.getElementById('potential-saves').textContent = d.reminder_potential_saves;
+  const rem = d.by_reminder;
+  const labels = rem.map(r => r.reminder_sent ? 'Con recordatorio' : 'Sin recordatorio');
+  new Chart(document.getElementById('chart-reminder-summary'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Tasa no-show (%)',
+        data: rem.map(r => r.no_show_rate_pct),
+        backgroundColor: [WARN + 'cc', '#059669cc'],
+        borderRadius: 4,
+      }]
+    },
+    options: { ...CHART_DEFAULTS, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y + '%' } } } }
+  });
+}
+
+// ── Pain table ───────────────────────────────────────────────────────────────
+function buildPainTable(d) {
+  const pains = [
+    { dolor: 'Espera ≥22 días → tasa 39.6%', impacto: 'Alto', palanca: 'Pilotear reconfirmación en citas de 15+ días' },
+    { dolor: 'Call center: 21.3% no-show', impacto: 'Alto', palanca: 'Auditar confirmación y mix de pacientes' },
+    { dolor: 'Pacientes Nuevos: 20.9%', impacto: 'Alto', palanca: 'Probar onboarding en experimento separado' },
+    { dolor: '33% de citas sin recordatorio', impacto: 'Medio', palanca: 'Validar efecto antes de extender cobertura' },
+    { dolor: 'Diccionario cubre solo 4/22 campos', impacto: 'Gobernanza', palanca: 'Completar documentación' },
+  ];
+  document.getElementById('pain-table').innerHTML =
+    `<table class="data-table">
+      <thead><tr><th>Dolor identificado</th><th>Impacto</th><th>Palanca sugerida</th></tr></thead>
+      <tbody>${pains.map(p => `<tr><td>${p.dolor}</td><td class="mono">${p.impacto}</td><td>${p.palanca}</td></tr>`).join('')}</tbody>
+    </table>`;
+}
+
+// ── Clinic chart ─────────────────────────────────────────────────────────────
+function buildClinicChart(d) {
+  const c = d.by_clinic;
+  new Chart(document.getElementById('chart-clinic'), {
+    type: 'bar',
+    data: {
+      labels: c.map(r => r.label),
+      datasets: [
+        { label: 'Tasa (%)', data: c.map(r => r.no_show_rate_pct), backgroundColor: ACCENT + 'b0', borderRadius: 3, yAxisID: 'y' },
+        { label: 'Pérdida USD', data: c.map(r => r.revenue_loss_usd), backgroundColor: WARN + '55', borderRadius: 3, yAxisID: 'y2', type: 'line', tension: 0.3, borderColor: WARN, pointBackgroundColor: WARN },
+      ]
+    },
+    options: {
+      plugins: { legend: { display: true, labels: { font: { family: "'IBM Plex Mono',monospace", size: 10 } } } },
+      scales: {
+        x: CHART_DEFAULTS.scales.x,
+        y: { ...CHART_DEFAULTS.scales.y, title: { display: true, text: '%', font: { family: "'IBM Plex Mono',monospace", size: 10 } } },
+        y2: { position: 'right', grid: { drawOnChartArea: false }, ticks: { font: { family: "'IBM Plex Mono',monospace", size: 10 }, color: WARN } },
+      }
+    }
+  });
+}
+
+// ── Specialty chart ──────────────────────────────────────────────────────────
+function buildSpecialtyChart(d) {
+  const s = d.by_specialty;
+  new Chart(document.getElementById('chart-specialty'), {
+    type: 'bar',
+    data: {
+      labels: s.map(r => r.label),
+      datasets: [{ label: 'Tasa (%)', data: s.map(r => r.no_show_rate_pct), backgroundColor: ACCENT + 'b0', borderRadius: 3 }]
+    },
+    options: { ...CHART_DEFAULTS, indexAxis: 'y', plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.x + '%' } } } }
+  });
+}
+
+// ── Clinic table ─────────────────────────────────────────────────────────────
+function buildClinicTable(d) {
+  const maxRate = Math.max(...d.by_clinic.map(r => r.no_show_rate_pct));
+  document.getElementById('clinic-table').innerHTML =
+    `<table class="data-table">
+      <thead><tr><th>Clínica</th><th>Citas</th><th>No-shows</th><th>Tasa</th><th>Pérdida USD</th><th>Idle (min)</th></tr></thead>
+      <tbody>${d.by_clinic.map(r =>
+        `<tr>
+          <td>${r.label}</td>
+          <td class="mono">${r.appointments}</td>
+          <td class="mono">${r.no_shows}</td>
+          <td><div class="rate-bar"><div class="rate-fill" style="width:${(r.no_show_rate_pct/maxRate*80).toFixed(0)}px"></div><span class="mono">${r.no_show_rate_pct}%</span></div></td>
+          <td class="mono">${r.revenue_loss_usd.toLocaleString('es-PE')}</td>
+          <td class="mono">${r.doctor_idle_minutes.toLocaleString('es-PE')}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>`;
+}
+
+// ── Segment chart ────────────────────────────────────────────────────────────
+function buildSegmentChart(d) {
+  const s = d.by_segment;
+  new Chart(document.getElementById('chart-segment'), {
+    type: 'bar',
+    data: {
+      labels: s.map(r => r.patient_segment),
+      datasets: [{ label: 'Tasa (%)', data: s.map(r => r.no_show_rate_pct), backgroundColor: s.map(r => r.no_show_rate_pct > 18 ? WARN + 'cc' : ACCENT + 'b0'), borderRadius: 4 }]
+    },
+    options: { ...CHART_DEFAULTS, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y + '%' } } } }
+  });
+}
+
+// ── Channel chart ─────────────────────────────────────────────────────────────
+function buildChannelChart(d) {
+  const c = d.by_channel;
+  new Chart(document.getElementById('chart-channel'), {
+    type: 'bar',
+    data: {
+      labels: c.map(r => r.booking_channel),
+      datasets: [{ label: 'Tasa (%)', data: c.map(r => r.no_show_rate_pct), backgroundColor: c.map(r => r.no_show_rate_pct > 18 ? WARN + 'cc' : ACCENT + 'b0'), borderRadius: 4 }]
+    },
+    options: { ...CHART_DEFAULTS, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y + '%' } } } }
+  });
+}
+
+// ── Lever hero ───────────────────────────────────────────────────────────────
+function buildLeverHero(d) {
+  document.getElementById('lever-hero').innerHTML = `
+    <div class="lever-card warn">
+      <div class="lever-card-val">${d.by_reminder.find(r=>r.reminder_sent===0).no_show_rate_pct}%</div>
+      <div class="lever-card-label">Sin recordatorio</div>
+      <div class="lever-card-desc">${d.by_reminder.find(r=>r.reminder_sent===0).appointments} citas · USD ${d.by_reminder.find(r=>r.reminder_sent===0).revenue_loss_usd.toLocaleString('es-PE')} perdidos</div>
+    </div>
+    <div class="lever-card green">
+      <div class="lever-card-val">${d.by_reminder.find(r=>r.reminder_sent===1).no_show_rate_pct}%</div>
+      <div class="lever-card-label">Con recordatorio</div>
+      <div class="lever-card-desc">${d.by_reminder.find(r=>r.reminder_sent===1).appointments} citas · ${d.reminder_delta_pct} pp menos que sin recordatorio</div>
+    </div>`;
+  document.getElementById('action-saves-1').textContent = d.reminder_potential_saves;
+}
+
+// ── Reminder detail chart ────────────────────────────────────────────────────
+function buildReminderDetailChart(d) {
+  const rem = d.by_reminder;
+  const labels = ['Sin recordatorio', 'Con recordatorio'];
+  new Chart(document.getElementById('chart-reminder-detail'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        { label: 'Tasa no-show (%)', data: rem.map(r => r.no_show_rate_pct), backgroundColor: [WARN + 'cc', '#059669cc'], borderRadius: 4, yAxisID: 'y' },
+        { label: 'Citas', data: rem.map(r => r.appointments), backgroundColor: [ACCENT + '33', ACCENT + '33'], borderRadius: 4, yAxisID: 'y2', type: 'bar' },
+      ]
+    },
+    options: {
+      plugins: { legend: { display: true, labels: { font: { family: "'IBM Plex Mono',monospace", size: 10 } } } },
+      scales: {
+        x: CHART_DEFAULTS.scales.x,
+        y: { ...CHART_DEFAULTS.scales.y, title: { display: true, text: 'Tasa (%)', font: { family: "'IBM Plex Mono',monospace", size: 10 } } },
+        y2: { position: 'right', grid: { drawOnChartArea: false }, ticks: { font: { family: "'IBM Plex Mono',monospace", size: 10 }, color: MUTED } },
+      }
+    }
+  });
+}
+
+// ── Monthly charts ───────────────────────────────────────────────────────────
+function buildMonthlyCharts(d) {
+  const months = d.monthly.map(r => r.month);
+  new Chart(document.getElementById('chart-monthly-rate'), {
+    type: 'line',
+    data: {
+      labels: months,
+      datasets: [{
+        label: 'Tasa (%)',
+        data: d.monthly.map(r => r.no_show_rate_pct),
+        borderColor: ACCENT,
+        backgroundColor: ACCENT_ALPHA,
+        fill: true,
+        tension: 0.35,
+        pointBackgroundColor: d.monthly.map(r => r.no_show_rate_pct > 18 ? WARN : ACCENT),
+        pointRadius: 5,
+      }]
+    },
+    options: { ...CHART_DEFAULTS, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y + '%' } } } }
+  });
+
+  new Chart(document.getElementById('chart-monthly-loss'), {
+    type: 'bar',
+    data: {
+      labels: months,
+      datasets: [{
+        label: 'Pérdida USD',
+        data: d.monthly.map(r => r.revenue_loss_usd),
+        backgroundColor: d.monthly.map(r => r.revenue_loss_usd > 7500 ? WARN + 'cc' : ACCENT + 'b0'),
+        borderRadius: 3,
+      }]
+    },
+    options: { ...CHART_DEFAULTS, plugins: { legend: { display: false } } }
+  });
+}
+
+// ── Tabs ─────────────────────────────────────────────────────────────────────
+function switchTab(event, name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.currentTarget.classList.add('active');
+}
+</script>
+</body>
+</html>
